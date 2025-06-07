@@ -1,0 +1,4082 @@
+Add O
+a O
+meeting B-title
+with I-title
+Zhang I-title
+tomorrow B-date
+at O
+3 B-startTime
+PM I-startTime
+ 
+Schedule O
+a O
+dentist B-title
+appointment I-title
+for O
+Friday B-date
+ 
+Create O
+a O
+birthday B-title
+party I-title
+on O
+May B-date
+20th I-date
+ 
+Add O
+a O
+team B-title
+meeting I-title
+next B-date
+Monday I-date
+at O
+9 B-startTime
+AM I-startTime
+ 
+Set O
+up O
+lunch B-title
+with I-title
+Manager I-title
+Li I-title
+tomorrow B-date
+ 
+Put O
+a O
+project B-title
+review I-title
+on O
+my O
+calendar O
+for O
+the B-date
+day I-date
+after I-date
+tomorrow I-date
+ 
+I O
+need O
+to O
+go O
+to O
+the O
+doctor O
+next B-date
+Wednesday I-date
+at O
+2 B-startTime
+PM I-startTime
+ 
+Schedule O
+a O
+family B-title
+gathering I-title
+on O
+June B-date
+1st I-date
+ 
+Add O
+a O
+fitness B-title
+class I-title
+this B-date
+Thursday I-date
+at O
+7 B-startTime
+PM I-startTime
+ 
+Schedule O
+a O
+quarterly B-title
+review I-title
+meeting I-title
+at O
+the O
+end B-date
+of I-date
+the I-date
+month I-date
+ 
+Add O
+a O
+coffee B-title
+date I-title
+on O
+May B-date
+15th I-date
+at O
+10 B-startTime
+AM I-startTime
+ 
+I O
+need O
+to O
+schedule O
+a O
+conference B-title
+call I-title
+the B-date
+day I-date
+after I-date
+tomorrow I-date
+ 
+Add O
+a O
+lunch B-title
+reminder I-title
+for O
+tomorrow B-date
+at O
+noon B-startTime
+ 
+Put O
+a O
+dinner B-title
+reservation I-title
+on O
+my O
+calendar O
+for O
+Saturday B-date
+at O
+8 B-startTime
+PM I-startTime
+ 
+Create O
+a O
+new O
+appointment B-title
+with I-title
+Dr. I-title
+Smith I-title
+on O
+Monday B-date
+ 
+Add O
+a O
+haircut B-title
+appointment I-title
+next B-date
+Friday I-date
+at O
+2 B-startTime
+PM I-startTime
+ 
+Schedule O
+a O
+product B-title
+launch I-title
+meeting I-title
+for O
+July B-date
+15th I-date
+ 
+Book O
+a O
+flight B-title
+to I-title
+Beijing I-title
+on O
+September B-date
+3rd I-date
+ 
+Add O
+my O
+yoga B-title
+class I-title
+to O
+the O
+calendar O
+for O
+every B-date
+Tuesday I-date
+at O
+6 B-startTime
+PM I-startTime
+ 
+Create O
+a O
+reminder O
+to O
+pick B-title
+up I-title
+the I-title
+kids I-title
+at O
+3 B-startTime
+PM I-startTime
+tomorrow B-date
+ 
+Schedule O
+a O
+team B-title
+building I-title
+event I-title
+next B-date
+Friday I-date
+afternoon O
+ 
+Add O
+a O
+movie B-title
+night I-title
+with I-title
+friends I-title
+this B-date
+Saturday I-date
+at O
+7 B-startTime
+PM I-startTime
+ 
+I O
+need O
+to O
+add B-action
+a O
+parent-teacher B-title
+conference I-title
+on O
+the B-date
+25th I-date
+ 
+Schedule O
+a O
+client B-title
+presentation I-title
+for O
+next B-date
+Wednesday I-date
+at O
+11 B-startTime
+AM I-startTime
+ 
+Add O
+a O
+reminder O
+to O
+call B-title
+mom I-title
+on O
+her B-date
+birthday I-date
+ 
+Create O
+a O
+meeting B-title
+with I-title
+the I-title
+developers I-title
+on O
+Thursday B-date
+at O
+4 B-startTime
+PM I-startTime
+ 
+Put O
+a O
+dental B-title
+cleaning I-title
+on O
+my O
+calendar O
+for O
+June B-date
+12th I-date
+ 
+Add O
+a O
+video B-title
+call I-title
+with I-title
+the I-title
+overseas I-title
+team I-title
+tomorrow B-date
+at O
+9 B-startTime
+PM I-startTime
+ 
+Schedule O
+a O
+car B-title
+maintenance I-title
+appointment I-title
+for O
+next B-date
+Monday I-date
+ 
+Create O
+a O
+new O
+event O
+for O
+the O
+company B-title
+holiday I-title
+party I-title
+on O
+December B-date
+15th I-date
+ 
+Add O
+a O
+gym B-title
+session I-title
+to O
+my O
+calendar O
+for O
+tomorrow B-date
+morning O
+ 
+Schedule O
+a O
+doctor's B-title
+appointment I-title
+next B-date
+week I-date
+ 
+Add O
+my O
+final B-title
+exam I-title
+on O
+May B-date
+25th I-date
+at O
+10 B-startTime
+AM I-startTime
+ 
+Schedule O
+a O
+job B-title
+interview I-title
+on O
+Monday B-date
+at O
+3 B-startTime
+PM I-startTime
+ 
+Create O
+a O
+lunch B-title
+meeting I-title
+with I-title
+the I-title
+marketing I-title
+team I-title
+on O
+Friday B-date
+ 
+Add O
+a O
+dance B-title
+class I-title
+to O
+my O
+calendar O
+for O
+Thursday B-date
+evenings O
+ 
+Schedule O
+a O
+house B-title
+viewing I-title
+tomorrow B-date
+at O
+5 B-startTime
+PM I-startTime
+ 
+Create O
+a O
+reminder O
+for O
+my O
+medication O
+at O
+8 B-startTime
+AM I-startTime
+daily B-date
+ 
+Add O
+a O
+dinner B-title
+with I-title
+clients I-title
+to O
+my O
+calendar O
+for O
+Tuesday B-date
+night O
+ 
+Schedule O
+a O
+meeting B-title
+with I-title
+Professor I-title
+Wang I-title
+next B-date
+Wednesday I-date
+ 
+Put O
+a O
+shopping B-title
+trip I-title
+on O
+my O
+calendar O
+for O
+Saturday B-date
+afternoon O
+ 
+Add O
+a O
+coffee B-title
+chat I-title
+with I-title
+the I-title
+new I-title
+team I-title
+member I-title
+tomorrow B-date
+at O
+11 B-startTime
+AM I-startTime
+ 
+Book O
+a O
+table B-title
+at I-title
+Chez B-location
+Louis I-location
+for O
+Friday B-date
+at O
+7:30 B-startTime
+PM I-startTime
+ 
+Add O
+a O
+massage B-title
+appointment I-title
+for O
+next B-date
+Thursday I-date
+at O
+6 B-startTime
+PM I-startTime
+ 
+Schedule O
+the O
+annual B-title
+physical I-title
+check-up I-title
+on O
+June B-date
+5th I-date
+ 
+Create O
+a O
+reminder O
+to O
+send B-title
+the I-title
+report I-title
+by O
+Friday B-date
+ 
+Add O
+a O
+virtual B-title
+meeting I-title
+with I-title
+the I-title
+clients I-title
+tomorrow B-date
+morning O
+ 
+Schedule O
+a O
+call B-title
+with I-title
+the I-title
+supplier I-title
+next B-date
+Monday I-date
+ 
+Add O
+my O
+guitar B-title
+lesson I-title
+for O
+Wednesday B-date
+at O
+7 B-startTime
+PM I-startTime
+ 
+Create O
+a O
+new O
+appointment O
+for O
+car B-title
+inspection I-title
+on O
+the B-date
+28th I-date
+ 
+Schedule O
+a O
+swimming B-title
+class I-title
+for I-title
+my I-title
+son I-title
+on O
+Saturday B-date
+morning O
+ 
+Add O
+a O
+reminder O
+to O
+pay B-title
+rent I-title
+on O
+the B-date
+1st I-date
+of I-date
+each I-date
+month I-date
+ 
+Put O
+the O
+weekly B-title
+status I-title
+update I-title
+meeting I-title
+on O
+Fridays B-date
+at O
+4 B-startTime
+PM I-startTime
+ 
+Add O
+a O
+study B-title
+session I-title
+for O
+tomorrow B-date
+evening O
+at O
+the B-location
+library I-location
+ 
+Schedule O
+a O
+zoom B-title
+call I-title
+with I-title
+grandparents I-title
+on O
+Sunday B-date
+at O
+7 B-startTime
+PM I-startTime
+ 
+Create O
+a O
+reminder O
+to O
+take B-title
+out I-title
+the I-title
+trash I-title
+on O
+Thursday B-date
+mornings O
+ 
+Add O
+a O
+piano B-title
+recital I-title
+on O
+May B-date
+30th I-date
+at O
+3 B-startTime
+PM I-startTime
+ 
+Schedule O
+a O
+department B-title
+lunch I-title
+on O
+the B-date
+last I-date
+Friday I-date
+of I-date
+the I-date
+month I-date
+ 
+Add O
+my O
+therapy B-title
+session I-title
+on O
+Monday B-date
+at O
+4 B-startTime
+PM I-startTime
+ 
+Schedule O
+a O
+meeting B-title
+with I-title
+the I-title
+financial I-title
+advisor I-title
+next B-date
+Tuesday I-date
+ 
+Create O
+an O
+anniversary B-title
+dinner I-title
+reservation I-title
+for O
+July B-date
+12th I-date
+ 
+Add O
+a O
+parent-teacher B-title
+meeting I-title
+next B-date
+Thursday I-date
+at O
+5 B-startTime
+PM I-startTime
+ 
+Schedule O
+a O
+vet B-title
+appointment I-title
+for I-title
+my I-title
+dog I-title
+on O
+Wednesday B-date
+ 
+Create O
+a O
+reminder O
+to O
+water B-title
+the I-title
+plants I-title
+every B-date
+Tuesday I-date
+ 
+Add O
+a O
+workshop B-title
+on I-title
+digital I-title
+marketing I-title
+for O
+next B-date
+Thursday I-date
+ 
+Schedule O
+a O
+basketball B-title
+game I-title
+watch I-title
+party I-title
+on O
+Saturday B-date
+night O
+ 
+Add O
+my O
+driving B-title
+test I-title
+on O
+June B-date
+7th I-date
+at O
+10 B-startTime
+AM I-startTime
+ 
+Create O
+a O
+reminder O
+for O
+the O
+monthly B-title
+team I-title
+report I-title
+on O
+the B-date
+25th I-date
+ 
+Schedule O
+a O
+video B-title
+shoot I-title
+next B-date
+Monday I-date
+at O
+the B-location
+studio I-location
+ 
+Add O
+a O
+pottery B-title
+class I-title
+on O
+Wednesdays B-date
+at O
+6 B-startTime
+PM I-startTime
+ 
+Put O
+my O
+graduation B-title
+ceremony I-title
+on O
+May B-date
+18th I-date
+at O
+2 B-startTime
+PM I-startTime
+ 
+Add O
+a O
+blood B-title
+donation I-title
+appointment I-title
+for O
+next B-date
+Friday I-date
+morning O
+ 
+Schedule O
+the O
+quarterly B-title
+business I-title
+review I-title
+for O
+June B-date
+30th I-date
+ 
+Create O
+a O
+meeting B-title
+with I-title
+the I-title
+web I-title
+designers I-title
+tomorrow B-date
+at O
+4 B-startTime
+PM I-startTime
+ 
+Add O
+a O
+housewarming B-title
+party I-title
+on O
+June B-date
+8th I-date
+at O
+7 B-startTime
+PM I-startTime
+ 
+Schedule O
+an O
+eye B-title
+exam I-title
+next B-date
+Tuesday I-date
+afternoon O
+ 
+Create O
+a O
+reminder O
+for O
+the O
+sales B-title
+proposal I-title
+deadline I-title
+on O
+Friday B-date
+ 
+Add O
+the O
+art B-title
+exhibition I-title
+visit I-title
+on O
+Sunday B-date
+at O
+2 B-startTime
+PM I-startTime
+ 
+Schedule O
+a O
+team B-title
+lunch I-title
+on O
+Thursday B-date
+at O
+12:30 B-startTime
+PM I-startTime
+ 
+Put O
+a O
+reminder O
+to O
+submit B-title
+the I-title
+report I-title
+by O
+Monday B-date
+ 
+Add O
+a O
+concert B-title
+on O
+July B-date
+21st I-date
+at O
+8 B-startTime
+PM I-startTime
+ 
+Schedule O
+a O
+follow-up B-title
+meeting I-title
+with I-title
+clients I-title
+next B-date
+Wednesday I-date
+ 
+Create O
+a O
+dentist B-title
+check-up I-title
+on O
+the B-date
+3rd I-date
+of I-date
+next I-date
+month I-date
+ 
+Add O
+a O
+wedding B-title
+anniversary I-title
+dinner I-title
+on O
+May B-date
+25th I-date
+ 
+Schedule O
+a O
+book B-title
+club I-title
+meeting I-title
+next B-date
+Thursday I-date
+evening O
+ 
+Create O
+a O
+reminder O
+to O
+renew B-title
+my I-title
+passport I-title
+by B-date
+July I-date
+ 
+Add O
+a O
+soccer B-title
+game I-title
+on O
+Saturday B-date
+at O
+3 B-startTime
+PM I-startTime
+ 
+Schedule O
+a O
+strategy B-title
+session I-title
+with I-title
+the I-title
+team I-title
+next B-date
+Tuesday I-date
+ 
+Add O
+my O
+final B-title
+presentation I-title
+on O
+June B-date
+15th I-date
+at O
+1 B-startTime
+PM I-startTime
+ 
+Create O
+a O
+sales B-title
+conference I-title
+for O
+next B-date
+month I-date
+ 
+Add O
+a O
+cooking B-title
+class I-title
+on O
+Thursday B-date
+evening O
+at O
+7 B-startTime
+PM I-startTime
+ 
+Schedule O
+a O
+parent-teacher B-title
+conference I-title
+for O
+next B-date
+Monday I-date
+ 
+Create O
+a O
+reminder O
+to O
+buy B-title
+groceries I-title
+on O
+Saturday B-date
+morning O
+ 
+Add O
+a O
+weekly B-title
+planning I-title
+meeting I-title
+every B-date
+Monday I-date
+at O
+9 B-startTime
+AM I-startTime
+ 
+Schedule O
+a O
+holiday B-title
+for O
+the O
+first B-date
+week I-date
+of I-date
+August I-date
+ 
+Add O
+the O
+charity B-title
+gala I-title
+to O
+my O
+calendar O
+for O
+May B-date
+20th I-date
+ 
+Create O
+a O
+reminder O
+to O
+check B-title
+emails I-title
+at O
+8 B-startTime
+AM I-startTime
+daily B-date
+ 
+Schedule O
+an O
+interview B-title
+with I-title
+a I-title
+job I-title
+candidate I-title
+on O
+Thursday B-date
+ 
+Put O
+my O
+son's B-title
+soccer I-title
+game I-title
+on O
+Saturday B-date
+morning O
+ 
+Add O
+a O
+product B-title
+demo I-title
+next B-date
+Wednesday I-date
+at O
+2 B-startTime
+PM I-startTime
+ 
+Schedule O
+a O
+brainstorming B-title
+session I-title
+with I-title
+the I-title
+creative I-title
+team I-title
+ 
+Create O
+a O
+reminder O
+for O
+my O
+mom's O
+birthday O
+on O
+July B-date
+3rd I-date
+ 
+Add O
+a O
+wine B-title
+tasting I-title
+event I-title
+on O
+Friday B-date
+at O
+6 B-startTime
+PM I-startTime
+ 
+Move O
+my O
+dentist B-title
+appointment I-title
+to O
+next B-date
+Thursday I-date
+ 
+Reschedule O
+the O
+team B-title
+meeting I-title
+from O
+Monday O
+to O
+Tuesday B-date
+ 
+Change O
+my O
+lunch B-title
+with I-title
+Sarah I-title
+to O
+1 B-startTime
+PM I-startTime
+instead O
+of O
+noon O
+ 
+Update O
+the O
+location O
+of O
+tomorrow's O
+meeting B-title
+to O
+Conference B-location
+Room I-location
+B I-location
+ 
+Push O
+back O
+my O
+doctor's B-title
+appointment I-title
+by O
+one O
+hour O
+ 
+Reschedule O
+my O
+haircut B-title
+to O
+Friday B-date
+afternoon O
+ 
+Change O
+the O
+project B-title
+review I-title
+meeting I-title
+to O
+virtual B-location
+instead O
+of O
+in-person O
+ 
+Move O
+my O
+3 O
+PM O
+call B-title
+to O
+4:30 B-startTime
+PM I-startTime
+ 
+Update O
+the O
+duration O
+of O
+the O
+workshop B-title
+to O
+2 O
+hours O
+ 
+Change O
+the O
+client B-title
+meeting I-title
+from O
+Wednesday O
+to O
+Thursday B-date
+ 
+Reschedule O
+my O
+flight B-title
+to O
+the O
+morning O
+instead O
+of O
+evening O
+ 
+Move O
+the O
+team B-title
+lunch I-title
+to O
+Cafe B-location
+Milano I-location
+instead O
+of O
+the O
+office O
+ 
+Change O
+my O
+gym B-title
+session I-title
+from O
+6 O
+PM O
+to O
+7 B-startTime
+PM I-startTime
+ 
+Reschedule O
+the O
+dentist B-title
+appointment I-title
+to O
+next B-date
+month I-date
+ 
+Update O
+the O
+attendees O
+for O
+tomorrow's O
+meeting B-title
+to O
+include O
+the O
+design O
+team O
+ 
+Move O
+my O
+interview B-title
+from O
+Tuesday O
+to O
+Wednesday B-date
+at O
+the O
+same B-startTime
+time I-startTime
+ 
+Change O
+the O
+start O
+time O
+of O
+the O
+conference B-title
+call I-title
+to O
+10 B-startTime
+AM I-startTime
+ 
+Reschedule O
+my O
+dinner B-title
+reservation I-title
+from O
+7 O
+PM O
+to O
+8 B-startTime
+PM I-startTime
+ 
+Update O
+the O
+project B-title
+deadline I-title
+from O
+Friday O
+to O
+next B-date
+Monday I-date
+ 
+Change O
+the O
+meeting B-title
+with I-title
+John I-title
+to O
+a O
+lunch O
+meeting O
+ 
+Move O
+my O
+yoga B-title
+class I-title
+from O
+morning O
+to O
+evening O
+ 
+Update O
+the O
+location O
+of O
+the O
+team B-title
+building I-title
+to O
+Central B-location
+Park I-location
+ 
+Reschedule O
+my O
+presentation B-title
+to O
+next B-date
+week I-date
+ 
+Change O
+my O
+doctor's B-title
+appointment I-title
+from O
+2 O
+PM O
+to O
+3:30 B-startTime
+PM I-startTime
+ 
+Move O
+the O
+client B-title
+dinner I-title
+from O
+Tuesday O
+to O
+Thursday B-date
+ 
+Update O
+the O
+meeting B-title
+agenda O
+to O
+focus O
+on O
+Q2 O
+planning O
+ 
+Reschedule O
+my O
+hair B-title
+appointment I-title
+to O
+Saturday B-date
+morning O
+ 
+Change O
+the O
+venue O
+for O
+the O
+company B-title
+party I-title
+to O
+Grand B-location
+Hotel I-location
+ 
+Move O
+my O
+flight B-title
+to I-title
+Beijing I-title
+to O
+next B-date
+week I-date
+ 
+Update O
+the O
+recurring B-title
+team I-title
+meeting I-title
+to O
+biweekly O
+instead O
+of O
+weekly O
+ 
+Change O
+the O
+pickup B-title
+time I-title
+for I-title
+my I-title
+kids I-title
+to O
+4 B-startTime
+PM I-startTime
+ 
+Reschedule O
+my O
+coffee B-title
+chat I-title
+with I-title
+the I-title
+new I-title
+hire I-title
+to O
+Friday B-date
+ 
+Move O
+the O
+project B-title
+kickoff I-title
+from O
+Monday B-date
+morning O
+to O
+afternoon O
+ 
+Update O
+the O
+duration O
+of O
+tomorrow's O
+workshop B-title
+to O
+3 O
+hours O
+ 
+Change O
+my O
+dentist B-title
+appointment I-title
+from O
+Dr. O
+Lee O
+to O
+Dr. O
+Chen O
+ 
+Reschedule O
+the O
+quarterly B-title
+review I-title
+to O
+the O
+first B-date
+week I-date
+of I-date
+July I-date
+ 
+Move O
+my O
+lunch B-title
+break I-title
+from O
+12 O
+PM O
+to O
+1 B-startTime
+PM I-startTime
+tomorrow B-date
+ 
+Update O
+the O
+team B-title
+call I-title
+to O
+include O
+video O
+ 
+Change O
+the O
+movie B-title
+night I-title
+from O
+Friday O
+to O
+Saturday B-date
+ 
+Reschedule O
+my O
+guitar B-title
+lesson I-title
+to O
+next B-date
+Thursday I-date
+ 
+Move O
+my O
+department B-title
+meeting I-title
+from O
+Building O
+A O
+to O
+Building B-location
+B I-location
+ 
+Update O
+the O
+reminder O
+time O
+for O
+my O
+medication O
+to O
+9 B-startTime
+PM I-startTime
+ 
+Change O
+the O
+dinner B-title
+reservation I-title
+from O
+4 O
+people O
+to O
+6 O
+people O
+ 
+Reschedule O
+my O
+annual B-title
+checkup I-title
+to O
+July B-date
+ 
+Move O
+the O
+team B-title
+building I-title
+from O
+indoor O
+to O
+outdoor B-location
+activities O
+ 
+Update O
+my O
+therapy B-title
+session I-title
+from O
+in-person O
+to O
+virtual B-location
+ 
+Change O
+the O
+conference B-title
+call I-title
+dial-in O
+number O
+for O
+tomorrow B-date
+ 
+Reschedule O
+the O
+board B-title
+meeting I-title
+from O
+the O
+15th O
+to O
+the B-date
+20th I-date
+ 
+Move O
+my O
+piano B-title
+recital I-title
+to O
+the B-date
+following I-date
+weekend I-date
+ 
+Update O
+the O
+meeting B-title
+with I-title
+vendors I-title
+to O
+include O
+the O
+finance O
+team O
+ 
+Change O
+my O
+tennis B-title
+lesson I-title
+from O
+Wednesday O
+to O
+Friday B-date
+ 
+Reschedule O
+the O
+delivery B-title
+time O
+from O
+morning O
+to O
+afternoon O
+ 
+Move O
+the O
+parent-teacher B-title
+conference I-title
+to O
+6 B-startTime
+PM I-startTime
+ 
+Update O
+the O
+location O
+of O
+my O
+doctor's B-title
+appointment I-title
+to O
+the B-location
+new I-location
+clinic I-location
+ 
+Change O
+the O
+start O
+time O
+of O
+the O
+workshop B-title
+from O
+9 O
+AM O
+to O
+10 B-startTime
+AM I-startTime
+ 
+Reschedule O
+my O
+car B-title
+service I-title
+from O
+Monday O
+to O
+Tuesday B-date
+ 
+Move O
+my O
+weekly B-title
+one-on-one I-title
+with I-title
+my I-title
+manager I-title
+to O
+Thursdays B-date
+ 
+Update O
+the O
+format O
+of O
+the O
+team B-title
+meeting I-title
+to O
+a O
+working O
+session O
+ 
+Change O
+my O
+study B-title
+group I-title
+meeting I-title
+from O
+the O
+library O
+to O
+the B-location
+coffee I-location
+shop I-location
+ 
+Reschedule O
+the O
+investor B-title
+meeting I-title
+to O
+early B-date
+June I-date
+ 
+Move O
+my O
+dental B-title
+cleaning I-title
+from O
+2 O
+PM O
+to O
+4 B-startTime
+PM I-startTime
+ 
+Update O
+the O
+homework B-title
+deadline I-title
+to O
+next B-date
+Monday I-date
+ 
+Change O
+the O
+family B-title
+dinner I-title
+from O
+Sunday O
+to O
+Saturday B-date
+ 
+Reschedule O
+my O
+driving B-title
+lesson I-title
+to O
+next B-date
+week I-date
+ 
+Move O
+the O
+product B-title
+launch I-title
+from O
+Q2 O
+to O
+Q3 B-date
+ 
+Update O
+the O
+party B-title
+theme O
+to O
+Hawaiian O
+ 
+Change O
+the O
+meeting B-title
+with I-title
+clients I-title
+from O
+in-person O
+to O
+virtual B-location
+ 
+Reschedule O
+my O
+eye B-title
+exam I-title
+to O
+the O
+first B-date
+week I-date
+of I-date
+June I-date
+ 
+Move O
+the O
+team B-title
+celebration I-title
+from O
+the O
+office O
+to O
+the B-location
+restaurant I-location
+ 
+Update O
+the O
+guest O
+list O
+for O
+the O
+dinner B-title
+party I-title
+ 
+Change O
+my O
+weekly B-title
+report I-title
+submission I-title
+from O
+Friday O
+to O
+Thursday B-date
+ 
+Reschedule O
+the O
+conference B-title
+call I-title
+with I-title
+international I-title
+partners I-title
+ 
+Move O
+the O
+deadline B-title
+for I-title
+the I-title
+project I-title
+from O
+June O
+to O
+July B-date
+ 
+Update O
+the O
+priority O
+of O
+tomorrow's O
+tasks B-title
+ 
+Change O
+the O
+focus O
+of O
+the O
+quarterly B-title
+planning I-title
+meeting I-title
+ 
+Reschedule O
+my O
+massage B-title
+from O
+4 O
+PM O
+to O
+5:30 B-startTime
+PM I-startTime
+ 
+Move O
+my O
+apartment B-title
+viewing I-title
+from O
+Saturday O
+to O
+Sunday B-date
+ 
+Update O
+the O
+recurring B-title
+reminder I-title
+to O
+once O
+a O
+week O
+ 
+Change O
+the O
+webinar B-title
+registration I-title
+deadline I-title
+to O
+Friday B-date
+ 
+Cancel O
+my O
+dentist B-title
+appointment I-title
+tomorrow B-date
+ 
+Remove O
+the O
+meeting B-title
+with I-title
+marketing I-title
+from O
+my O
+calendar O
+ 
+Delete O
+my O
+lunch B-title
+reservation I-title
+for O
+Friday B-date
+ 
+Cancel O
+the O
+team B-title
+building I-title
+event I-title
+next B-date
+week I-date
+ 
+Remove O
+my O
+doctor's B-title
+appointment I-title
+on O
+Thursday B-date
+ 
+Delete O
+the O
+project B-title
+review I-title
+scheduled O
+for O
+Monday B-date
+ 
+Cancel O
+my O
+flight B-title
+to I-title
+Shanghai I-title
+ 
+Remove O
+the O
+reminder B-title
+for I-title
+the I-title
+report I-title
+deadline I-title
+ 
+Delete O
+the O
+conference B-title
+call I-title
+with I-title
+clients I-title
+tomorrow B-date
+ 
+Cancel O
+my O
+gym B-title
+session I-title
+on O
+Wednesday B-date
+ 
+Remove O
+the O
+dinner B-title
+party I-title
+from O
+my O
+calendar O
+ 
+Delete O
+my O
+haircut B-title
+appointment I-title
+next B-date
+Tuesday I-date
+ 
+Cancel O
+the O
+team B-title
+lunch I-title
+scheduled O
+for O
+Friday B-date
+ 
+Remove O
+the O
+weekly B-title
+status I-title
+meeting I-title
+from O
+my O
+calendar O
+ 
+Delete O
+my O
+therapy B-title
+session I-title
+for O
+next B-date
+Monday I-date
+ 
+Cancel O
+the O
+workshop B-title
+scheduled O
+for O
+next B-date
+month I-date
+ 
+Remove O
+the O
+reminder B-title
+to I-title
+pay I-title
+bills I-title
+on O
+the B-date
+1st I-date
+ 
+Delete O
+the O
+coffee B-title
+chat I-title
+with I-title
+the I-title
+new I-title
+hire I-title
+ 
+Cancel O
+my O
+dental B-title
+cleaning I-title
+next B-date
+week I-date
+ 
+Remove O
+the O
+product B-title
+demo I-title
+from O
+my O
+calendar O
+ 
+Delete O
+the O
+interview B-title
+scheduled O
+for O
+Thursday B-date
+ 
+Cancel O
+the O
+parent-teacher B-title
+meeting I-title
+next B-date
+Monday I-date
+ 
+Remove O
+the O
+movie B-title
+night I-title
+from O
+this B-date
+Saturday I-date
+ 
+Delete O
+my O
+yoga B-title
+class I-title
+for O
+tomorrow B-date
+morning O
+ 
+Cancel O
+the O
+presentation B-title
+to I-title
+the I-title
+board I-title
+ 
+Remove O
+the O
+annual B-title
+physical I-title
+from O
+my O
+calendar O
+ 
+Delete O
+the O
+meeting B-title
+with I-title
+HR I-title
+tomorrow B-date
+ 
+Cancel O
+my O
+dinner B-title
+reservation I-title
+at O
+Chez B-location
+Louis I-location
+ 
+Remove O
+the O
+car B-title
+service I-title
+appointment I-title
+next B-date
+week I-date
+ 
+Delete O
+the O
+reminder B-title
+to I-title
+submit I-title
+expense I-title
+reports I-title
+ 
+Cancel O
+my O
+guitar B-title
+lesson I-title
+on O
+Wednesday B-date
+ 
+Remove O
+the O
+webinar B-title
+from O
+my O
+calendar O
+ 
+Delete O
+the O
+birthday B-title
+party I-title
+for O
+this B-date
+weekend I-date
+ 
+Cancel O
+my O
+doctor's B-title
+appointment I-title
+with O
+Dr. O
+Smith O
+ 
+Remove O
+the O
+quarterly B-title
+business I-title
+review I-title
+from O
+next B-date
+month I-date
+ 
+Delete O
+the O
+team B-title
+call I-title
+scheduled O
+for O
+tomorrow B-date
+ 
+Cancel O
+my O
+massage B-title
+appointment I-title
+on O
+Friday B-date
+ 
+Remove O
+the O
+concert B-title
+from O
+my O
+calendar O
+ 
+Delete O
+the O
+reminder B-title
+for I-title
+the I-title
+project I-title
+deadline I-title
+ 
+Cancel O
+my O
+house B-title
+viewing I-title
+on O
+Saturday B-date
+ 
+Remove O
+the O
+staff B-title
+meeting I-title
+from O
+tomorrow B-date
+ 
+Delete O
+the O
+cooking B-title
+class I-title
+scheduled O
+for O
+Thursday B-date
+ 
+Cancel O
+my O
+eye B-title
+exam I-title
+next B-date
+week I-date
+ 
+Remove O
+the O
+client B-title
+dinner I-title
+from O
+Tuesday B-date
+ 
+Delete O
+the O
+reminder B-title
+to I-title
+call I-title
+my I-title
+parents I-title
+ 
+Cancel O
+the O
+team B-title
+building I-title
+workshop I-title
+ 
+Remove O
+the O
+department B-title
+meeting I-title
+from O
+my O
+calendar O
+ 
+Delete O
+my O
+soccer B-title
+game I-title
+on O
+Saturday B-date
+ 
+Cancel O
+the O
+driver's B-title
+test I-title
+next B-date
+Monday I-date
+ 
+Remove O
+the O
+interview B-title
+with I-title
+the I-title
+job I-title
+candidate I-title
+ 
+Delete O
+the O
+piano B-title
+recital I-title
+from O
+my O
+calendar O
+ 
+Cancel O
+my O
+appointment B-title
+with I-title
+the I-title
+financial I-title
+advisor I-title
+ 
+Remove O
+the O
+conference B-title
+from O
+next B-date
+month I-date
+ 
+Delete O
+the O
+weekly B-title
+planning I-title
+meeting I-title
+on O
+Monday B-date
+ 
+Cancel O
+my O
+hair B-title
+appointment I-title
+on O
+Thursday B-date
+ 
+Remove O
+the O
+charity B-title
+gala I-title
+from O
+my O
+calendar O
+ 
+Delete O
+the O
+reminder B-title
+to I-title
+renew I-title
+my I-title
+gym I-title
+membership I-title
+ 
+Cancel O
+the O
+book B-title
+club I-title
+meeting I-title
+next B-date
+week I-date
+ 
+Remove O
+the O
+strategy B-title
+session I-title
+from O
+Tuesday B-date
+ 
+Delete O
+my O
+dental B-title
+check-up I-title
+for O
+next B-date
+month I-date
+ 
+Cancel O
+the O
+project B-title
+kickoff I-title
+meeting I-title
+ 
+Remove O
+the O
+art B-title
+exhibition I-title
+visit I-title
+from O
+Sunday B-date
+ 
+Delete O
+the O
+wedding B-title
+anniversary I-title
+dinner I-title
+ 
+Cancel O
+my O
+swimming B-title
+class I-title
+on O
+Saturday B-date
+ 
+Remove O
+the O
+parent-teacher B-title
+conference I-title
+from O
+next B-date
+Thursday I-date
+ 
+Delete O
+the O
+wine B-title
+tasting I-title
+event I-title
+from O
+my O
+calendar O
+ 
+Cancel O
+my O
+vet B-title
+appointment I-title
+for I-title
+my I-title
+dog I-title
+ 
+Remove O
+the O
+board B-title
+meeting I-title
+scheduled O
+for O
+the B-date
+20th I-date
+ 
+Delete O
+the O
+reminder B-title
+to I-title
+water I-title
+the I-title
+plants I-title
+ 
+Cancel O
+the O
+delivery B-title
+scheduled O
+for O
+tomorrow B-date
+ 
+Remove O
+the O
+basketball B-title
+game I-title
+watch I-title
+party I-title
+ 
+Delete O
+my O
+driving B-title
+lesson I-title
+for O
+next B-date
+week I-date
+ 
+Cancel O
+the O
+family B-title
+gathering I-title
+on O
+Sunday B-date
+ 
+What O
+meetings B-title
+do O
+I O
+have O
+tomorrow? O
+ 
+Show O
+me O
+my O
+schedule O
+for O
+next B-date
+week I-date
+ 
+When O
+is O
+my O
+dentist O
+appointment? O
+ 
+What O
+time O
+is O
+the O
+team B-title
+meeting I-title
+on O
+Monday? O
+ 
+Do O
+I O
+have O
+any O
+appointments B-title
+this O
+Friday? O
+ 
+Show O
+me O
+all O
+my O
+events B-title
+for O
+the O
+month B-date
+of I-date
+June I-date
+ 
+When O
+is O
+my O
+next B-date
+doctor's O
+appointment? O
+ 
+What's O
+on O
+my O
+calendar O
+for O
+tomorrow B-date
+afternoon? O
+ 
+Show O
+me O
+all O
+the O
+meetings B-title
+with I-title
+the I-title
+marketing I-title
+team I-title
+ 
+When O
+am O
+I O
+meeting O
+with O
+John? O
+ 
+What's O
+my O
+schedule O
+like O
+on O
+Wednesday? O
+ 
+Show O
+me O
+all O
+upcoming B-date
+appointments B-title
+with I-title
+Dr. I-title
+Smith I-title
+ 
+When O
+is O
+the O
+product O
+launch O
+meeting? O
+ 
+Do O
+I O
+have O
+any O
+events B-title
+scheduled O
+for O
+this O
+weekend? O
+ 
+What O
+time O
+is O
+my O
+flight O
+to O
+Beijing? O
+ 
+Show O
+me O
+my O
+meetings B-title
+for O
+next B-date
+Monday I-date
+ 
+When O
+is O
+the O
+team O
+building O
+event? O
+ 
+What's O
+on O
+my O
+calendar O
+for O
+May O
+15th? O
+ 
+Show O
+me O
+all O
+lunch B-title
+meetings I-title
+for O
+this B-date
+week I-date
+ 
+When O
+is O
+my O
+next B-date
+haircut O
+appointment? O
+ 
+Hello, O
+how O
+are O
+you O
+today? O
+ 
+What O
+can O
+you O
+do? O
+ 
+Tell O
+me O
+about O
+yourself O
+ 
+How O
+does O
+this O
+assistant O
+work? O
+ 
+Do O
+you O
+have O
+any O
+hobbies? O
+ 
+What's O
+the O
+weather O
+like O
+today? O
+ 
+Who O
+created O
+you? O
+ 
+Can O
+you O
+tell O
+me O
+a O
+joke? O
+ 
+How's O
+your O
+day O
+going? O
+ 
+What's O
+your O
+name? O
+ 
+Do O
+you O
+like O
+music? O
+ 
+Can O
+you O
+help O
+me O
+with O
+something? O
+ 
+What O
+time O
+is O
+it? O
+ 
+How O
+old O
+are O
+you? O
+ 
+Tell O
+me O
+something O
+interesting O
+ 
+I O
+need O
+to O
+add B-action
+a O
+meeting B-title
+with I-title
+the I-title
+design I-title
+team I-title
+tomorrow B-date
+at O
+2 B-startTime
+PM I-startTime
+ 
+Could O
+you O
+schedule O
+a O
+dentist B-title
+visit I-title
+for O
+next B-date
+Tuesday I-date
+at O
+10 O
+AM? O
+ 
+I O
+want O
+to O
+create O
+a O
+new B-title
+event I-title
+for O
+Friday B-date
+afternoon O
+ 
+Please O
+add B-action
+a O
+reminder O
+for O
+my O
+medication O
+at O
+8 B-startTime
+AM I-startTime
+daily B-date
+ 
+I'd O
+like O
+to O
+schedule O
+a O
+call B-title
+with I-title
+my I-title
+manager I-title
+tomorrow B-date
+at O
+3:30 B-startTime
+PM I-startTime
+ 
+Can O
+you O
+add B-action
+a O
+lunch B-title
+date I-title
+with I-title
+Sarah I-title
+to O
+my O
+calendar O
+for O
+Wednesday B-date
+at O
+noon? O
+ 
+I O
+need O
+to O
+book O
+a O
+meeting O
+room O
+for O
+our O
+team B-title
+sync I-title
+next B-date
+Monday I-date
+at O
+9 B-startTime
+AM I-startTime
+ 
+Add O
+a O
+reminder O
+to O
+pick B-title
+up I-title
+my I-title
+package I-title
+tomorrow B-date
+at O
+3 B-startTime
+PM I-startTime
+ 
+Could O
+you O
+set O
+up O
+a O
+coffee B-title
+chat I-title
+with I-title
+the I-title
+new I-title
+team I-title
+member I-title
+for O
+Friday B-date
+at O
+10 O
+AM? O
+ 
+I O
+want O
+to O
+book O
+tickets O
+for O
+the O
+concert O
+next B-date
+Friday I-date
+at O
+8 B-startTime
+PM I-startTime
+ 
+Schedule O
+a O
+check-in B-title
+meeting I-title
+with I-title
+my I-title
+mentor I-title
+for O
+Tuesday B-date
+at O
+4 B-startTime
+PM I-startTime
+ 
+Please O
+create O
+a O
+calendar O
+event O
+for O
+my O
+child's B-title
+school I-title
+play I-title
+on O
+May B-date
+20th I-date
+at O
+6 B-startTime
+PM I-startTime
+ 
+I O
+need O
+to O
+add B-action
+a O
+deadline B-title
+for I-title
+the I-title
+project I-title
+submission I-title
+on O
+Friday B-date
+at O
+5 B-startTime
+PM I-startTime
+ 
+Put O
+my O
+physical B-title
+therapy I-title
+session I-title
+on O
+the O
+calendar O
+for O
+Monday B-date
+at O
+2 B-startTime
+PM I-startTime
+ 
+Can O
+you O
+add B-action
+a O
+time O
+slot O
+for O
+my O
+driving B-title
+test I-title
+on O
+June B-date
+12th I-date
+at O
+10 O
+AM? O
+ 
+I O
+want O
+to O
+schedule O
+a O
+team B-title
+building I-title
+activity I-title
+for O
+next B-date
+Friday I-date
+afternoon O
+ 
+Make O
+an O
+appointment O
+for O
+car B-title
+maintenance I-title
+on O
+July B-date
+5th I-date
+at O
+9 B-startTime
+AM I-startTime
+ 
+I O
+want O
+to O
+change O
+the O
+recurring B-title
+team I-title
+sync I-title
+from O
+weekly O
+to O
+biweekly O
+ 
+Reschedule O
+my O
+car B-title
+service I-title
+appointment I-title
+to O
+next B-date
+month I-date
+ 
+Could O
+you O
+move O
+tomorrow's O
+lunch B-title
+meeting I-title
+to O
+a O
+conference O
+room? O
+ 
+I O
+need O
+to O
+update B-action
+the O
+subject O
+of O
+my O
+client B-title
+meeting I-title
+to O
+'Contract O
+Review' O
+ 
+Change O
+the O
+format O
+of O
+the O
+team B-title
+meeting I-title
+to O
+a O
+working O
+session O
+ 
+Push O
+my O
+dental B-title
+appointment I-title
+forward O
+by O
+one O
+day O
+ 
+I'd O
+like O
+to O
+change O
+my O
+hair B-title
+appointment I-title
+from O
+3pm O
+to O
+4pm B-startTime
+ 
+Update O
+the O
+venue O
+for O
+the O
+company B-title
+party I-title
+to O
+Grand B-location
+Hotel I-location
+ 
+Reschedule O
+my O
+flight B-title
+to I-title
+Beijing I-title
+to O
+the B-date
+following I-date
+weekend I-date
+ 
+Could O
+you O
+delete B-action
+the O
+project B-title
+review I-title
+scheduled O
+for O
+Monday? O
+ 
+I O
+need O
+to O
+cancel O
+my O
+flight B-title
+to I-title
+Shanghai I-title
+ 
+Remove O
+the O
+reminder B-title
+for I-title
+the I-title
+report I-title
+deadline I-title
+ 
+Please O
+delete B-action
+the O
+conference B-title
+call I-title
+with I-title
+clients I-title
+tomorrow B-date
+ 
+Cancel O
+my O
+gym B-title
+session I-title
+on O
+Wednesday B-date
+ 
+Could O
+you O
+show O
+me O
+all O
+my O
+events B-title
+for O
+June? O
+ 
+When O
+is O
+my O
+next B-date
+doctor's O
+appointment? O
+ 
+What's O
+on O
+my O
+calendar O
+for O
+tomorrow B-date
+afternoon? O
+ 
+How O
+does O
+this O
+assistant O
+work? O
+ 
+Do O
+you O
+have O
+any O
+hobbies? O
+ 
+Add O
+a O
+note O
+to O
+prepare B-title
+for I-title
+tomorrow's I-title
+presentation I-title
+at O
+6 B-startTime
+PM I-startTime
+ 
+I O
+need O
+to O
+create O
+a O
+meeting O
+invitation O
+for O
+the O
+partners O
+on O
+Thursday B-date
+at O
+1 B-startTime
+PM I-startTime
+ 
+Schedule O
+a O
+consultation B-title
+with I-title
+the I-title
+interior I-title
+designer I-title
+for O
+next B-date
+Monday I-date
+at O
+11 B-startTime
+AM I-startTime
+ 
+Add O
+a O
+weekly B-title
+review I-title
+meeting I-title
+to O
+my O
+calendar O
+for O
+Fridays B-date
+at O
+4 B-startTime
+PM I-startTime
+ 
+I O
+want O
+to O
+put O
+my O
+yoga B-title
+class I-title
+on O
+the O
+schedule O
+for O
+Mondays B-date
+at O
+7 B-startTime
+AM I-startTime
+ 
+Can O
+you O
+move O
+my O
+presentation B-title
+from O
+Building O
+A O
+to O
+Building O
+B? O
+ 
+Change O
+my O
+reminder O
+time O
+for O
+medication O
+to O
+9 B-startTime
+PM I-startTime
+ 
+I O
+need O
+to O
+update B-action
+my O
+therapy B-title
+session I-title
+to O
+virtual B-location
+instead O
+of O
+in-person O
+ 
+Modify O
+the O
+conference B-title
+call I-title
+dial-in O
+number O
+for O
+tomorrow B-date
+ 
+Reschedule O
+the O
+board B-title
+meeting I-title
+from O
+the O
+15th O
+to O
+the B-date
+20th I-date
+ 
+I O
+want O
+to O
+remove O
+the O
+dinner B-title
+party I-title
+from O
+my O
+calendar O
+ 
+Delete O
+my O
+haircut B-title
+appointment I-title
+next B-date
+Tuesday I-date
+ 
+I O
+need O
+to O
+cancel O
+the O
+team B-title
+lunch I-title
+scheduled O
+for O
+Friday B-date
+ 
+Can O
+you O
+show O
+me O
+all O
+the O
+meetings O
+with O
+the O
+marketing O
+team? O
+ 
+When O
+am O
+I O
+meeting O
+with O
+John? O
+ 
+What's O
+my O
+schedule O
+like O
+on O
+Wednesday? O
+ 
+What's O
+the O
+weather O
+like O
+today? O
+ 
+Who O
+created O
+you? O
+ 
+Create O
+a O
+reminder O
+for O
+my O
+mother's O
+birthday O
+on O
+July B-date
+3rd I-date
+ 
+I O
+need O
+to O
+book O
+a O
+table O
+at O
+the O
+restaurant B-location
+for O
+tomorrow B-date
+at O
+7:30 B-startTime
+PM I-startTime
+ 
+Could O
+you O
+add B-action
+my O
+doctor's B-title
+appointment I-title
+to O
+the O
+calendar O
+for O
+Thursday B-date
+at O
+3 O
+PM? O
+ 
+Move O
+my O
+piano B-title
+recital I-title
+to O
+next B-date
+weekend I-date
+ 
+Update O
+the O
+vendor B-title
+meeting I-title
+to O
+include O
+the O
+finance O
+team O
+ 
+Change O
+my O
+tennis B-title
+lesson I-title
+from O
+Wednesday O
+to O
+Friday B-date
+ 
+Remove O
+the O
+weekly B-title
+status I-title
+meeting I-title
+from O
+my O
+calendar O
+ 
+Please O
+delete B-action
+my O
+therapy B-title
+session I-title
+for O
+next B-date
+Monday I-date
+ 
+I O
+want O
+to O
+cancel O
+the O
+workshop B-title
+scheduled O
+for O
+next B-date
+month I-date
+ 
+Show O
+me O
+all O
+upcoming B-date
+appointments B-title
+with I-title
+Dr. I-title
+Smith I-title
+ 
+When O
+is O
+the O
+product O
+launch O
+meeting? O
+ 
+Do O
+I O
+have O
+any O
+events B-title
+scheduled O
+for O
+this O
+weekend? O
+ 
+Can O
+you O
+tell O
+me O
+a O
+joke? O
+ 
+How's O
+your O
+day O
+going? O
+ 
+What's O
+your O
+name? O
+ 
+Please O
+create O
+a O
+new O
+appointment B-title
+with I-title
+Dr. I-title
+Wang I-title
+for O
+July B-date
+15th I-date
+ 
+I O
+want O
+to O
+put O
+a O
+conference B-title
+call I-title
+on O
+my O
+calendar O
+for O
+Thursday B-date
+at O
+11 B-startTime
+AM I-startTime
+ 
+Add O
+a O
+birthday B-title
+reminder I-title
+for I-title
+my I-title
+brother I-title
+on O
+July B-date
+15 I-date
+ 
+I O
+need O
+to O
+set O
+up O
+a O
+project B-title
+kickoff I-title
+meeting I-title
+for O
+next B-date
+Thursday I-date
+at O
+2 B-startTime
+PM I-startTime
+ 
+Would O
+you O
+add B-action
+a O
+hair B-title
+appointment I-title
+for O
+Tuesday B-date
+at O
+5:30 O
+PM? O
+ 
+Can O
+you O
+create O
+a O
+calendar O
+event O
+for O
+my O
+flight B-title
+to I-title
+New I-title
+York I-title
+on O
+September B-date
+10th I-date
+at O
+7 O
+AM? O
+ 
+I O
+want O
+to O
+add B-action
+some O
+time O
+to O
+work B-title
+on I-title
+my I-title
+presentation I-title
+tomorrow B-date
+morning O
+ 
+Put O
+a O
+team B-title
+lunch I-title
+on O
+my O
+schedule O
+for O
+Friday B-date
+at O
+12:30 B-startTime
+PM I-startTime
+ 
+I O
+need O
+to O
+block O
+off O
+time O
+for O
+the O
+workshop B-title
+next B-date
+Wednesday I-date
+from O
+9 B-startTime
+AM I-startTime
+to O
+12 B-endTime
+PM I-endTime
+ 
+Add O
+a O
+new O
+appointment O
+to O
+get O
+my O
+car B-title
+serviced I-title
+on O
+June B-date
+5th I-date
+at O
+2 B-startTime
+PM I-startTime
+ 
+Schedule O
+a O
+meeting B-title
+about I-title
+the I-title
+new I-title
+project I-title
+on O
+Monday B-date
+at O
+10 B-startTime
+AM I-startTime
+ 
+I'd O
+like O
+to O
+create O
+a O
+recurring O
+gym B-title
+session I-title
+every B-date
+Tuesday I-date
+at O
+6 B-startTime
+PM I-startTime
+ 
+Please O
+add B-action
+the O
+conference B-title
+to O
+my O
+calendar O
+for O
+August B-date
+15-17 I-date
+ 
+Can O
+you O
+put O
+my O
+son's B-title
+soccer I-title
+game I-title
+on O
+the O
+calendar O
+for O
+Saturday B-date
+at O
+10 O
+AM? O
+ 
+I O
+need O
+to O
+make O
+an O
+appointment O
+for O
+a O
+massage B-title
+next B-date
+Friday I-date
+at O
+4 B-startTime
+PM I-startTime
+ 
+Mark O
+my O
+calendar O
+for O
+the O
+quarterly B-title
+business I-title
+review I-title
+on O
+June B-date
+30th I-date
+at O
+1 B-startTime
+PM I-startTime
+ 
+Create O
+a O
+new O
+event O
+for O
+dinner B-title
+with I-title
+clients I-title
+on O
+Thursday B-date
+at O
+7 B-startTime
+PM I-startTime
+at O
+Chez B-location
+Louis I-location
+ 
+I O
+want O
+to O
+add B-action
+my O
+vacation B-title
+days I-title
+to O
+the O
+calendar O
+from O
+July B-date
+1st I-date
+to I-date
+July I-date
+10th I-date
+ 
+Need O
+to O
+change O
+my O
+doctor's B-title
+appointment I-title
+to O
+Friday B-date
+at O
+2 B-startTime
+PM I-startTime
+ 
+I O
+want O
+to O
+reschedule O
+my O
+haircut B-title
+from O
+Tuesday O
+to O
+Thursday B-date
+at O
+the O
+same B-startTime
+time I-startTime
+ 
+Could O
+you O
+move O
+my O
+team B-title
+meeting I-title
+to O
+3pm B-startTime
+instead O
+of O
+2pm? O
+ 
+Update O
+the O
+location O
+of O
+tomorrow's O
+lunch B-title
+to O
+Cafe B-location
+Bella I-location
+ 
+I O
+need O
+to O
+postpone O
+my O
+dentist B-title
+appointment I-title
+by O
+one O
+week O
+ 
+Change O
+my O
+10am B-startTime
+call I-title
+to O
+a O
+Zoom B-location
+meeting I-description
+instead O
+of O
+in-person O
+ 
+Can O
+you O
+update B-action
+the O
+duration O
+of O
+the O
+workshop B-title
+to O
+3 O
+hours? O
+ 
+I'd O
+like O
+to O
+reschedule O
+my O
+massage B-title
+to O
+next B-date
+Tuesday I-date
+at O
+4 B-startTime
+PM I-startTime
+ 
+Move O
+my O
+meeting B-title
+with I-title
+John I-title
+to O
+sometime O
+next B-date
+week I-date
+ 
+Please O
+change O
+the O
+flight B-title
+reservation I-title
+from O
+morning O
+to O
+evening O
+ 
+Update O
+the O
+attendees O
+list O
+for O
+Friday's O
+meeting B-title
+to O
+include O
+the O
+design O
+team O
+ 
+Can O
+you O
+shift O
+my O
+3pm O
+appointment B-title
+to O
+4:30pm? O
+ 
+I O
+want O
+to O
+move O
+my O
+doctor's B-title
+visit I-title
+to O
+a O
+different B-location
+clinic I-location
+ 
+Reschedule O
+the O
+product B-title
+demo I-title
+from O
+Monday O
+to O
+Wednesday B-date
+at O
+2 B-startTime
+PM I-startTime
+ 
+Change O
+the O
+project B-title
+deadline I-title
+to O
+the O
+end B-date
+of I-date
+next I-date
+month I-date
+ 
+Please O
+update B-action
+my O
+dinner B-title
+reservation I-title
+to O
+include O
+two O
+more O
+people O
+ 
+I O
+need O
+to O
+push O
+back O
+my O
+conference B-title
+call I-title
+by O
+30 O
+minutes O
+ 
+Can O
+you O
+move O
+my O
+yoga B-title
+class I-title
+to O
+the O
+evening O
+slot? O
+ 
+Update O
+the O
+title O
+of O
+my O
+3pm B-startTime
+meeting I-title
+to O
+'Budget O
+Review' O
+ 
+Cancel O
+my O
+dentist B-title
+appointment I-title
+for O
+tomorrow B-date
+ 
+I O
+need O
+to O
+remove O
+the O
+meeting B-title
+with I-title
+marketing I-title
+from O
+my O
+calendar O
+ 
+Please O
+delete B-action
+my O
+lunch B-title
+reservation I-title
+for O
+Friday B-date
+ 
+I O
+want O
+to O
+cancel O
+the O
+team B-title
+building I-title
+event I-title
+next B-date
+week I-date
+ 
+Remove O
+my O
+doctor's B-title
+appointment I-title
+on O
+Thursday B-date
+ 
+What O
+meetings B-title
+do O
+I O
+have O
+tomorrow? O
+ 
+Can O
+you O
+show O
+me O
+my O
+schedule O
+for O
+next O
+week? O
+ 
+When O
+is O
+my O
+dentist O
+appointment? O
+ 
+What O
+time O
+is O
+the O
+team B-title
+meeting I-title
+on O
+Monday? O
+ 
+Do O
+I O
+have O
+any O
+appointments B-title
+this O
+Friday? O
+ 
+Hello, O
+how O
+are O
+you O
+today? O
+ 
+What O
+can O
+you O
+do? O
+ 
+Tell O
+me O
+about O
+yourself O
+ 
+Schedule O
+a O
+video B-title
+meeting I-title
+with I-title
+the I-title
+offshore I-title
+team I-title
+tomorrow B-date
+at O
+8 B-startTime
+PM I-startTime
+ 
+Add O
+a O
+study B-title
+session I-title
+to O
+my O
+calendar O
+for O
+Thursday B-date
+evening O
+at O
+the B-location
+library I-location
+ 
+I O
+need O
+to O
+reserve O
+time O
+for O
+interview B-title
+candidates I-title
+next B-date
+Tuesday I-date
+from O
+1 B-startTime
+PM I-startTime
+to O
+5 B-endTime
+PM I-endTime
+ 
+Create O
+a O
+new O
+task O
+for O
+completing B-title
+the I-title
+report I-title
+by O
+Friday B-date
+ 
+I'd O
+like O
+to O
+add B-action
+a O
+reminder O
+to O
+call B-title
+my I-title
+parents I-title
+on O
+Sunday B-date
+at O
+5 B-startTime
+PM I-startTime
+ 
+Can O
+you O
+create O
+an O
+appointment O
+for O
+my O
+eye B-title
+exam I-title
+next B-date
+Wednesday I-date
+at O
+3 O
+PM? O
+ 

@@ -1,0 +1,6410 @@
+[
+  {
+    "text": "Add a meeting with Zhang tomorrow at 3 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "meeting with Zhang",
+      "description": "Meeting with Zhang",
+      "date": "tomorrow",
+      "startTime": "3 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule a dentist appointment for Friday",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "dentist appointment",
+      "description": "Dentist appointment",
+      "date": "Friday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Create a birthday party on May 20th",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "birthday party",
+      "description": "Birthday party",
+      "date": "May 20th",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a team meeting next Monday at 9 AM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "team meeting",
+      "description": "Team meeting",
+      "date": "next Monday",
+      "startTime": "9 AM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Set up lunch with Manager Li tomorrow",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "lunch with Manager Li",
+      "description": "Lunch with Manager Li",
+      "date": "tomorrow",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Put a project review on my calendar for the day after tomorrow",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "project review",
+      "description": "Project review",
+      "date": "the day after tomorrow",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "I need to go to the doctor next Wednesday at 2 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "doctor appointment",
+      "description": "Doctor appointment",
+      "date": "next Wednesday",
+      "startTime": "2 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule a family gathering on June 1st",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "family gathering",
+      "description": "Family gathering",
+      "date": "June 1st",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a fitness class this Thursday at 7 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "fitness class",
+      "description": "Fitness class",
+      "date": "this Thursday",
+      "startTime": "7 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule a quarterly review meeting at the end of the month",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "quarterly review meeting",
+      "description": "Quarterly review meeting",
+      "date": "end of the month",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a coffee date on May 15th at 10 AM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "coffee date",
+      "description": "Coffee date",
+      "date": "May 15th",
+      "startTime": "10 AM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "I need to schedule a conference call the day after tomorrow",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "conference call",
+      "description": "Conference call",
+      "date": "the day after tomorrow",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a lunch reminder for tomorrow at noon",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "lunch reminder",
+      "description": "Lunch reminder",
+      "date": "tomorrow",
+      "startTime": "noon",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Put a dinner reservation on my calendar for Saturday at 8 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "dinner reservation",
+      "description": "Dinner reservation",
+      "date": "Saturday",
+      "startTime": "8 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Create a new appointment with Dr. Smith on Monday",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "appointment with Dr. Smith",
+      "description": "Appointment with Dr. Smith",
+      "date": "Monday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a haircut appointment next Friday at 2 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "haircut appointment",
+      "description": "Haircut appointment",
+      "date": "next Friday",
+      "startTime": "2 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule a product launch meeting for July 15th",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "product launch meeting",
+      "description": "Product launch meeting",
+      "date": "July 15th",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Book a flight to Beijing on September 3rd",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "flight to Beijing",
+      "description": "Flight to Beijing",
+      "date": "September 3rd",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add my yoga class to the calendar for every Tuesday at 6 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "yoga class",
+      "description": "Yoga class",
+      "date": "every Tuesday",
+      "startTime": "6 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Create a reminder to pick up the kids at 3 PM tomorrow",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "pick up the kids",
+      "description": "Reminder to pick up the kids",
+      "date": "tomorrow",
+      "startTime": "3 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule a team building event next Friday afternoon",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "team building event",
+      "description": "Team building event",
+      "date": "next Friday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a movie night with friends this Saturday at 7 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "movie night with friends",
+      "description": "Movie night with friends",
+      "date": "this Saturday",
+      "startTime": "7 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "I need to add a parent-teacher conference on the 25th",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "parent-teacher conference",
+      "description": "Parent-teacher conference",
+      "date": "the 25th",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule a client presentation for next Wednesday at 11 AM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "client presentation",
+      "description": "Client presentation",
+      "date": "next Wednesday",
+      "startTime": "11 AM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a reminder to call mom on her birthday",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "call mom",
+      "description": "Reminder to call mom on her birthday",
+      "date": "her birthday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Create a meeting with the developers on Thursday at 4 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "meeting with the developers",
+      "description": "Meeting with the developers",
+      "date": "Thursday",
+      "startTime": "4 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Put a dental cleaning on my calendar for June 12th",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "dental cleaning",
+      "description": "Dental cleaning",
+      "date": "June 12th",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a video call with the overseas team tomorrow at 9 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "video call with the overseas team",
+      "description": "Video call with the overseas team",
+      "date": "tomorrow",
+      "startTime": "9 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule a car maintenance appointment for next Monday",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "car maintenance appointment",
+      "description": "Car maintenance appointment",
+      "date": "next Monday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Create a new event for the company holiday party on December 15th",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "company holiday party",
+      "description": "Company holiday party",
+      "date": "December 15th",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a gym session to my calendar for tomorrow morning",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "gym session",
+      "description": "Gym session",
+      "date": "tomorrow",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule a doctor's appointment next week",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "doctor's appointment",
+      "description": "Doctor's appointment",
+      "date": "next week",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add my final exam on May 25th at 10 AM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "final exam",
+      "description": "Final exam",
+      "date": "May 25th",
+      "startTime": "10 AM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule a job interview on Monday at 3 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "job interview",
+      "description": "Job interview",
+      "date": "Monday",
+      "startTime": "3 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Create a lunch meeting with the marketing team on Friday",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "lunch meeting with the marketing team",
+      "description": "Lunch meeting with the marketing team",
+      "date": "Friday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a dance class to my calendar for Thursday evenings",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "dance class",
+      "description": "Dance class",
+      "date": "Thursday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule a house viewing tomorrow at 5 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "house viewing",
+      "description": "House viewing",
+      "date": "tomorrow",
+      "startTime": "5 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Create a reminder for my medication at 8 AM daily",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "medication reminder",
+      "description": "Reminder for medication",
+      "date": "daily",
+      "startTime": "8 AM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a dinner with clients to my calendar for Tuesday night",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "dinner with clients",
+      "description": "Dinner with clients",
+      "date": "Tuesday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule a meeting with Professor Wang next Wednesday",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "meeting with Professor Wang",
+      "description": "Meeting with Professor Wang",
+      "date": "next Wednesday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Put a shopping trip on my calendar for Saturday afternoon",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "shopping trip",
+      "description": "Shopping trip",
+      "date": "Saturday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a coffee chat with the new team member tomorrow at 11 AM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "coffee chat with the new team member",
+      "description": "Coffee chat with the new team member",
+      "date": "tomorrow",
+      "startTime": "11 AM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Book a table at Chez Louis for Friday at 7:30 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "table at Chez Louis",
+      "description": "Table reservation at Chez Louis",
+      "date": "Friday",
+      "startTime": "7:30 PM",
+      "endTime": "",
+      "location": "Chez Louis",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a massage appointment for next Thursday at 6 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "massage appointment",
+      "description": "Massage appointment",
+      "date": "next Thursday",
+      "startTime": "6 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule the annual physical check-up on June 5th",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "annual physical check-up",
+      "description": "Annual physical check-up",
+      "date": "June 5th",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Create a reminder to send the report by Friday",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "send the report",
+      "description": "Reminder to send the report",
+      "date": "Friday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a virtual meeting with the clients tomorrow morning",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "virtual meeting with the clients",
+      "description": "Virtual meeting with the clients",
+      "date": "tomorrow",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule a call with the supplier next Monday",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "call with the supplier",
+      "description": "Call with the supplier",
+      "date": "next Monday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add my guitar lesson for Wednesday at 7 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "guitar lesson",
+      "description": "Guitar lesson",
+      "date": "Wednesday",
+      "startTime": "7 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Create a new appointment for car inspection on the 28th",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "car inspection",
+      "description": "Car inspection appointment",
+      "date": "the 28th",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule a swimming class for my son on Saturday morning",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "swimming class for my son",
+      "description": "Swimming class for my son",
+      "date": "Saturday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a reminder to pay rent on the 1st of each month",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "pay rent",
+      "description": "Reminder to pay rent",
+      "date": "the 1st of each month",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Put the weekly status update meeting on Fridays at 4 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "weekly status update meeting",
+      "description": "Weekly status update meeting",
+      "date": "Fridays",
+      "startTime": "4 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a study session for tomorrow evening at the library",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "study session",
+      "description": "Study session",
+      "date": "tomorrow",
+      "startTime": "",
+      "endTime": "",
+      "location": "the library",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule a zoom call with grandparents on Sunday at 7 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "zoom call with grandparents",
+      "description": "Zoom call with grandparents",
+      "date": "Sunday",
+      "startTime": "7 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Create a reminder to take out the trash on Thursday mornings",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "take out the trash",
+      "description": "Reminder to take out the trash",
+      "date": "Thursday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a piano recital on May 30th at 3 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "piano recital",
+      "description": "Piano recital",
+      "date": "May 30th",
+      "startTime": "3 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule a department lunch on the last Friday of the month",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "department lunch",
+      "description": "Department lunch",
+      "date": "the last Friday of the month",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add my therapy session on Monday at 4 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "therapy session",
+      "description": "Therapy session",
+      "date": "Monday",
+      "startTime": "4 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule a meeting with the financial advisor next Tuesday",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "meeting with the financial advisor",
+      "description": "Meeting with the financial advisor",
+      "date": "next Tuesday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Create an anniversary dinner reservation for July 12th",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "anniversary dinner reservation",
+      "description": "Anniversary dinner reservation",
+      "date": "July 12th",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a parent-teacher meeting next Thursday at 5 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "parent-teacher meeting",
+      "description": "Parent-teacher meeting",
+      "date": "next Thursday",
+      "startTime": "5 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule a vet appointment for my dog on Wednesday",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "vet appointment for my dog",
+      "description": "Vet appointment for my dog",
+      "date": "Wednesday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Create a reminder to water the plants every Tuesday",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "water the plants",
+      "description": "Reminder to water the plants",
+      "date": "every Tuesday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a workshop on digital marketing for next Thursday",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "workshop on digital marketing",
+      "description": "Workshop on digital marketing",
+      "date": "next Thursday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule a basketball game watch party on Saturday night",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "basketball game watch party",
+      "description": "Basketball game watch party",
+      "date": "Saturday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add my driving test on June 7th at 10 AM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "driving test",
+      "description": "Driving test",
+      "date": "June 7th",
+      "startTime": "10 AM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Create a reminder for the monthly team report on the 25th",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "monthly team report",
+      "description": "Reminder for the monthly team report",
+      "date": "the 25th",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule a video shoot next Monday at the studio",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "video shoot",
+      "description": "Video shoot",
+      "date": "next Monday",
+      "startTime": "",
+      "endTime": "",
+      "location": "the studio",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a pottery class on Wednesdays at 6 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "pottery class",
+      "description": "Pottery class",
+      "date": "Wednesdays",
+      "startTime": "6 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Put my graduation ceremony on May 18th at 2 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "graduation ceremony",
+      "description": "Graduation ceremony",
+      "date": "May 18th",
+      "startTime": "2 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a blood donation appointment for next Friday morning",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "blood donation appointment",
+      "description": "Blood donation appointment",
+      "date": "next Friday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule the quarterly business review for June 30th",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "quarterly business review",
+      "description": "Quarterly business review",
+      "date": "June 30th",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Create a meeting with the web designers tomorrow at 4 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "meeting with the web designers",
+      "description": "Meeting with the web designers",
+      "date": "tomorrow",
+      "startTime": "4 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a housewarming party on June 8th at 7 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "housewarming party",
+      "description": "Housewarming party",
+      "date": "June 8th",
+      "startTime": "7 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule an eye exam next Tuesday afternoon",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "eye exam",
+      "description": "Eye exam",
+      "date": "next Tuesday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Create a reminder for the sales proposal deadline on Friday",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "sales proposal deadline",
+      "description": "Reminder for the sales proposal deadline",
+      "date": "Friday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add the art exhibition visit on Sunday at 2 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "art exhibition visit",
+      "description": "Art exhibition visit",
+      "date": "Sunday",
+      "startTime": "2 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule a team lunch on Thursday at 12:30 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "team lunch",
+      "description": "Team lunch",
+      "date": "Thursday",
+      "startTime": "12:30 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Put a reminder to submit the report by Monday",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "submit the report",
+      "description": "Reminder to submit the report",
+      "date": "Monday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a concert on July 21st at 8 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "concert",
+      "description": "Concert",
+      "date": "July 21st",
+      "startTime": "8 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule a follow-up meeting with clients next Wednesday",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "follow-up meeting with clients",
+      "description": "Follow-up meeting with clients",
+      "date": "next Wednesday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Create a dentist check-up on the 3rd of next month",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "dentist check-up",
+      "description": "Dentist check-up",
+      "date": "the 3rd of next month",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a wedding anniversary dinner on May 25th",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "wedding anniversary dinner",
+      "description": "Wedding anniversary dinner",
+      "date": "May 25th",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule a book club meeting next Thursday evening",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "book club meeting",
+      "description": "Book club meeting",
+      "date": "next Thursday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Create a reminder to renew my passport by July",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "renew my passport",
+      "description": "Reminder to renew my passport",
+      "date": "by July",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a soccer game on Saturday at 3 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "soccer game",
+      "description": "Soccer game",
+      "date": "Saturday",
+      "startTime": "3 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule a strategy session with the team next Tuesday",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "strategy session with the team",
+      "description": "Strategy session with the team",
+      "date": "next Tuesday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add my final presentation on June 15th at 1 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "final presentation",
+      "description": "Final presentation",
+      "date": "June 15th",
+      "startTime": "1 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Create a sales conference for next month",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "sales conference",
+      "description": "Sales conference",
+      "date": "next month",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a cooking class on Thursday evening at 7 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "cooking class",
+      "description": "Cooking class",
+      "date": "Thursday",
+      "startTime": "7 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule a parent-teacher conference for next Monday",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "parent-teacher conference",
+      "description": "Parent-teacher conference",
+      "date": "next Monday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Create a reminder to buy groceries on Saturday morning",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "buy groceries",
+      "description": "Reminder to buy groceries",
+      "date": "Saturday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a weekly planning meeting every Monday at 9 AM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "weekly planning meeting",
+      "description": "Weekly planning meeting",
+      "date": "every Monday",
+      "startTime": "9 AM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule a holiday for the first week of August",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "holiday",
+      "description": "Holiday",
+      "date": "first week of August",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add the charity gala to my calendar for May 20th",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "charity gala",
+      "description": "Charity gala",
+      "date": "May 20th",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Create a reminder to check emails at 8 AM daily",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "check emails",
+      "description": "Reminder to check emails",
+      "date": "daily",
+      "startTime": "8 AM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule an interview with a job candidate on Thursday",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "interview with a job candidate",
+      "description": "Interview with a job candidate",
+      "date": "Thursday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Put my son's soccer game on Saturday morning",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "son's soccer game",
+      "description": "Son's soccer game",
+      "date": "Saturday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a product demo next Wednesday at 2 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "product demo",
+      "description": "Product demo",
+      "date": "next Wednesday",
+      "startTime": "2 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule a brainstorming session with the creative team",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "brainstorming session with the creative team",
+      "description": "Brainstorming session with the creative team",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Create a reminder for my mom's birthday on July 3rd",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "mom's birthday reminder",
+      "description": "Reminder for mom's birthday",
+      "date": "July 3rd",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a wine tasting event on Friday at 6 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "wine tasting event",
+      "description": "Wine tasting event",
+      "date": "Friday",
+      "startTime": "6 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Move my dentist appointment to next Thursday",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "dentist appointment",
+      "description": "Dentist appointment",
+      "date": "next Thursday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "next Thursday"
+      }
+    }
+  },
+  {
+    "text": "Reschedule the team meeting from Monday to Tuesday",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "team meeting",
+      "description": "Team meeting",
+      "date": "Tuesday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "Tuesday"
+      }
+    }
+  },
+  {
+    "text": "Change my lunch with Sarah to 1 PM instead of noon",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "lunch with Sarah",
+      "description": "Lunch with Sarah",
+      "date": "",
+      "startTime": "1 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {
+        "startTime": "1 PM"
+      }
+    }
+  },
+  {
+    "text": "Update the location of tomorrow's meeting to Conference Room B",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "meeting",
+      "description": "Meeting",
+      "date": "tomorrow",
+      "startTime": "",
+      "endTime": "",
+      "location": "Conference Room B",
+      "isAllDay": 1,
+      "changes_dict": {
+        "location": "Conference Room B"
+      }
+    }
+  },
+  {
+    "text": "Push back my doctor's appointment by one hour",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "doctor's appointment",
+      "description": "Doctor's appointment",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Reschedule my haircut to Friday afternoon",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "haircut",
+      "description": "Haircut",
+      "date": "Friday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {
+        "date": "Friday"
+      }
+    }
+  },
+  {
+    "text": "Change the project review meeting to virtual instead of in-person",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "project review meeting",
+      "description": "Project review meeting",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "virtual",
+      "isAllDay": 1,
+      "changes_dict": {
+        "location": "virtual"
+      }
+    }
+  },
+  {
+    "text": "Move my 3 PM call to 4:30 PM",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "call",
+      "description": "Call",
+      "date": "",
+      "startTime": "4:30 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {
+        "startTime": "4:30 PM"
+      }
+    }
+  },
+  {
+    "text": "Update the duration of the workshop to 2 hours",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "workshop",
+      "description": "Workshop",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Change the client meeting from Wednesday to Thursday",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "client meeting",
+      "description": "Client meeting",
+      "date": "Thursday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "Thursday"
+      }
+    }
+  },
+  {
+    "text": "Reschedule my flight to the morning instead of evening",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "flight",
+      "description": "Flight",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Move the team lunch to Cafe Milano instead of the office",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "team lunch",
+      "description": "Team lunch",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "Cafe Milano",
+      "isAllDay": 1,
+      "changes_dict": {
+        "location": "Cafe Milano"
+      }
+    }
+  },
+  {
+    "text": "Change my gym session from 6 PM to 7 PM",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "gym session",
+      "description": "Gym session",
+      "date": "",
+      "startTime": "7 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {
+        "startTime": "7 PM"
+      }
+    }
+  },
+  {
+    "text": "Reschedule the dentist appointment to next month",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "dentist appointment",
+      "description": "Dentist appointment",
+      "date": "next month",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "next month"
+      }
+    }
+  },
+  {
+    "text": "Update the attendees for tomorrow's meeting to include the design team",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "meeting",
+      "description": "Meeting",
+      "date": "tomorrow",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Move my interview from Tuesday to Wednesday at the same time",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "interview",
+      "description": "Interview",
+      "date": "Wednesday",
+      "startTime": "same time",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {
+        "date": "Wednesday"
+      }
+    }
+  },
+  {
+    "text": "Change the start time of the conference call to 10 AM",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "conference call",
+      "description": "Conference call",
+      "date": "",
+      "startTime": "10 AM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {
+        "startTime": "10 AM"
+      }
+    }
+  },
+  {
+    "text": "Reschedule my dinner reservation from 7 PM to 8 PM",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "dinner reservation",
+      "description": "Dinner reservation",
+      "date": "",
+      "startTime": "8 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {
+        "startTime": "8 PM"
+      }
+    }
+  },
+  {
+    "text": "Update the project deadline from Friday to next Monday",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "project deadline",
+      "description": "Project deadline",
+      "date": "next Monday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "next Monday"
+      }
+    }
+  },
+  {
+    "text": "Change the meeting with John to a lunch meeting",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "meeting with John",
+      "description": "Meeting with John",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "title": "lunch meeting with John"
+      }
+    }
+  },
+  {
+    "text": "Move my yoga class from morning to evening",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "yoga class",
+      "description": "Yoga class",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Update the location of the team building to Central Park",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "team building",
+      "description": "Team building",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "Central Park",
+      "isAllDay": 1,
+      "changes_dict": {
+        "location": "Central Park"
+      }
+    }
+  },
+  {
+    "text": "Reschedule my presentation to next week",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "presentation",
+      "description": "Presentation",
+      "date": "next week",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "next week"
+      }
+    }
+  },
+  {
+    "text": "Change my doctor's appointment from 2 PM to 3:30 PM",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "doctor's appointment",
+      "description": "Doctor's appointment",
+      "date": "",
+      "startTime": "3:30 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {
+        "startTime": "3:30 PM"
+      }
+    }
+  },
+  {
+    "text": "Move the client dinner from Tuesday to Thursday",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "client dinner",
+      "description": "Client dinner",
+      "date": "Thursday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "Thursday"
+      }
+    }
+  },
+  {
+    "text": "Update the meeting agenda to focus on Q2 planning",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "meeting",
+      "description": "Meeting",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Reschedule my hair appointment to Saturday morning",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "hair appointment",
+      "description": "Hair appointment",
+      "date": "Saturday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {
+        "date": "Saturday"
+      }
+    }
+  },
+  {
+    "text": "Change the venue for the company party to Grand Hotel",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "company party",
+      "description": "Company party",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "Grand Hotel",
+      "isAllDay": 1,
+      "changes_dict": {
+        "location": "Grand Hotel"
+      }
+    }
+  },
+  {
+    "text": "Move my flight to Beijing to next week",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "flight to Beijing",
+      "description": "Flight to Beijing",
+      "date": "next week",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "next week"
+      }
+    }
+  },
+  {
+    "text": "Update the recurring team meeting to biweekly instead of weekly",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "recurring team meeting",
+      "description": "Recurring team meeting",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Change the pickup time for my kids to 4 PM",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "pickup time for my kids",
+      "description": "Pickup time for my kids",
+      "date": "",
+      "startTime": "4 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {
+        "startTime": "4 PM"
+      }
+    }
+  },
+  {
+    "text": "Reschedule my coffee chat with the new hire to Friday",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "coffee chat with the new hire",
+      "description": "Coffee chat with the new hire",
+      "date": "Friday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "Friday"
+      }
+    }
+  },
+  {
+    "text": "Move the project kickoff from Monday morning to afternoon",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "project kickoff",
+      "description": "Project kickoff",
+      "date": "Monday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Update the duration of tomorrow's workshop to 3 hours",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "workshop",
+      "description": "Workshop",
+      "date": "tomorrow",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Change my dentist appointment from Dr. Lee to Dr. Chen",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "dentist appointment",
+      "description": "Dentist appointment",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "description": "Dentist appointment with Dr. Chen"
+      }
+    }
+  },
+  {
+    "text": "Reschedule the quarterly review to the first week of July",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "quarterly review",
+      "description": "Quarterly review",
+      "date": "first week of July",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "first week of July"
+      }
+    }
+  },
+  {
+    "text": "Move my lunch break from 12 PM to 1 PM tomorrow",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "lunch break",
+      "description": "Lunch break",
+      "date": "tomorrow",
+      "startTime": "1 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {
+        "startTime": "1 PM"
+      }
+    }
+  },
+  {
+    "text": "Update the team call to include video",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "team call",
+      "description": "Team call",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "description": "Team video call"
+      }
+    }
+  },
+  {
+    "text": "Change the movie night from Friday to Saturday",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "movie night",
+      "description": "Movie night",
+      "date": "Saturday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "Saturday"
+      }
+    }
+  },
+  {
+    "text": "Reschedule my guitar lesson to next Thursday",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "guitar lesson",
+      "description": "Guitar lesson",
+      "date": "next Thursday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "next Thursday"
+      }
+    }
+  },
+  {
+    "text": "Move my department meeting from Building A to Building B",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "department meeting",
+      "description": "Department meeting",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "Building B",
+      "isAllDay": 1,
+      "changes_dict": {
+        "location": "Building B"
+      }
+    }
+  },
+  {
+    "text": "Update the reminder time for my medication to 9 PM",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "medication reminder",
+      "description": "Medication reminder",
+      "date": "",
+      "startTime": "9 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {
+        "startTime": "9 PM"
+      }
+    }
+  },
+  {
+    "text": "Change the dinner reservation from 4 people to 6 people",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "dinner reservation",
+      "description": "Dinner reservation",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Reschedule my annual checkup to July",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "annual checkup",
+      "description": "Annual checkup",
+      "date": "July",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "July"
+      }
+    }
+  },
+  {
+    "text": "Move the team building from indoor to outdoor activities",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "team building",
+      "description": "Team building",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "outdoor",
+      "isAllDay": 1,
+      "changes_dict": {
+        "description": "Outdoor team building activities"
+      }
+    }
+  },
+  {
+    "text": "Update my therapy session from in-person to virtual",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "therapy session",
+      "description": "Therapy session",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "virtual",
+      "isAllDay": 1,
+      "changes_dict": {
+        "location": "virtual"
+      }
+    }
+  },
+  {
+    "text": "Change the conference call dial-in number for tomorrow",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "conference call",
+      "description": "Conference call",
+      "date": "tomorrow",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Reschedule the board meeting from the 15th to the 20th",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "board meeting",
+      "description": "Board meeting",
+      "date": "the 20th",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "the 20th"
+      }
+    }
+  },
+  {
+    "text": "Move my piano recital to the following weekend",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "piano recital",
+      "description": "Piano recital",
+      "date": "the following weekend",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "the following weekend"
+      }
+    }
+  },
+  {
+    "text": "Update the meeting with vendors to include the finance team",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "meeting with vendors",
+      "description": "Meeting with vendors",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Change my tennis lesson from Wednesday to Friday",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "tennis lesson",
+      "description": "Tennis lesson",
+      "date": "Friday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "Friday"
+      }
+    }
+  },
+  {
+    "text": "Reschedule the delivery time from morning to afternoon",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "delivery",
+      "description": "Delivery",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Move the parent-teacher conference to 6 PM",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "parent-teacher conference",
+      "description": "Parent-teacher conference",
+      "date": "",
+      "startTime": "6 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {
+        "startTime": "6 PM"
+      }
+    }
+  },
+  {
+    "text": "Update the location of my doctor's appointment to the new clinic",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "doctor's appointment",
+      "description": "Doctor's appointment",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "the new clinic",
+      "isAllDay": 1,
+      "changes_dict": {
+        "location": "the new clinic"
+      }
+    }
+  },
+  {
+    "text": "Change the start time of the workshop from 9 AM to 10 AM",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "workshop",
+      "description": "Workshop",
+      "date": "",
+      "startTime": "10 AM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {
+        "startTime": "10 AM"
+      }
+    }
+  },
+  {
+    "text": "Reschedule my car service from Monday to Tuesday",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "car service",
+      "description": "Car service",
+      "date": "Tuesday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "Tuesday"
+      }
+    }
+  },
+  {
+    "text": "Move my weekly one-on-one with my manager to Thursdays",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "weekly one-on-one with my manager",
+      "description": "Weekly one-on-one with my manager",
+      "date": "Thursdays",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "Thursdays"
+      }
+    }
+  },
+  {
+    "text": "Update the format of the team meeting to a working session",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "team meeting",
+      "description": "Team meeting",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "description": "Team working session"
+      }
+    }
+  },
+  {
+    "text": "Change my study group meeting from the library to the coffee shop",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "study group meeting",
+      "description": "Study group meeting",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "the coffee shop",
+      "isAllDay": 1,
+      "changes_dict": {
+        "location": "the coffee shop"
+      }
+    }
+  },
+  {
+    "text": "Reschedule the investor meeting to early June",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "investor meeting",
+      "description": "Investor meeting",
+      "date": "early June",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "early June"
+      }
+    }
+  },
+  {
+    "text": "Move my dental cleaning from 2 PM to 4 PM",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "dental cleaning",
+      "description": "Dental cleaning",
+      "date": "",
+      "startTime": "4 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {
+        "startTime": "4 PM"
+      }
+    }
+  },
+  {
+    "text": "Update the homework deadline to next Monday",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "homework deadline",
+      "description": "Homework deadline",
+      "date": "next Monday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "next Monday"
+      }
+    }
+  },
+  {
+    "text": "Change the family dinner from Sunday to Saturday",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "family dinner",
+      "description": "Family dinner",
+      "date": "Saturday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "Saturday"
+      }
+    }
+  },
+  {
+    "text": "Reschedule my driving lesson to next week",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "driving lesson",
+      "description": "Driving lesson",
+      "date": "next week",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "next week"
+      }
+    }
+  },
+  {
+    "text": "Move the product launch from Q2 to Q3",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "product launch",
+      "description": "Product launch",
+      "date": "Q3",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "Q3"
+      }
+    }
+  },
+  {
+    "text": "Update the party theme to Hawaiian",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "party",
+      "description": "Party",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "description": "Hawaiian theme party"
+      }
+    }
+  },
+  {
+    "text": "Change the meeting with clients from in-person to virtual",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "meeting with clients",
+      "description": "Meeting with clients",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "virtual",
+      "isAllDay": 1,
+      "changes_dict": {
+        "location": "virtual"
+      }
+    }
+  },
+  {
+    "text": "Reschedule my eye exam to the first week of June",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "eye exam",
+      "description": "Eye exam",
+      "date": "first week of June",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "first week of June"
+      }
+    }
+  },
+  {
+    "text": "Move the team celebration from the office to the restaurant",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "team celebration",
+      "description": "Team celebration",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "the restaurant",
+      "isAllDay": 1,
+      "changes_dict": {
+        "location": "the restaurant"
+      }
+    }
+  },
+  {
+    "text": "Update the guest list for the dinner party",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "dinner party",
+      "description": "Dinner party",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Change my weekly report submission from Friday to Thursday",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "weekly report submission",
+      "description": "Weekly report submission",
+      "date": "Thursday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "Thursday"
+      }
+    }
+  },
+  {
+    "text": "Reschedule the conference call with international partners",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "conference call with international partners",
+      "description": "Conference call with international partners",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": ""
+      }
+    }
+  },
+  {
+    "text": "Move the deadline for the project from June to July",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "deadline for the project",
+      "description": "Deadline for the project",
+      "date": "July",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "July"
+      }
+    }
+  },
+  {
+    "text": "Update the priority of tomorrow's tasks",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "tasks",
+      "description": "Tasks",
+      "date": "tomorrow",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Change the focus of the quarterly planning meeting",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "quarterly planning meeting",
+      "description": "Quarterly planning meeting",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "description": "Updated focus for quarterly planning meeting"
+      }
+    }
+  },
+  {
+    "text": "Reschedule my massage from 4 PM to 5:30 PM",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "massage",
+      "description": "Massage",
+      "date": "",
+      "startTime": "5:30 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {
+        "startTime": "5:30 PM"
+      }
+    }
+  },
+  {
+    "text": "Move my apartment viewing from Saturday to Sunday",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "apartment viewing",
+      "description": "Apartment viewing",
+      "date": "Sunday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "Sunday"
+      }
+    }
+  },
+  {
+    "text": "Update the recurring reminder to once a week",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "recurring reminder",
+      "description": "Recurring reminder",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Change the webinar registration deadline to Friday",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "webinar registration deadline",
+      "description": "Webinar registration deadline",
+      "date": "Friday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "Friday"
+      }
+    }
+  },
+  {
+    "text": "Cancel my dentist appointment tomorrow",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "dentist appointment",
+      "description": "Dentist appointment",
+      "date": "tomorrow",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Remove the meeting with marketing from my calendar",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "meeting with marketing",
+      "description": "Meeting with marketing",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Delete my lunch reservation for Friday",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "lunch reservation",
+      "description": "Lunch reservation",
+      "date": "Friday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Cancel the team building event next week",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "team building event",
+      "description": "Team building event",
+      "date": "next week",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Remove my doctor's appointment on Thursday",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "doctor's appointment",
+      "description": "Doctor's appointment",
+      "date": "Thursday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Delete the project review scheduled for Monday",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "project review",
+      "description": "Project review",
+      "date": "Monday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Cancel my flight to Shanghai",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "flight to Shanghai",
+      "description": "Flight to Shanghai",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Remove the reminder for the report deadline",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "reminder for the report deadline",
+      "description": "Reminder for the report deadline",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Delete the conference call with clients tomorrow",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "conference call with clients",
+      "description": "Conference call with clients",
+      "date": "tomorrow",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Cancel my gym session on Wednesday",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "gym session",
+      "description": "Gym session",
+      "date": "Wednesday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Remove the dinner party from my calendar",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "dinner party",
+      "description": "Dinner party",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Delete my haircut appointment next Tuesday",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "haircut appointment",
+      "description": "Haircut appointment",
+      "date": "next Tuesday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Cancel the team lunch scheduled for Friday",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "team lunch",
+      "description": "Team lunch",
+      "date": "Friday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Remove the weekly status meeting from my calendar",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "weekly status meeting",
+      "description": "Weekly status meeting",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Delete my therapy session for next Monday",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "therapy session",
+      "description": "Therapy session",
+      "date": "next Monday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Cancel the workshop scheduled for next month",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "workshop",
+      "description": "Workshop",
+      "date": "next month",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Remove the reminder to pay bills on the 1st",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "reminder to pay bills",
+      "description": "Reminder to pay bills",
+      "date": "the 1st",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Delete the coffee chat with the new hire",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "coffee chat with the new hire",
+      "description": "Coffee chat with the new hire",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Cancel my dental cleaning next week",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "dental cleaning",
+      "description": "Dental cleaning",
+      "date": "next week",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Remove the product demo from my calendar",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "product demo",
+      "description": "Product demo",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Delete the interview scheduled for Thursday",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "interview",
+      "description": "Interview",
+      "date": "Thursday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Cancel the parent-teacher meeting next Monday",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "parent-teacher meeting",
+      "description": "Parent-teacher meeting",
+      "date": "next Monday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Remove the movie night from this Saturday",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "movie night",
+      "description": "Movie night",
+      "date": "this Saturday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Delete my yoga class for tomorrow morning",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "yoga class",
+      "description": "Yoga class",
+      "date": "tomorrow",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Cancel the presentation to the board",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "presentation to the board",
+      "description": "Presentation to the board",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Remove the annual physical from my calendar",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "annual physical",
+      "description": "Annual physical",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Delete the meeting with HR tomorrow",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "meeting with HR",
+      "description": "Meeting with HR",
+      "date": "tomorrow",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Cancel my dinner reservation at Chez Louis",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "dinner reservation",
+      "description": "Dinner reservation",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "Chez Louis",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Remove the car service appointment next week",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "car service appointment",
+      "description": "Car service appointment",
+      "date": "next week",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Delete the reminder to submit expense reports",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "reminder to submit expense reports",
+      "description": "Reminder to submit expense reports",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Cancel my guitar lesson on Wednesday",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "guitar lesson",
+      "description": "Guitar lesson",
+      "date": "Wednesday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Remove the webinar from my calendar",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "webinar",
+      "description": "Webinar",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Delete the birthday party for this weekend",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "birthday party",
+      "description": "Birthday party",
+      "date": "this weekend",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Cancel my doctor's appointment with Dr. Smith",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "doctor's appointment",
+      "description": "Doctor's appointment with Dr. Smith",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Remove the quarterly business review from next month",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "quarterly business review",
+      "description": "Quarterly business review",
+      "date": "next month",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Delete the team call scheduled for tomorrow",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "team call",
+      "description": "Team call",
+      "date": "tomorrow",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Cancel my massage appointment on Friday",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "massage appointment",
+      "description": "Massage appointment",
+      "date": "Friday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Remove the concert from my calendar",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "concert",
+      "description": "Concert",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Delete the reminder for the project deadline",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "reminder for the project deadline",
+      "description": "Reminder for the project deadline",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Cancel my house viewing on Saturday",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "house viewing",
+      "description": "House viewing",
+      "date": "Saturday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Remove the staff meeting from tomorrow",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "staff meeting",
+      "description": "Staff meeting",
+      "date": "tomorrow",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Delete the cooking class scheduled for Thursday",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "cooking class",
+      "description": "Cooking class",
+      "date": "Thursday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Cancel my eye exam next week",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "eye exam",
+      "description": "Eye exam",
+      "date": "next week",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Remove the client dinner from Tuesday",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "client dinner",
+      "description": "Client dinner",
+      "date": "Tuesday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Delete the reminder to call my parents",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "reminder to call my parents",
+      "description": "Reminder to call my parents",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Cancel the team building workshop",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "team building workshop",
+      "description": "Team building workshop",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Remove the department meeting from my calendar",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "department meeting",
+      "description": "Department meeting",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Delete my soccer game on Saturday",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "soccer game",
+      "description": "Soccer game",
+      "date": "Saturday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Cancel the driver's test next Monday",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "driver's test",
+      "description": "Driver's test",
+      "date": "next Monday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Remove the interview with the job candidate",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "interview with the job candidate",
+      "description": "Interview with the job candidate",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Delete the piano recital from my calendar",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "piano recital",
+      "description": "Piano recital",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Cancel my appointment with the financial advisor",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "appointment with the financial advisor",
+      "description": "Appointment with the financial advisor",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Remove the conference from next month",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "conference",
+      "description": "Conference",
+      "date": "next month",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Delete the weekly planning meeting on Monday",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "weekly planning meeting",
+      "description": "Weekly planning meeting",
+      "date": "Monday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Cancel my hair appointment on Thursday",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "hair appointment",
+      "description": "Hair appointment",
+      "date": "Thursday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Remove the charity gala from my calendar",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "charity gala",
+      "description": "Charity gala",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Delete the reminder to renew my gym membership",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "reminder to renew my gym membership",
+      "description": "Reminder to renew my gym membership",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Cancel the book club meeting next week",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "book club meeting",
+      "description": "Book club meeting",
+      "date": "next week",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Remove the strategy session from Tuesday",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "strategy session",
+      "description": "Strategy session",
+      "date": "Tuesday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Delete my dental check-up for next month",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "dental check-up",
+      "description": "Dental check-up",
+      "date": "next month",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Cancel the project kickoff meeting",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "project kickoff meeting",
+      "description": "Project kickoff meeting",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Remove the art exhibition visit from Sunday",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "art exhibition visit",
+      "description": "Art exhibition visit",
+      "date": "Sunday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Delete the wedding anniversary dinner",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "wedding anniversary dinner",
+      "description": "Wedding anniversary dinner",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Cancel my swimming class on Saturday",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "swimming class",
+      "description": "Swimming class",
+      "date": "Saturday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Remove the parent-teacher conference from next Thursday",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "parent-teacher conference",
+      "description": "Parent-teacher conference",
+      "date": "next Thursday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Delete the wine tasting event from my calendar",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "wine tasting event",
+      "description": "Wine tasting event",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Cancel my vet appointment for my dog",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "vet appointment for my dog",
+      "description": "Vet appointment for my dog",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Remove the board meeting scheduled for the 20th",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "board meeting",
+      "description": "Board meeting",
+      "date": "the 20th",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Delete the reminder to water the plants",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "reminder to water the plants",
+      "description": "Reminder to water the plants",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Cancel the delivery scheduled for tomorrow",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "delivery",
+      "description": "Delivery",
+      "date": "tomorrow",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Remove the basketball game watch party",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "basketball game watch party",
+      "description": "Basketball game watch party",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Delete my driving lesson for next week",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "driving lesson",
+      "description": "Driving lesson",
+      "date": "next week",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Cancel the family gathering on Sunday",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "family gathering",
+      "description": "Family gathering",
+      "date": "Sunday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "What meetings do I have tomorrow?",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "meetings",
+      "description": "",
+      "date": "tomorrow",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Show me my schedule for next week",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "",
+      "description": "",
+      "date": "next week",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "When is my dentist appointment?",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "dentist appointment",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "What time is the team meeting on Monday?",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "team meeting",
+      "description": "",
+      "date": "Monday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Do I have any appointments this Friday?",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "appointments",
+      "description": "",
+      "date": "this Friday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Show me all my events for the month of June",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "events",
+      "description": "",
+      "date": "month of June",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "When is my next doctor's appointment?",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "doctor's appointment",
+      "description": "",
+      "date": "next",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "What's on my calendar for tomorrow afternoon?",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "",
+      "description": "",
+      "date": "tomorrow",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Show me all the meetings with the marketing team",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "meetings with the marketing team",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "When am I meeting with John?",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "meeting with John",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "What's my schedule like on Wednesday?",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "",
+      "description": "",
+      "date": "Wednesday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Show me all upcoming appointments with Dr. Smith",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "appointments with Dr. Smith",
+      "description": "",
+      "date": "upcoming",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "When is the product launch meeting?",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "product launch meeting",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Do I have any events scheduled for this weekend?",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "events",
+      "description": "",
+      "date": "this weekend",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "What time is my flight to Beijing?",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "flight to Beijing",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Show me my meetings for next Monday",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "meetings",
+      "description": "",
+      "date": "next Monday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "When is the team building event?",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "team building event",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "What's on my calendar for May 15th?",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "",
+      "description": "",
+      "date": "May 15th",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Show me all lunch meetings for this week",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "lunch meetings",
+      "description": "",
+      "date": "this week",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "When is my next haircut appointment?",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "haircut appointment",
+      "description": "",
+      "date": "next",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Hello, how are you today?",
+    "intent": "CHITCHAT",
+    "entities": {
+      "action": "chitchat",
+      "title": "",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "What can you do?",
+    "intent": "CHITCHAT",
+    "entities": {
+      "action": "chitchat",
+      "title": "",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Tell me about yourself",
+    "intent": "CHITCHAT",
+    "entities": {
+      "action": "chitchat",
+      "title": "",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "How does this assistant work?",
+    "intent": "CHITCHAT",
+    "entities": {
+      "action": "chitchat",
+      "title": "",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Do you have any hobbies?",
+    "intent": "CHITCHAT",
+    "entities": {
+      "action": "chitchat",
+      "title": "",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "What's the weather like today?",
+    "intent": "CHITCHAT",
+    "entities": {
+      "action": "chitchat",
+      "title": "",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Who created you?",
+    "intent": "CHITCHAT",
+    "entities": {
+      "action": "chitchat",
+      "title": "",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Can you tell me a joke?",
+    "intent": "CHITCHAT",
+    "entities": {
+      "action": "chitchat",
+      "title": "",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "How's your day going?",
+    "intent": "CHITCHAT",
+    "entities": {
+      "action": "chitchat",
+      "title": "",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "What's your name?",
+    "intent": "CHITCHAT",
+    "entities": {
+      "action": "chitchat",
+      "title": "",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Do you like music?",
+    "intent": "CHITCHAT",
+    "entities": {
+      "action": "chitchat",
+      "title": "",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Can you help me with something?",
+    "intent": "CHITCHAT",
+    "entities": {
+      "action": "chitchat",
+      "title": "",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "What time is it?",
+    "intent": "CHITCHAT",
+    "entities": {
+      "action": "chitchat",
+      "title": "",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "How old are you?",
+    "intent": "CHITCHAT",
+    "entities": {
+      "action": "chitchat",
+      "title": "",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Tell me something interesting",
+    "intent": "CHITCHAT",
+    "entities": {
+      "action": "chitchat",
+      "title": "",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "I need to add a meeting with the design team tomorrow at 2 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "meeting with the design team",
+      "description": "Meeting with the design team",
+      "date": "tomorrow",
+      "startTime": "2 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Could you schedule a dentist visit for next Tuesday at 10 AM?",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "dentist visit",
+      "description": "Dentist visit",
+      "date": "next Tuesday",
+      "startTime": "10 AM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "I want to create a new event for Friday afternoon",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "new event",
+      "description": "New event",
+      "date": "Friday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Please add a reminder for my medication at 8 AM daily",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "medication reminder",
+      "description": "Reminder for medication",
+      "date": "daily",
+      "startTime": "8 AM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "I'd like to schedule a call with my manager tomorrow at 3:30 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "call with my manager",
+      "description": "Call with my manager",
+      "date": "tomorrow",
+      "startTime": "3:30 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Can you add a lunch date with Sarah to my calendar for Wednesday at noon?",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "lunch date with Sarah",
+      "description": "Lunch date with Sarah",
+      "date": "Wednesday",
+      "startTime": "noon",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "I need to book a meeting room for our team sync next Monday at 9 AM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "team sync",
+      "description": "Team sync",
+      "date": "next Monday",
+      "startTime": "9 AM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a reminder to pick up my package tomorrow at 3 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "pick up my package",
+      "description": "Reminder to pick up my package",
+      "date": "tomorrow",
+      "startTime": "3 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Could you set up a coffee chat with the new team member for Friday at 10 AM?",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "coffee chat with the new team member",
+      "description": "Coffee chat with the new team member",
+      "date": "Friday",
+      "startTime": "10 AM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "I want to book tickets for the concert next Friday at 8 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "concert tickets",
+      "description": "Concert tickets",
+      "date": "next Friday",
+      "startTime": "8 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule a check-in meeting with my mentor for Tuesday at 4 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "check-in meeting with my mentor",
+      "description": "Check-in meeting with my mentor",
+      "date": "Tuesday",
+      "startTime": "4 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Please create a calendar event for my child's school play on May 20th at 6 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "child's school play",
+      "description": "Child's school play",
+      "date": "May 20th",
+      "startTime": "6 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "I need to add a deadline for the project submission on Friday at 5 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "deadline for the project submission",
+      "description": "Deadline for the project submission",
+      "date": "Friday",
+      "startTime": "5 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Put my physical therapy session on the calendar for Monday at 2 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "physical therapy session",
+      "description": "Physical therapy session",
+      "date": "Monday",
+      "startTime": "2 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Can you add a time slot for my driving test on June 12th at 10 AM?",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "driving test",
+      "description": "Driving test",
+      "date": "June 12th",
+      "startTime": "10 AM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "I want to schedule a team building activity for next Friday afternoon",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "team building activity",
+      "description": "Team building activity",
+      "date": "next Friday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Make an appointment for car maintenance on July 5th at 9 AM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "car maintenance",
+      "description": "Car maintenance appointment",
+      "date": "July 5th",
+      "startTime": "9 AM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "I want to change the recurring team sync from weekly to biweekly",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "recurring team sync",
+      "description": "Recurring team sync",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Reschedule my car service appointment to next month",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "car service appointment",
+      "description": "Car service appointment",
+      "date": "next month",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "next month"
+      }
+    }
+  },
+  {
+    "text": "Could you move tomorrow's lunch meeting to a conference room?",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "lunch meeting",
+      "description": "Lunch meeting",
+      "date": "tomorrow",
+      "startTime": "",
+      "endTime": "",
+      "location": "conference room",
+      "isAllDay": 1,
+      "changes_dict": {
+        "location": "conference room"
+      }
+    }
+  },
+  {
+    "text": "I need to update the subject of my client meeting to 'Contract Review'",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "client meeting",
+      "description": "Contract Review",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "description": "Contract Review"
+      }
+    }
+  },
+  {
+    "text": "Change the format of the team meeting to a working session",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "team meeting",
+      "description": "Team working session",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "description": "Team working session"
+      }
+    }
+  },
+  {
+    "text": "Push my dental appointment forward by one day",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "dental appointment",
+      "description": "Dental appointment",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "I'd like to change my hair appointment from 3pm to 4pm",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "hair appointment",
+      "description": "Hair appointment",
+      "date": "",
+      "startTime": "4pm",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {
+        "startTime": "4pm"
+      }
+    }
+  },
+  {
+    "text": "Update the venue for the company party to Grand Hotel",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "company party",
+      "description": "Company party",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "Grand Hotel",
+      "isAllDay": 1,
+      "changes_dict": {
+        "location": "Grand Hotel"
+      }
+    }
+  },
+  {
+    "text": "Reschedule my flight to Beijing to the following weekend",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "flight to Beijing",
+      "description": "Flight to Beijing",
+      "date": "the following weekend",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "the following weekend"
+      }
+    }
+  },
+  {
+    "text": "Could you delete the project review scheduled for Monday?",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "project review",
+      "description": "Project review",
+      "date": "Monday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "I need to cancel my flight to Shanghai",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "flight to Shanghai",
+      "description": "Flight to Shanghai",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Remove the reminder for the report deadline",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "reminder for the report deadline",
+      "description": "Reminder for the report deadline",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Please delete the conference call with clients tomorrow",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "conference call with clients",
+      "description": "Conference call with clients",
+      "date": "tomorrow",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Cancel my gym session on Wednesday",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "gym session",
+      "description": "Gym session",
+      "date": "Wednesday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Could you show me all my events for June?",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "events",
+      "description": "",
+      "date": "June",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "When is my next doctor's appointment?",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "doctor's appointment",
+      "description": "",
+      "date": "next",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "What's on my calendar for tomorrow afternoon?",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "",
+      "description": "",
+      "date": "tomorrow",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "How does this assistant work?",
+    "intent": "CHITCHAT",
+    "entities": {
+      "action": "chitchat",
+      "title": "",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Do you have any hobbies?",
+    "intent": "CHITCHAT",
+    "entities": {
+      "action": "chitchat",
+      "title": "",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a note to prepare for tomorrow's presentation at 6 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "prepare for tomorrow's presentation",
+      "description": "Prepare for presentation",
+      "date": "tomorrow",
+      "startTime": "6 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "I need to create a meeting invitation for the partners on Thursday at 1 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "meeting with the partners",
+      "description": "Meeting with the partners",
+      "date": "Thursday",
+      "startTime": "1 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule a consultation with the interior designer for next Monday at 11 AM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "consultation with the interior designer",
+      "description": "Consultation with the interior designer",
+      "date": "next Monday",
+      "startTime": "11 AM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a weekly review meeting to my calendar for Fridays at 4 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "weekly review meeting",
+      "description": "Weekly review meeting",
+      "date": "Fridays",
+      "startTime": "4 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "I want to put my yoga class on the schedule for Mondays at 7 AM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "yoga class",
+      "description": "Yoga class",
+      "date": "Mondays",
+      "startTime": "7 AM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Can you move my presentation from Building A to Building B?",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "presentation",
+      "description": "Presentation",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "Building B",
+      "isAllDay": 1,
+      "changes_dict": {
+        "location": "Building B"
+      }
+    }
+  },
+  {
+    "text": "Change my reminder time for medication to 9 PM",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "medication reminder",
+      "description": "Medication reminder",
+      "date": "",
+      "startTime": "9 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {
+        "startTime": "9 PM"
+      }
+    }
+  },
+  {
+    "text": "I need to update my therapy session to virtual instead of in-person",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "therapy session",
+      "description": "Therapy session",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "virtual",
+      "isAllDay": 1,
+      "changes_dict": {
+        "location": "virtual"
+      }
+    }
+  },
+  {
+    "text": "Modify the conference call dial-in number for tomorrow",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "conference call",
+      "description": "Conference call",
+      "date": "tomorrow",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Reschedule the board meeting from the 15th to the 20th",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "board meeting",
+      "description": "Board meeting",
+      "date": "the 20th",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "the 20th"
+      }
+    }
+  },
+  {
+    "text": "I want to remove the dinner party from my calendar",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "dinner party",
+      "description": "Dinner party",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Delete my haircut appointment next Tuesday",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "haircut appointment",
+      "description": "Haircut appointment",
+      "date": "next Tuesday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "I need to cancel the team lunch scheduled for Friday",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "team lunch",
+      "description": "Team lunch",
+      "date": "Friday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Can you show me all the meetings with the marketing team?",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "meetings with the marketing team",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "When am I meeting with John?",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "meeting with John",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "What's my schedule like on Wednesday?",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "",
+      "description": "",
+      "date": "Wednesday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "What's the weather like today?",
+    "intent": "CHITCHAT",
+    "entities": {
+      "action": "chitchat",
+      "title": "",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Who created you?",
+    "intent": "CHITCHAT",
+    "entities": {
+      "action": "chitchat",
+      "title": "",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Create a reminder for my mother's birthday on July 3rd",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "mother's birthday reminder",
+      "description": "Reminder for mother's birthday",
+      "date": "July 3rd",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "I need to book a table at the restaurant for tomorrow at 7:30 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "dinner reservation",
+      "description": "Dinner reservation",
+      "date": "tomorrow",
+      "startTime": "7:30 PM",
+      "endTime": "",
+      "location": "restaurant",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Could you add my doctor's appointment to the calendar for Thursday at 3 PM?",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "doctor's appointment",
+      "description": "Doctor's appointment",
+      "date": "Thursday",
+      "startTime": "3 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Move my piano recital to next weekend",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "piano recital",
+      "description": "Piano recital",
+      "date": "next weekend",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "next weekend"
+      }
+    }
+  },
+  {
+    "text": "Update the vendor meeting to include the finance team",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "vendor meeting",
+      "description": "Vendor meeting",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Change my tennis lesson from Wednesday to Friday",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "tennis lesson",
+      "description": "Tennis lesson",
+      "date": "Friday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "Friday"
+      }
+    }
+  },
+  {
+    "text": "Remove the weekly status meeting from my calendar",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "weekly status meeting",
+      "description": "Weekly status meeting",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Please delete my therapy session for next Monday",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "therapy session",
+      "description": "Therapy session",
+      "date": "next Monday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "I want to cancel the workshop scheduled for next month",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "workshop",
+      "description": "Workshop",
+      "date": "next month",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Show me all upcoming appointments with Dr. Smith",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "appointments with Dr. Smith",
+      "description": "",
+      "date": "upcoming",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "When is the product launch meeting?",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "product launch meeting",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Do I have any events scheduled for this weekend?",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "events",
+      "description": "",
+      "date": "this weekend",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Can you tell me a joke?",
+    "intent": "CHITCHAT",
+    "entities": {
+      "action": "chitchat",
+      "title": "",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "How's your day going?",
+    "intent": "CHITCHAT",
+    "entities": {
+      "action": "chitchat",
+      "title": "",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "What's your name?",
+    "intent": "CHITCHAT",
+    "entities": {
+      "action": "chitchat",
+      "title": "",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Please create a new appointment with Dr. Wang for July 15th",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "appointment with Dr. Wang",
+      "description": "Appointment with Dr. Wang",
+      "date": "July 15th",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "I want to put a conference call on my calendar for Thursday at 11 AM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "conference call",
+      "description": "Conference call",
+      "date": "Thursday",
+      "startTime": "11 AM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a birthday reminder for my brother on July 15",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "birthday reminder for my brother",
+      "description": "Birthday reminder for my brother",
+      "date": "July 15",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "I need to set up a project kickoff meeting for next Thursday at 2 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "project kickoff meeting",
+      "description": "Project kickoff meeting",
+      "date": "next Thursday",
+      "startTime": "2 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Would you add a hair appointment for Tuesday at 5:30 PM?",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "hair appointment",
+      "description": "Hair appointment",
+      "date": "Tuesday",
+      "startTime": "5:30 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Can you create a calendar event for my flight to New York on September 10th at 7 AM?",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "flight to New York",
+      "description": "Flight to New York",
+      "date": "September 10th",
+      "startTime": "7 AM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "I want to add some time to work on my presentation tomorrow morning",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "work on my presentation",
+      "description": "Work on my presentation",
+      "date": "tomorrow",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Put a team lunch on my schedule for Friday at 12:30 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "team lunch",
+      "description": "Team lunch",
+      "date": "Friday",
+      "startTime": "12:30 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "I need to block off time for the workshop next Wednesday from 9 AM to 12 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "workshop",
+      "description": "Workshop",
+      "date": "next Wednesday",
+      "startTime": "9 AM",
+      "endTime": "12 PM",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a new appointment to get my car serviced on June 5th at 2 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "car serviced",
+      "description": "Car service appointment",
+      "date": "June 5th",
+      "startTime": "2 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule a meeting about the new project on Monday at 10 AM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "meeting about the new project",
+      "description": "Meeting about the new project",
+      "date": "Monday",
+      "startTime": "10 AM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "I'd like to create a recurring gym session every Tuesday at 6 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "gym session",
+      "description": "Gym session",
+      "date": "every Tuesday",
+      "startTime": "6 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Please add the conference to my calendar for August 15-17",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "conference",
+      "description": "Conference",
+      "date": "August 15-17",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Can you put my son's soccer game on the calendar for Saturday at 10 AM?",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "son's soccer game",
+      "description": "Son's soccer game",
+      "date": "Saturday",
+      "startTime": "10 AM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "I need to make an appointment for a massage next Friday at 4 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "massage",
+      "description": "Massage appointment",
+      "date": "next Friday",
+      "startTime": "4 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Mark my calendar for the quarterly business review on June 30th at 1 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "quarterly business review",
+      "description": "Quarterly business review",
+      "date": "June 30th",
+      "startTime": "1 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Create a new event for dinner with clients on Thursday at 7 PM at Chez Louis",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "dinner with clients",
+      "description": "Dinner with clients",
+      "date": "Thursday",
+      "startTime": "7 PM",
+      "endTime": "",
+      "location": "Chez Louis",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "I want to add my vacation days to the calendar from July 1st to July 10th",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "vacation days",
+      "description": "Vacation days",
+      "date": "July 1st to July 10th",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Need to change my doctor's appointment to Friday at 2 PM",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "doctor's appointment",
+      "description": "Doctor's appointment",
+      "date": "Friday",
+      "startTime": "2 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {
+        "date": "Friday",
+        "startTime": "2 PM"
+      }
+    }
+  },
+  {
+    "text": "I want to reschedule my haircut from Tuesday to Thursday at the same time",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "haircut",
+      "description": "Haircut",
+      "date": "Thursday",
+      "startTime": "same time",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {
+        "date": "Thursday"
+      }
+    }
+  },
+  {
+    "text": "Could you move my team meeting to 3pm instead of 2pm?",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "team meeting",
+      "description": "Team meeting",
+      "date": "",
+      "startTime": "3pm",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {
+        "startTime": "3pm"
+      }
+    }
+  },
+  {
+    "text": "Update the location of tomorrow's lunch to Cafe Bella",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "lunch",
+      "description": "Lunch",
+      "date": "tomorrow",
+      "startTime": "",
+      "endTime": "",
+      "location": "Cafe Bella",
+      "isAllDay": 1,
+      "changes_dict": {
+        "location": "Cafe Bella"
+      }
+    }
+  },
+  {
+    "text": "I need to postpone my dentist appointment by one week",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "dentist appointment",
+      "description": "Dentist appointment",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "one week later"
+      }
+    }
+  },
+  {
+    "text": "Change my 10am call to a Zoom meeting instead of in-person",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "10am call",
+      "description": "Zoom meeting",
+      "date": "",
+      "startTime": "10am",
+      "endTime": "",
+      "location": "Zoom",
+      "isAllDay": 0,
+      "changes_dict": {
+        "description": "Zoom meeting",
+        "location": "Zoom"
+      }
+    }
+  },
+  {
+    "text": "Can you update the duration of the workshop to 3 hours?",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "workshop",
+      "description": "Workshop",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "I'd like to reschedule my massage to next Tuesday at 4 PM",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "massage",
+      "description": "Massage",
+      "date": "next Tuesday",
+      "startTime": "4 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {
+        "date": "next Tuesday",
+        "startTime": "4 PM"
+      }
+    }
+  },
+  {
+    "text": "Move my meeting with John to sometime next week",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "meeting with John",
+      "description": "Meeting with John",
+      "date": "next week",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "next week"
+      }
+    }
+  },
+  {
+    "text": "Please change the flight reservation from morning to evening",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "flight reservation",
+      "description": "Flight reservation",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Update the attendees list for Friday's meeting to include the design team",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "meeting",
+      "description": "Meeting",
+      "date": "Friday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Can you shift my 3pm appointment to 4:30pm?",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "appointment",
+      "description": "Appointment",
+      "date": "",
+      "startTime": "4:30pm",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {
+        "startTime": "4:30pm"
+      }
+    }
+  },
+  {
+    "text": "I want to move my doctor's visit to a different clinic",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "doctor's visit",
+      "description": "Doctor's visit",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "different clinic",
+      "isAllDay": 1,
+      "changes_dict": {
+        "location": "different clinic"
+      }
+    }
+  },
+  {
+    "text": "Reschedule the product demo from Monday to Wednesday at 2 PM",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "product demo",
+      "description": "Product demo",
+      "date": "Wednesday",
+      "startTime": "2 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {
+        "date": "Wednesday",
+        "startTime": "2 PM"
+      }
+    }
+  },
+  {
+    "text": "Change the project deadline to the end of next month",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "project deadline",
+      "description": "Project deadline",
+      "date": "end of next month",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {
+        "date": "end of next month"
+      }
+    }
+  },
+  {
+    "text": "Please update my dinner reservation to include two more people",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "dinner reservation",
+      "description": "Dinner reservation",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "I need to push back my conference call by 30 minutes",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "conference call",
+      "description": "Conference call",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Can you move my yoga class to the evening slot?",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "yoga class",
+      "description": "Yoga class",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Update the title of my 3pm meeting to 'Budget Review'",
+    "intent": "UPDATE",
+    "entities": {
+      "action": "update",
+      "title": "3pm meeting",
+      "description": "Budget Review",
+      "date": "",
+      "startTime": "3pm",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {
+        "title": "Budget Review",
+        "description": "Budget Review"
+      }
+    }
+  },
+  {
+    "text": "Cancel my dentist appointment for tomorrow",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "dentist appointment",
+      "description": "Dentist appointment",
+      "date": "tomorrow",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "I need to remove the meeting with marketing from my calendar",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "meeting with marketing",
+      "description": "Meeting with marketing",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Please delete my lunch reservation for Friday",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "lunch reservation",
+      "description": "Lunch reservation",
+      "date": "Friday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "I want to cancel the team building event next week",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "team building event",
+      "description": "Team building event",
+      "date": "next week",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Remove my doctor's appointment on Thursday",
+    "intent": "DELETE",
+    "entities": {
+      "action": "delete",
+      "title": "doctor's appointment",
+      "description": "Doctor's appointment",
+      "date": "Thursday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "What meetings do I have tomorrow?",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "meetings",
+      "description": "",
+      "date": "tomorrow",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Can you show me my schedule for next week?",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "",
+      "description": "",
+      "date": "next week",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "When is my dentist appointment?",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "dentist appointment",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "What time is the team meeting on Monday?",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "team meeting",
+      "description": "",
+      "date": "Monday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Do I have any appointments this Friday?",
+    "intent": "QUERY",
+    "entities": {
+      "action": "query",
+      "title": "appointments",
+      "description": "",
+      "date": "this Friday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Hello, how are you today?",
+    "intent": "CHITCHAT",
+    "entities": {
+      "action": "chitchat",
+      "title": "",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "What can you do?",
+    "intent": "CHITCHAT",
+    "entities": {
+      "action": "chitchat",
+      "title": "",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Tell me about yourself",
+    "intent": "CHITCHAT",
+    "entities": {
+      "action": "chitchat",
+      "title": "",
+      "description": "",
+      "date": "",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Schedule a video meeting with the offshore team tomorrow at 8 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "video meeting with the offshore team",
+      "description": "Video meeting with the offshore team",
+      "date": "tomorrow",
+      "startTime": "8 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Add a study session to my calendar for Thursday evening at the library",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "study session",
+      "description": "Study session",
+      "date": "Thursday",
+      "startTime": "",
+      "endTime": "",
+      "location": "the library",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "I need to reserve time for interview candidates next Tuesday from 1 PM to 5 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "interview candidates",
+      "description": "Interview candidates",
+      "date": "next Tuesday",
+      "startTime": "1 PM",
+      "endTime": "5 PM",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Create a new task for completing the report by Friday",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "completing the report",
+      "description": "Task for completing the report",
+      "date": "Friday",
+      "startTime": "",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 1,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "I'd like to add a reminder to call my parents on Sunday at 5 PM",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "call my parents",
+      "description": "Reminder to call my parents",
+      "date": "Sunday",
+      "startTime": "5 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  },
+  {
+    "text": "Can you create an appointment for my eye exam next Wednesday at 3 PM?",
+    "intent": "ADD",
+    "entities": {
+      "action": "add",
+      "title": "eye exam",
+      "description": "Eye exam appointment",
+      "date": "next Wednesday",
+      "startTime": "3 PM",
+      "endTime": "",
+      "location": "",
+      "isAllDay": 0,
+      "changes_dict": {}
+    }
+  }
+]

@@ -1,0 +1,5047 @@
+[
+    {
+      "text": "Add a meeting with Zhang tomorrow at 3 PM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a dentist appointment for Friday",
+      "intent": "ADD"
+    },
+    {
+      "text": "Create a birthday party on May 20th",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a team meeting next Monday at 9 AM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Set up lunch with Manager Li tomorrow",
+      "intent": "ADD"
+    },
+    {
+      "text": "Put a project review on my calendar for the day after tomorrow",
+      "intent": "ADD"
+    },
+    {
+      "text": "I need to go to the doctor next Wednesday at 2 PM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a family gathering on June 1st",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a fitness class this Thursday at 7 PM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a quarterly review meeting at the end of the month",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a coffee date on May 15th at 10 AM",
+      "intent": "ADD"
+    },
+    {
+      "text": "I need to schedule a conference call the day after tomorrow",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a lunch reminder for tomorrow at noon",
+      "intent": "ADD"
+    },
+    {
+      "text": "Put a dinner reservation on my calendar for Saturday at 8 PM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Create a new appointment with Dr. Smith on Monday",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a haircut appointment next Friday at 2 PM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a product launch meeting for July 15th",
+      "intent": "ADD"
+    },
+    {
+      "text": "Book a flight to Beijing on September 3rd",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add my yoga class to the calendar for every Tuesday at 6 PM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Create a reminder to pick up the kids at 3 PM tomorrow",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a team building event next Friday afternoon",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a movie night with friends this Saturday at 7 PM",
+      "intent": "ADD"
+    },
+    {
+      "text": "I need to add a parent-teacher conference on the 25th",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a client presentation for next Wednesday at 11 AM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a reminder to call mom on her birthday",
+      "intent": "ADD"
+    },
+    {
+      "text": "Create a meeting with the developers on Thursday at 4 PM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Put a dental cleaning on my calendar for June 12th",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a video call with the overseas team tomorrow at 9 PM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a car maintenance appointment for next Monday",
+      "intent": "ADD"
+    },
+    {
+      "text": "Create a new event for the company holiday party on December 15th",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a gym session to my calendar for tomorrow morning",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a doctor's appointment next week",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add my final exam on May 25th at 10 AM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a job interview on Monday at 3 PM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Create a lunch meeting with the marketing team on Friday",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a dance class to my calendar for Thursday evenings",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a house viewing tomorrow at 5 PM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Create a reminder for my medication at 8 AM daily",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a dinner with clients to my calendar for Tuesday night",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a meeting with Professor Wang next Wednesday",
+      "intent": "ADD"
+    },
+    {
+      "text": "Put a shopping trip on my calendar for Saturday afternoon",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a coffee chat with the new team member tomorrow at 11 AM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Book a table at Chez Louis for Friday at 7:30 PM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a massage appointment for next Thursday at 6 PM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule the annual physical check-up on June 5th",
+      "intent": "ADD"
+    },
+    {
+      "text": "Create a reminder to send the report by Friday",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a virtual meeting with the clients tomorrow morning",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a call with the supplier next Monday",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add my guitar lesson for Wednesday at 7 PM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Create a new appointment for car inspection on the 28th",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a swimming class for my son on Saturday morning",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a reminder to pay rent on the 1st of each month",
+      "intent": "ADD"
+    },
+    {
+      "text": "Put the weekly status update meeting on Fridays at 4 PM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a study session for tomorrow evening at the library",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a zoom call with grandparents on Sunday at 7 PM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Create a reminder to take out the trash on Thursday mornings",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a piano recital on May 30th at 3 PM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a department lunch on the last Friday of the month",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add my therapy session on Monday at 4 PM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a meeting with the financial advisor next Tuesday",
+      "intent": "ADD"
+    },
+    {
+      "text": "Create an anniversary dinner reservation for July 12th",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a parent-teacher meeting next Thursday at 5 PM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a vet appointment for my dog on Wednesday",
+      "intent": "ADD"
+    },
+    {
+      "text": "Create a reminder to water the plants every Tuesday",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a workshop on digital marketing for next Thursday",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a basketball game watch party on Saturday night",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add my driving test on June 7th at 10 AM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Create a reminder for the monthly team report on the 25th",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a video shoot next Monday at the studio",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a pottery class on Wednesdays at 6 PM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Put my graduation ceremony on May 18th at 2 PM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a blood donation appointment for next Friday morning",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule the quarterly business review for June 30th",
+      "intent": "ADD"
+    },
+    {
+      "text": "Create a meeting with the web designers tomorrow at 4 PM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a housewarming party on June 8th at 7 PM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule an eye exam next Tuesday afternoon",
+      "intent": "ADD"
+    },
+    {
+      "text": "Create a reminder for the sales proposal deadline on Friday",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add the art exhibition visit on Sunday at 2 PM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a team lunch on Thursday at 12:30 PM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Put a reminder to submit the report by Monday",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a concert on July 21st at 8 PM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a follow-up meeting with clients next Wednesday",
+      "intent": "ADD"
+    },
+    {
+      "text": "Create a dentist check-up on the 3rd of next month",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a wedding anniversary dinner on May 25th",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a book club meeting next Thursday evening",
+      "intent": "ADD"
+    },
+    {
+      "text": "Create a reminder to renew my passport by July",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a soccer game on Saturday at 3 PM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a strategy session with the team next Tuesday",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add my final presentation on June 15th at 1 PM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Create a sales conference for next month",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a cooking class on Thursday evening at 7 PM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a parent-teacher conference for next Monday",
+      "intent": "ADD"
+    },
+    {
+      "text": "Create a reminder to buy groceries on Saturday morning",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a weekly planning meeting every Monday at 9 AM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a holiday for the first week of August",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add the charity gala to my calendar for May 20th",
+      "intent": "ADD"
+    },
+    {
+      "text": "Create a reminder to check emails at 8 AM daily",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule an interview with a job candidate on Thursday",
+      "intent": "ADD"
+    },
+    {
+      "text": "Put my son's soccer game on Saturday morning",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a product demo next Wednesday at 2 PM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a brainstorming session with the creative team",
+      "intent": "ADD"
+    },
+    {
+      "text": "Create a reminder for my mom's birthday on July 3rd",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a wine tasting event on Friday at 6 PM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Move my dentist appointment to next Thursday",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Reschedule the team meeting from Monday to Tuesday",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change my lunch with Sarah to 1 PM instead of noon",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update the location of tomorrow's meeting to Conference Room B",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Push back my doctor's appointment by one hour",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Reschedule my haircut to Friday afternoon",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change the project review meeting to virtual instead of in-person",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Move my 3 PM call to 4:30 PM",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update the duration of the workshop to 2 hours",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change the client meeting from Wednesday to Thursday",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Reschedule my flight to the morning instead of evening",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Move the team lunch to Cafe Milano instead of the office",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change my gym session from 6 PM to 7 PM",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Reschedule the dentist appointment to next month",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update the attendees for tomorrow's meeting to include the design team",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Move my interview from Tuesday to Wednesday at the same time",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change the start time of the conference call to 10 AM",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Reschedule my dinner reservation from 7 PM to 8 PM",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update the project deadline from Friday to next Monday",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change the meeting with John to a lunch meeting",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Move my yoga class from morning to evening",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update the location of the team building to Central Park",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Reschedule my presentation to next week",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change my doctor's appointment from 2 PM to 3:30 PM",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Move the client dinner from Tuesday to Thursday",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update the meeting agenda to focus on Q2 planning",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Reschedule my hair appointment to Saturday morning",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change the venue for the company party to Grand Hotel",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Move my flight to Beijing to next week",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update the recurring team meeting to biweekly instead of weekly",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change the pickup time for my kids to 4 PM",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Reschedule my coffee chat with the new hire to Friday",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Move the project kickoff from Monday morning to afternoon",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update the duration of tomorrow's workshop to 3 hours",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change my dentist appointment from Dr. Lee to Dr. Chen",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Reschedule the quarterly review to the first week of July",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Move my lunch break from 12 PM to 1 PM tomorrow",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update the team call to include video",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change the movie night from Friday to Saturday",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Reschedule my guitar lesson to next Thursday",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Move my department meeting from Building A to Building B",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update the reminder time for my medication to 9 PM",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change the dinner reservation from 4 people to 6 people",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Reschedule my annual checkup to July",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Move the team building from indoor to outdoor activities",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update my therapy session from in-person to virtual",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change the conference call dial-in number for tomorrow",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Reschedule the board meeting from the 15th to the 20th",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Move my piano recital to the following weekend",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update the meeting with vendors to include the finance team",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change my tennis lesson from Wednesday to Friday",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Reschedule the delivery time from morning to afternoon",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Move the parent-teacher conference to 6 PM",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update the location of my doctor's appointment to the new clinic",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change the start time of the workshop from 9 AM to 10 AM",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Reschedule my car service from Monday to Tuesday",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Move my weekly one-on-one with my manager to Thursdays",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update the format of the team meeting to a working session",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change my study group meeting from the library to the coffee shop",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Reschedule the investor meeting to early June",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Move my dental cleaning from 2 PM to 4 PM",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update the homework deadline to next Monday",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change the family dinner from Sunday to Saturday",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Reschedule my driving lesson to next week",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Move the product launch from Q2 to Q3",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update the party theme to Hawaiian",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change the meeting with clients from in-person to virtual",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Reschedule my eye exam to the first week of June",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Move the team celebration from the office to the restaurant",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update the guest list for the dinner party",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change my weekly report submission from Friday to Thursday",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Reschedule the conference call with international partners",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Move the deadline for the project from June to July",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update the priority of tomorrow's tasks",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change the focus of the quarterly planning meeting",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Reschedule my massage from 4 PM to 5:30 PM",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Move my apartment viewing from Saturday to Sunday",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update the recurring reminder to once a week",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change the webinar registration deadline to Friday",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Cancel my dentist appointment tomorrow",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the meeting with marketing from my calendar",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete my lunch reservation for Friday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Cancel the team building event next week",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove my doctor's appointment on Thursday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete the project review scheduled for Monday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Cancel my flight to Shanghai",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the reminder for the report deadline",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete the conference call with clients tomorrow",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Cancel my gym session on Wednesday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the dinner party from my calendar",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete my haircut appointment next Tuesday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Cancel the team lunch scheduled for Friday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the weekly status meeting from my calendar",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete my therapy session for next Monday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Cancel the workshop scheduled for next month",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the reminder to pay bills on the 1st",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete the coffee chat with the new hire",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Cancel my dental cleaning next week",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the product demo from my calendar",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete the interview scheduled for Thursday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Cancel the parent-teacher meeting next Monday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the movie night from this Saturday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete my yoga class for tomorrow morning",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Cancel the presentation to the board",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the annual physical from my calendar",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete the meeting with HR tomorrow",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Cancel my dinner reservation at Chez Louis",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the car service appointment next week",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete the reminder to submit expense reports",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Cancel my guitar lesson on Wednesday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the webinar from my calendar",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete the birthday party for this weekend",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Cancel my doctor's appointment with Dr. Smith",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the quarterly business review from next month",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete the team call scheduled for tomorrow",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Cancel my massage appointment on Friday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the concert from my calendar",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete the reminder for the project deadline",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Cancel my house viewing on Saturday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the staff meeting from tomorrow",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete the cooking class scheduled for Thursday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Cancel my eye exam next week",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the client dinner from Tuesday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete the reminder to call my parents",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Cancel the team building workshop",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the department meeting from my calendar",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete my soccer game on Saturday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Cancel the driver's test next Monday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the interview with the job candidate",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete the piano recital from my calendar",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Cancel my appointment with the financial advisor",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the conference from next month",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete the weekly planning meeting on Monday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Cancel my hair appointment on Thursday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the charity gala from my calendar",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete the reminder to renew my gym membership",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Cancel the book club meeting next week",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the strategy session from Tuesday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete my dental check-up for next month",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Cancel the project kickoff meeting",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the art exhibition visit from Sunday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete the wedding anniversary dinner",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Cancel my swimming class on Saturday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the parent-teacher conference from next Thursday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete the wine tasting event from my calendar",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Cancel my vet appointment for my dog",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the board meeting scheduled for the 20th",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete the reminder to water the plants",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Cancel the delivery scheduled for tomorrow",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the basketball game watch party",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete my driving lesson for next week",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Cancel the family gathering on Sunday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "What meetings do I have tomorrow?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Show me my schedule for next week",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is my dentist appointment?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What time is the team meeting on Monday?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Do I have any appointments this Friday?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Show me all my events for the month of June",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is my next doctor's appointment?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What's on my calendar for tomorrow afternoon?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Show me all the meetings with the marketing team",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When am I meeting with John?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What's my schedule like on Wednesday?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Show me all upcoming appointments with Dr. Smith",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is the product launch meeting?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Do I have any events scheduled for this weekend?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What time is my flight to Beijing?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Show me my meetings for next Monday",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is the team building event?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What's on my calendar for May 15th?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Show me all lunch meetings for this week",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is my next haircut appointment?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What time is the client presentation on Wednesday?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Show me my schedule for next month",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is my dinner reservation this weekend?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What meetings do I have with the development team?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is my next yoga class?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What's on my calendar for tomorrow morning?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Show me all my appointments for next week",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is the quarterly review meeting?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What time is my coffee chat with the new hire?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Show me all events at Conference Room A",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is my next dental cleaning?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What appointments do I have on Friday?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Show me all meetings with clients this month",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is my son's soccer game?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What's my schedule for the first week of June?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Show me all upcoming deadlines",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is the parent-teacher conference?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What meetings do I have after 3 PM tomorrow?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Show me all my doctor appointments",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is the company holiday party?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What time is my interview on Monday?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Show me my free time next week",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is my next meeting with the boss?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What events do I have scheduled with Lisa?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Show me all upcoming birthdays",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is my massage appointment?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What's on my calendar for Tuesday afternoon?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Show me all virtual meetings next week",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is the deadline for the quarterly report?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What time is my guitar lesson on Wednesday?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Show me all evening events this week",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is my car service appointment?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What meetings are scheduled in the main conference room?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Show me my calendar for the last week of May",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is the workshop scheduled for?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What time is my therapy session next Monday?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Show me all recurring meetings",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is my eye exam scheduled?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What appointments do I have scheduled with Dr. Wang?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Show me my busy days next week",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is the next team lunch?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What time is the board meeting on the 20th?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Show me all events tagged as important",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is my driving test scheduled?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What meetings do I have with the finance team?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Show me my schedule for Thursday",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is my house viewing appointment?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What time is the project kickoff on Monday?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Hello, how are you today?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What can you do?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Tell me about yourself",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "How does this assistant work?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Do you have any hobbies?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's the weather like today?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Who created you?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Can you tell me a joke?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "How's your day going?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's your name?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Do you like music?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Can you help me with something?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What time is it?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "How old are you?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Tell me something interesting",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Who is the president?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's the meaning of life?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Can you sing a song?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's new?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "How smart are you?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Do you have feelings?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Tell me about the news today",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Who's your favorite actor?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What languages do you speak?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "How are you doing?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's the best restaurant in town?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Can you recommend a good movie?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "I'm feeling sad today",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Do you believe in aliens?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's your favorite color?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Will it rain tomorrow?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Do you sleep?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's the stock market doing today?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "I'm bored",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Tell me a fun fact",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What should I do today?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Do you have any siblings?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Who's going to win the championship?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's the best vacation spot?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Good morning!",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Tell me about the latest technology",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's your favorite book?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Can you recommend a good podcast?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What do you think about AI?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Who's the best soccer player?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Tell me a story",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "How can I be more productive?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's your favorite food?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Do you like pets?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's happening in the world?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Good night",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What are you doing?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Tell me about the solar system",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's the capital of France?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "How tall is Mount Everest?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's the population of China?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Can you tell me a riddle?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's your favorite movie?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "How do I look today?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Are you real?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Can we be friends?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's your dream job?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Tell me about history",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's your secret?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "How do you work?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What do you think about humans?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Can you help me decide what to eat?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "How's the weather?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Do you dream?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What do you think about life?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Tell me something I don't know",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Do you have a family?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What are your limitations?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Can you dance?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Tell me a fact about space",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's your favorite sport?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "How do I look?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Can you tell me about dinosaurs?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "I'm tired",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's the meaning of my name?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Who's your hero?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Tell me about yourself again",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's your favorite season?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Can you help me fall asleep?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's the best way to learn a language?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "I love talking to you",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's the most interesting fact you know?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Are you smarter than humans?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What would you do if you were human?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Tell me about the future",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's the best advice you've heard?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Do you like your job?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What makes you happy?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Thanks for your help",
+      "intent": "CHITCHAT"
+    },
+  {
+    "text": "I need to add a meeting with the design team",
+    "intent": "ADD"
+  },
+  {
+    "text": "Could you schedule a dentist visit for me next month?",
+    "intent": "ADD"
+  },
+  {
+    "text": "I want to create a new event for Friday",
+    "intent": "ADD"
+  },
+  {
+    "text": "Please add a reminder for my medication",
+    "intent": "ADD"
+  },
+  {
+    "text": "I'd like to schedule a call with my manager tomorrow",
+    "intent": "ADD"
+  },
+  {
+    "text": "Can you add a lunch date with Sarah to my calendar?",
+    "intent": "ADD"
+  },
+  {
+    "text": "I need to book a meeting room for our team sync",
+    "intent": "ADD"
+  },
+  {
+    "text": "Please create a new appointment with Dr. Wang",
+    "intent": "ADD"
+  },
+  {
+    "text": "I want to put a conference call on my calendar",
+    "intent": "ADD"
+  },
+  {
+    "text": "Add a birthday reminder for my brother on July 15",
+    "intent": "ADD"
+  },
+  {
+    "text": "I need to set up a project kickoff meeting",
+    "intent": "ADD"
+  },
+  {
+    "text": "Would you add a hair appointment for Tuesday?",
+    "intent": "ADD"
+  },
+  {
+    "text": "Can you create a calendar event for my flight?",
+    "intent": "ADD"
+  },
+  {
+    "text": "I want to add some time to work on my presentation",
+    "intent": "ADD"
+  },
+  {
+    "text": "Put a team lunch on my schedule for Friday",
+    "intent": "ADD"
+  },
+  {
+    "text": "I need to block off time for the workshop next week",
+    "intent": "ADD"
+  },
+  {
+    "text": "Add a new appointment to get my car serviced",
+    "intent": "ADD"
+  },
+  {
+    "text": "Schedule a meeting about the new project",
+    "intent": "ADD"
+  },
+  {
+    "text": "I'd like to create a recurring gym session",
+    "intent": "ADD"
+  },
+  {
+    "text": "Please add the conference to my calendar for next month",
+    "intent": "ADD"
+  },
+  {
+    "text": "Can you put my son's soccer game on the calendar?",
+    "intent": "ADD"
+  },
+  {
+    "text": "I need to make an appointment for a massage",
+    "intent": "ADD"
+  },
+  {
+    "text": "Mark my calendar for the quarterly business review",
+    "intent": "ADD"
+  },
+  {
+    "text": "Create a new event for dinner with clients",
+    "intent": "ADD"
+  },
+  {
+    "text": "I want to add my vacation days to the calendar",
+    "intent": "ADD"
+  },
+  {
+    "text": "Schedule a video meeting with the offshore team",
+    "intent": "ADD"
+  },
+  {
+    "text": "Add a study session to my calendar for Thursday",
+    "intent": "ADD"
+  },
+  {
+    "text": "I need to reserve time for interview candidates",
+    "intent": "ADD"
+  },
+  {
+    "text": "Create a new task for completing the report",
+    "intent": "ADD"
+  },
+  {
+    "text": "I'd like to add a reminder to call my parents",
+    "intent": "ADD"
+  },
+  {
+    "text": "Can you create an appointment for my eye exam?",
+    "intent": "ADD"
+  },
+  {
+    "text": "I need to schedule a meeting to discuss quarterly results",
+    "intent": "ADD"
+  },
+  {
+    "text": "Add a reminder to pick up my package tomorrow",
+    "intent": "ADD"
+  },
+  {
+    "text": "Could you set up a coffee chat with the new team member?",
+    "intent": "ADD"
+  },
+  {
+    "text": "I want to book tickets for the concert next Friday",
+    "intent": "ADD"
+  },
+  {
+    "text": "Schedule a check-in meeting with my mentor",
+    "intent": "ADD"
+  },
+  {
+    "text": "Please create a calendar event for my child's school play",
+    "intent": "ADD"
+  },
+  {
+    "text": "I need to add a deadline for the project submission",
+    "intent": "ADD"
+  },
+  {
+    "text": "Put my physical therapy session on the calendar",
+    "intent": "ADD"
+  },
+  {
+    "text": "Can you add a time slot for my driving test?",
+    "intent": "ADD"
+  },
+  {
+    "text": "I want to schedule a team building activity",
+    "intent": "ADD"
+  },
+  {
+    "text": "Make an appointment for car maintenance",
+    "intent": "ADD"
+  },
+  {
+    "text": "Add a note to prepare for tomorrow's presentation",
+    "intent": "ADD"
+  },
+  {
+    "text": "I need to create a meeting invitation for the partners",
+    "intent": "ADD"
+  },
+  {
+    "text": "Schedule a consultation with the interior designer",
+    "intent": "ADD"
+  },
+  {
+    "text": "Add a weekly review meeting to my calendar",
+    "intent": "ADD"
+  },
+  {
+    "text": "I want to put my yoga class on the schedule",
+    "intent": "ADD"
+  },
+  {
+    "text": "Create a reminder for my mother's birthday",
+    "intent": "ADD"
+  },
+  {
+    "text": "I need to book a table at the restaurant for tomorrow",
+    "intent": "ADD"
+  },
+  {
+    "text": "Could you add my doctor's appointment to the calendar?",
+    "intent": "ADD"
+  },
+  {
+    "text": "Schedule a call to follow up with the client",
+    "intent": "ADD"
+  },
+  {
+    "text": "I want to set up a reminder to renew my passport",
+    "intent": "ADD"
+  },
+  {
+    "text": "Add my child's piano recital to the calendar",
+    "intent": "ADD"
+  },
+  {
+    "text": "Put a placeholder for the department meeting",
+    "intent": "ADD"
+  },
+  {
+    "text": "Can you schedule me for a haircut next week?",
+    "intent": "ADD"
+  },
+  {
+    "text": "I need to create a time block for focused work",
+    "intent": "ADD"
+  },
+  {
+    "text": "Add a reminder for our anniversary dinner",
+    "intent": "ADD"
+  },
+  {
+    "text": "Schedule a demo with the potential customer",
+    "intent": "ADD"
+  },
+  {
+    "text": "I need to pencil in a meeting with the CEO",
+    "intent": "ADD"
+  },
+  {
+    "text": "Add a slot for my Spanish class every Tuesday",
+    "intent": "ADD"
+  },
+  {
+    "text": "Create a calendar entry for the industry conference",
+    "intent": "ADD"
+  },
+  {
+    "text": "Would you schedule a vet appointment for my dog?",
+    "intent": "ADD"
+  },
+  {
+    "text": "I want to add my flight to Beijing to my calendar",
+    "intent": "ADD"
+  },
+  {
+    "text": "Can you create a reminder to pay the rent?",
+    "intent": "ADD"
+  },
+  {
+    "text": "I need to set up a board meeting for next quarter",
+    "intent": "ADD"
+  },
+  {
+    "text": "Schedule an orientation session for new employees",
+    "intent": "ADD"
+  },
+  {
+    "text": "Could you reserve time for the budget planning?",
+    "intent": "ADD"
+  },
+  {
+    "text": "Add a breakfast meeting with the vendors",
+    "intent": "ADD"
+  },
+  {
+    "text": "I need to create a calendar event for my thesis defense",
+    "intent": "ADD"
+  },
+  {
+    "text": "Schedule my dental cleaning for next month",
+    "intent": "ADD"
+  },
+  {
+    "text": "Add a reminder for the school open house",
+    "intent": "ADD"
+  },
+  {
+    "text": "Could you put my gym sessions on the calendar?",
+    "intent": "ADD"
+  },
+  {
+    "text": "I want to schedule a video shoot at the studio",
+    "intent": "ADD"
+  },
+  {
+    "text": "Need to add a workshop on AI to my schedule",
+    "intent": "ADD"
+  },
+  {
+    "text": "Create a calendar event for the client dinner",
+    "intent": "ADD"
+  },
+  {
+    "text": "I'd like to block time for the house viewing",
+    "intent": "ADD"
+  },
+  {
+    "text": "Schedule a strategy session with the team",
+    "intent": "ADD"
+  },
+  {
+    "text": "Put my performance review on the calendar",
+    "intent": "ADD"
+  },
+  {
+    "text": "Add a reminder for the application deadline",
+    "intent": "ADD"
+  },
+  {
+    "text": "Can you create an event for the charity gala?",
+    "intent": "ADD"
+  },
+  {
+    "text": "I need to schedule time to prepare the proposal",
+    "intent": "ADD"
+  },
+  {
+    "text": "Add a daily standup meeting at 9 AM",
+    "intent": "ADD"
+  },
+  {
+    "text": "Would you create a calendar entry for my sister's wedding?",
+    "intent": "ADD"
+  },
+  {
+    "text": "I need a reminder to send the birthday gift",
+    "intent": "ADD"
+  },
+  {
+    "text": "Schedule time for the team retrospective",
+    "intent": "ADD"
+  },
+  {
+    "text": "Add my swimming lessons to the calendar",
+    "intent": "ADD"
+  },
+  {
+    "text": "Create an appointment for a visa interview",
+    "intent": "ADD"
+  },
+  {
+    "text": "I want to block out time for vacation planning",
+    "intent": "ADD"
+  },
+  {
+    "text": "Set up a meeting to discuss project requirements",
+    "intent": "ADD"
+  },
+  {
+    "text": "Add a reminder to send birthday wishes to John",
+    "intent": "ADD"
+  },
+  {
+    "text": "Schedule a feedback session with the developers",
+    "intent": "ADD"
+  },
+  {
+    "text": "Put the art exhibition on my calendar",
+    "intent": "ADD"
+  },
+  {
+    "text": "I need to add the family reunion to my schedule",
+    "intent": "ADD"
+  },
+  {
+    "text": "Create a calendar event for my friend's housewarming",
+    "intent": "ADD"
+  },
+  {
+    "text": "Schedule a time slot for the career fair",
+    "intent": "ADD"
+  },
+  {
+    "text": "Add my graduation ceremony to the calendar",
+    "intent": "ADD"
+  },
+  {
+    "text": "I want to book a cooking class for Sunday",
+    "intent": "ADD"
+  },
+  {
+    "text": "Create a calendar event for the film festival",
+    "intent": "ADD"
+  },
+  {
+    "text": "Need to add a reminder to submit my tax documents",
+    "intent": "ADD"
+  },
+  {
+    "text": "Arrange a meeting with the financial consultant",
+    "intent": "ADD"
+  },
+  {
+    "text": "Need to change my doctor's appointment to Friday",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "I want to reschedule my haircut from Tuesday to Thursday",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Could you move my team meeting to 3pm instead of 2pm?",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Update the location of tomorrow's lunch to Cafe Bella",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "I need to postpone my dentist appointment by one week",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Change my 10am call to a Zoom meeting instead of in-person",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Can you update the duration of the workshop to 3 hours?",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "I'd like to reschedule my massage to next Tuesday",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Move my meeting with John to sometime next week",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Please change the flight reservation from morning to evening",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Update the attendees list for Friday's meeting",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Can you shift my 3pm appointment to 4:30pm?",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "I want to move my doctor's visit to a different clinic",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Reschedule the product demo from Monday to Wednesday",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Change the project deadline to the end of next month",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Please update my dinner reservation to include two more people",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "I need to push back my conference call by 30 minutes",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Can you move my yoga class to the evening slot?",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Update the title of my 3pm meeting to 'Budget Review'",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "I want to change the recurring team sync from weekly to biweekly",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Reschedule my car service appointment to next month",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Could you move tomorrow's lunch meeting to a conference room?",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "I need to update the subject of my client meeting",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Change the format of the team meeting to a working session",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Push my dental appointment forward by one day",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "I'd like to change my hair appointment from 3pm to 4pm",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Update the venue for the company party to Grand Hotel",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Reschedule my flight to Beijing to the following weekend",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Can you move my presentation from Building A to Building B?",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Change my reminder time for medication to 9 PM",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "I need to update my therapy session to virtual instead of in-person",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Modify the conference call dial-in number for tomorrow",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Reschedule the board meeting from the 15th to the 20th",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Move my piano recital to next weekend",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Update the vendor meeting to include the finance team",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Change my tennis lesson from Wednesday to Friday",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "I want to reschedule the delivery from morning to afternoon",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Move the parent-teacher conference to 6 PM",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Update the location of my doctor's appointment to the new clinic",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Change the start time of the workshop from 9 AM to 10 AM",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "I need to reschedule my car service from Monday to Tuesday",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Move my weekly one-on-one with my manager to Thursdays",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Update my study group location from library to coffee shop",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Reschedule the investor meeting to early June",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Move my dental cleaning appointment time from 2 PM to 4 PM",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Change the homework deadline to next Monday",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "I want to update our family dinner from Sunday to Saturday",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Reschedule my driving lesson to next week",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Move the product launch timeline from Q2 to Q3",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Update the party theme to Hawaiian",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Change our client meeting from in-person to virtual",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "I'd like to reschedule my eye exam to early June",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Move the team celebration from the office to the restaurant",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Update the guest list for the dinner party",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Change my weekly report submission from Friday to Thursday",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "I need to reschedule the conference call with international partners",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Move the project deadline from June to July",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Update the priority of tomorrow's tasks",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Change the focus of the quarterly planning meeting",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Reschedule my massage time from 4 PM to 5:30 PM",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Move my apartment viewing from Saturday to Sunday",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Update the recurring reminder to once a week",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Change the webinar registration deadline to Friday",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Move my business trip to next month",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "I need to push the meeting back by 15 minutes",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Update the status of the project to completed",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Adjust the time of my doctor's appointment to later in the day",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Change tomorrow's meeting agenda to focus on budget",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Reschedule my interview from 2pm to 3pm",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Move the team lunch from Mexican to Italian restaurant",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Update my flight details to include seat assignment",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Change the weekly meeting from Zoom to Microsoft Teams",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Shift my dental appointment to next Wednesday",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "I want to modify my gym schedule to include weekends",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Update the parent-teacher meeting to include both parents",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Reschedule my client presentation to next week",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Change the sprint planning from Monday to Tuesday mornings",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Move my quarterly review meeting to a private room",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Update my cooking class reservation from 6 to 7 people",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Adjust the duration of tomorrow's workshop to half-day",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Change my vacation dates from July to August",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Reschedule my passport appointment to a different office",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Move my house viewing appointment to Wednesday evening",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Update my son's soccer practice to the indoor facility",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Change the start time of my language class to 6pm",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Modify the location of tomorrow's client lunch",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Reschedule my hair color appointment to next month",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Update the meeting room for tomorrow's presentation",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "I need to move my therapy session from 3pm to 5pm",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Change the venue for Friday's team dinner",
+    "intent": "UPDATE"
+  },
+  {
+    "text": "Cancel my dentist appointment for tomorrow",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I need to remove the meeting with marketing from my calendar",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Please delete my lunch reservation for Friday",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I want to cancel the team building event next week",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Remove my doctor's appointment on Thursday",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Could you delete the project review scheduled for Monday?",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I need to cancel my flight to Shanghai",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Remove the reminder for the report deadline",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Please delete the conference call with clients tomorrow",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Cancel my gym session on Wednesday",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I want to remove the dinner party from my calendar",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Delete my haircut appointment next Tuesday",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I need to cancel the team lunch scheduled for Friday",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Remove the weekly status meeting from my calendar",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Please delete my therapy session for next Monday",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I want to cancel the workshop scheduled for next month",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Remove the reminder to pay bills on the 1st",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Could you delete the coffee chat with the new hire?",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I need to cancel my dental cleaning next week",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Remove the product demo from my calendar",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Please delete the interview scheduled for Thursday",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I want to cancel the parent-teacher meeting next Monday",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Remove the movie night from this Saturday",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Delete my yoga class for tomorrow morning",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I need to cancel the presentation to the board",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Remove the annual physical from my calendar",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Please delete the meeting with HR tomorrow",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I want to cancel my dinner reservation at Chez Louis",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Remove the car service appointment next week",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Delete the reminder to submit expense reports",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I need to cancel my guitar lesson on Wednesday",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Remove the webinar from my calendar",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Please delete the birthday party for this weekend",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I want to cancel my doctor's appointment with Dr. Smith",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Remove the quarterly business review from next month",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Delete the team call scheduled for tomorrow",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I need to cancel my massage appointment on Friday",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Remove the concert from my calendar",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Please delete the reminder for the project deadline",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I want to cancel my house viewing on Saturday",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Remove the staff meeting from tomorrow",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Delete the cooking class scheduled for Thursday",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I need to cancel my eye exam next week",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Remove the client dinner from Tuesday",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Please delete the reminder to call my parents",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I want to cancel the team building workshop",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Remove the department meeting from my calendar",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Delete my soccer game on Saturday",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I need to cancel the driver's test next Monday",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Get rid of the interview with the job candidate",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Can you remove the piano recital from my calendar?",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I want to cancel my appointment with the financial advisor",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Remove the conference from next month",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Delete the weekly planning meeting on Monday",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I need to cancel my hair appointment on Thursday",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Please get rid of the charity gala from my calendar",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I want to remove the reminder to renew my gym membership",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Cancel the book club meeting next week",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Delete my dental check-up for next month",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I need to cancel the project kickoff meeting",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Get rid of the art exhibition visit from Sunday",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I want to cancel the wedding anniversary dinner",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Please remove my swimming class on Saturday",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Delete the parent-teacher conference from next Thursday",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I need to cancel the wine tasting event",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Remove my vet appointment for my dog",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Delete the board meeting scheduled for the 20th",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I want to cancel the reminder to water the plants",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Please remove the delivery scheduled for tomorrow",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I need to delete the basketball game watch party",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Cancel my driving lesson for next week",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Remove the family gathering on Sunday",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I need to take the business meeting off my calendar",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Can you clear my schedule for Friday afternoon?",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I want to remove all my appointments for next week",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Delete my lunch meeting with the sales team",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I need to cancel my subscription renewal reminder",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Please remove my dentist visit from the calendar",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I want to cancel the movie tickets for Saturday",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Take the team outing off my calendar please",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I'm not going to attend the conference, please remove it",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Delete my Monday morning standup meeting",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I need to cancel the hotel reservation for next month",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Can you erase the reminder about my car payment?",
+    "intent": "DELETE"
+  },
+  {
+    "text": "Please delete the workshop I scheduled for next week",
+    "intent": "DELETE"
+  },
+  {
+    "text": "I want to get rid of the meeting with contractors",
+    "intent": "DELETE"
+  },
+  {
+    "text": "What meetings do I have tomorrow?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "Can you show me my schedule for next week?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "When is my dentist appointment?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "What time is the team meeting on Monday?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "Do I have any appointments this Friday?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "Could you show me all my events for June?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "When is my next doctor's appointment?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "What's on my calendar for tomorrow afternoon?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "Can you show me all the meetings with the marketing team?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "When am I meeting with John?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "What's my schedule like on Wednesday?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "Show me all upcoming appointments with Dr. Smith",
+    "intent": "QUERY"
+  },
+  {
+    "text": "When is the product launch meeting?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "Do I have any events scheduled for this weekend?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "What time is my flight to Beijing?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "Show me my meetings for next Monday",
+    "intent": "QUERY"
+  },
+  {
+    "text": "When is the team building event?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "What's on my calendar for May 15th?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "Can you list all lunch meetings for this week?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "When is my next haircut appointment?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "What time is the client presentation on Wednesday?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "Could you show me my schedule for next month?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "When is my dinner reservation this weekend?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "What meetings do I have with the development team?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "When is my next yoga class?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "What's on my calendar for tomorrow morning?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "Show me all my appointments for next week",
+    "intent": "QUERY"
+  },
+  {
+    "text": "When is the quarterly review meeting?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "What time is my coffee chat with the new hire?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "Can you show me all events at Conference Room A?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "When is my next dental cleaning?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "What appointments do I have on Friday?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "Show me all meetings with clients this month",
+    "intent": "QUERY"
+  },
+  {
+    "text": "When is my son's soccer game?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "What's my schedule for the first week of June?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "Can you show me all upcoming deadlines?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "When is the parent-teacher conference?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "What meetings do I have after 3 PM tomorrow?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "Show me all my doctor appointments",
+    "intent": "QUERY"
+  },
+  {
+    "text": "When is the company holiday party?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "What time is my interview on Monday?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "Can you show me my free time next week?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "When is my next meeting with the boss?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "What events do I have scheduled with Lisa?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "Show me all upcoming birthdays in my calendar",
+    "intent": "QUERY"
+  },
+  {
+    "text": "When is my massage appointment?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "What's on my calendar for Tuesday afternoon?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "Can you show me all virtual meetings next week?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "When is the deadline for the quarterly report?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "What time is my guitar lesson on Wednesday?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "Show me all evening events this week",
+    "intent": "QUERY"
+  },
+  {
+    "text": "When is my car service appointment?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "What meetings are scheduled in the main conference room?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "Can you tell me my calendar for the last week of May?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "When is the workshop scheduled for?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "What time is my therapy session next Monday?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "Show me all recurring meetings in my calendar",
+    "intent": "QUERY"
+  },
+  {
+    "text": "When is my eye exam scheduled?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "What appointments do I have with Dr. Wang?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "Can you tell me which days are busy next week?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "When is the next team lunch?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "What time is the board meeting on the 20th?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "Show me all events tagged as important",
+    "intent": "QUERY"
+  },
+  {
+    "text": "When is my driving test scheduled?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "What meetings do I have with the finance team?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "Can you tell me my schedule for Thursday?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "When is my house viewing appointment?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "What time is the project kickoff on Monday?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "Do I have any conflicting appointments next week?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "When am I supposed to submit the quarterly report?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "What's my schedule like for tomorrow?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "Can you check if I have time for lunch on Friday?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "When is my next meeting with the client?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "What days am I traveling next month?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "Show me all appointments after 5pm this week",
+    "intent": "QUERY"
+  },
+  {
+    "text": "Do I have anything scheduled for this evening?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "When is my anniversary date in the calendar?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "What meetings have I scheduled with potential clients?",
+    "intent": "QUERY"
+  },
+  {
+    "text": "Hello, how are you today?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "What can you do?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Tell me about yourself",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "How does this assistant work?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Do you have any hobbies?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "What's the weather like today?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Who created you?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Can you tell me a joke?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "How's your day going?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "What's your name?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Do you like music?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Can you help me with something?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "What time is it?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "How old are you?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Tell me something interesting",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Who is the president?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "What's the meaning of life?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Can you sing a song?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "What's new?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "How smart are you?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Do you have feelings?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Tell me about the news today",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Who's your favorite actor?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "What languages do you speak?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "How are you doing?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "What's the best restaurant in town?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Can you recommend a good movie?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "I'm feeling sad today",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Do you believe in aliens?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "What's your favorite color?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Will it rain tomorrow?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Do you sleep?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "What's the stock market doing today?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "I'm bored",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Tell me a fun fact",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "What should I do today?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Do you have any siblings?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Who's going to win the championship?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "What's the best vacation spot?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Good morning!",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Tell me about the latest technology",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "What's your favorite book?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Can you recommend a good podcast?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "What do you think about AI?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Who's the best soccer player?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Tell me a story",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "How can I be more productive?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "I'm really tired today",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Just wanted to say hello",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "What's the capital of Portugal?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Can you help me decide what to eat?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "What's your dream vacation?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Do you know any good jokes?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "I don't feel like working today",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "You're very helpful, thank you",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Tell me something about yourself",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "How many languages can you speak?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "I'm having a great day today",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "What would you name a pet dog?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Do you enjoy talking to people?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "What's your opinion on climate change?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "How tall is Mount Everest?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Who invented the telephone?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "I'm thinking about going for a walk",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "What's the best way to learn a new language?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Do you have any pets?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "What's the meaning behind your name?",
+    "intent": "CHITCHAT"
+  },
+  {
+    "text": "Can you recommend a good book to read?",
+    "intent": "CHITCHAT"
+  },
+
+    {
+      "text": "I need to add a meeting with the design team",
+      "intent": "ADD"
+    },
+    {
+      "text": "Could you schedule a dentist visit for me next month?",
+      "intent": "ADD"
+    },
+    {
+      "text": "I want to create a new event for Friday",
+      "intent": "ADD"
+    },
+    {
+      "text": "Please add a reminder for my medication",
+      "intent": "ADD"
+    },
+    {
+      "text": "I'd like to schedule a call with my manager tomorrow",
+      "intent": "ADD"
+    },
+    {
+      "text": "Can you add a lunch date with Sarah to my calendar?",
+      "intent": "ADD"
+    },
+    {
+      "text": "I need to book a meeting room for our team sync",
+      "intent": "ADD"
+    },
+    {
+      "text": "Please create a new appointment with Dr. Wang",
+      "intent": "ADD"
+    },
+    {
+      "text": "I want to put a conference call on my calendar",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a birthday reminder for my brother on July 15",
+      "intent": "ADD"
+    },
+    {
+      "text": "I need to set up a project kickoff meeting",
+      "intent": "ADD"
+    },
+    {
+      "text": "Would you add a hair appointment for Tuesday?",
+      "intent": "ADD"
+    },
+    {
+      "text": "Can you create a calendar event for my flight?",
+      "intent": "ADD"
+    },
+    {
+      "text": "I want to add some time to work on my presentation",
+      "intent": "ADD"
+    },
+    {
+      "text": "Put a team lunch on my schedule for Friday",
+      "intent": "ADD"
+    },
+    {
+      "text": "I need to block off time for the workshop next week",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a new appointment to get my car serviced",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a meeting about the new project",
+      "intent": "ADD"
+    },
+    {
+      "text": "I'd like to create a recurring gym session",
+      "intent": "ADD"
+    },
+    {
+      "text": "Please add the conference to my calendar for next month",
+      "intent": "ADD"
+    },
+    {
+      "text": "Can you put my son's soccer game on the calendar?",
+      "intent": "ADD"
+    },
+    {
+      "text": "I need to make an appointment for a massage",
+      "intent": "ADD"
+    },
+    {
+      "text": "Mark my calendar for the quarterly business review",
+      "intent": "ADD"
+    },
+    {
+      "text": "Create a new event for dinner with clients",
+      "intent": "ADD"
+    },
+    {
+      "text": "I want to add my vacation days to the calendar",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a video meeting with the offshore team",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a study session to my calendar for Thursday",
+      "intent": "ADD"
+    },
+    {
+      "text": "I need to reserve time for interview candidates",
+      "intent": "ADD"
+    },
+    {
+      "text": "Create a new task for completing the report",
+      "intent": "ADD"
+    },
+    {
+      "text": "I'd like to add a reminder to call my parents",
+      "intent": "ADD"
+    },
+    {
+      "text": "Can you create an appointment for my eye exam?",
+      "intent": "ADD"
+    },
+    {
+      "text": "I need to schedule a meeting to discuss quarterly results",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a reminder to pick up my package tomorrow",
+      "intent": "ADD"
+    },
+    {
+      "text": "Could you set up a coffee chat with the new team member?",
+      "intent": "ADD"
+    },
+    {
+      "text": "I want to book tickets for the concert next Friday",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a check-in meeting with my mentor",
+      "intent": "ADD"
+    },
+    {
+      "text": "Please create a calendar event for my child's school play",
+      "intent": "ADD"
+    },
+    {
+      "text": "I need to add a deadline for the project submission",
+      "intent": "ADD"
+    },
+    {
+      "text": "Put my physical therapy session on the calendar",
+      "intent": "ADD"
+    },
+    {
+      "text": "Can you add a time slot for my driving test?",
+      "intent": "ADD"
+    },
+    {
+      "text": "I want to schedule a team building activity",
+      "intent": "ADD"
+    },
+    {
+      "text": "Make an appointment for car maintenance",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a note to prepare for tomorrow's presentation",
+      "intent": "ADD"
+    },
+    {
+      "text": "I need to create a meeting invitation for the partners",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a consultation with the interior designer",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a weekly review meeting to my calendar",
+      "intent": "ADD"
+    },
+    {
+      "text": "I want to put my yoga class on the schedule",
+      "intent": "ADD"
+    },
+    {
+      "text": "Create a reminder for my mother's birthday",
+      "intent": "ADD"
+    },
+    {
+      "text": "I need to book a table at the restaurant for tomorrow",
+      "intent": "ADD"
+    },
+    {
+      "text": "Could you add my doctor's appointment to the calendar?",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a call to follow up with the client",
+      "intent": "ADD"
+    },
+    {
+      "text": "I want to set up a reminder to renew my passport",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add my child's piano recital to the calendar",
+      "intent": "ADD"
+    },
+    {
+      "text": "Put a placeholder for the department meeting",
+      "intent": "ADD"
+    },
+    {
+      "text": "Can you schedule me for a haircut next week?",
+      "intent": "ADD"
+    },
+    {
+      "text": "I need to create a time block for focused work",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a reminder for our anniversary dinner",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a demo with the potential customer",
+      "intent": "ADD"
+    },
+    {
+      "text": "I need to pencil in a meeting with the CEO",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a slot for my Spanish class every Tuesday",
+      "intent": "ADD"
+    },
+    {
+      "text": "Create a calendar entry for the industry conference",
+      "intent": "ADD"
+    },
+    {
+      "text": "Would you schedule a vet appointment for my dog?",
+      "intent": "ADD"
+    },
+    {
+      "text": "I want to add my flight to Beijing to my calendar",
+      "intent": "ADD"
+    },
+    {
+      "text": "Can you create a reminder to pay the rent?",
+      "intent": "ADD"
+    },
+    {
+      "text": "I need to set up a board meeting for next quarter",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule an orientation session for new employees",
+      "intent": "ADD"
+    },
+    {
+      "text": "Could you reserve time for the budget planning?",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a breakfast meeting with the vendors",
+      "intent": "ADD"
+    },
+    {
+      "text": "I need to create a calendar event for my thesis defense",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule my dental cleaning for next month",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a reminder for the school open house",
+      "intent": "ADD"
+    },
+    {
+      "text": "Could you put my gym sessions on the calendar?",
+      "intent": "ADD"
+    },
+    {
+      "text": "I want to schedule a video shoot at the studio",
+      "intent": "ADD"
+    },
+    {
+      "text": "Need to add a workshop on AI to my schedule",
+      "intent": "ADD"
+    },
+    {
+      "text": "Create a calendar event for the client dinner",
+      "intent": "ADD"
+    },
+    {
+      "text": "I'd like to block time for the house viewing",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a strategy session with the team",
+      "intent": "ADD"
+    },
+    {
+      "text": "Put my performance review on the calendar",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a reminder for the application deadline",
+      "intent": "ADD"
+    },
+    {
+      "text": "Can you create an event for the charity gala?",
+      "intent": "ADD"
+    },
+    {
+      "text": "I need to schedule time to prepare the proposal",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a daily standup meeting at 9 AM",
+      "intent": "ADD"
+    },
+    {
+      "text": "Would you create a calendar entry for my sister's wedding?",
+      "intent": "ADD"
+    },
+    {
+      "text": "I need a reminder to send the birthday gift",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule time for the team retrospective",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add my swimming lessons to the calendar",
+      "intent": "ADD"
+    },
+    {
+      "text": "Create an appointment for a visa interview",
+      "intent": "ADD"
+    },
+    {
+      "text": "I want to block out time for vacation planning",
+      "intent": "ADD"
+    },
+    {
+      "text": "Set up a meeting to discuss project requirements",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add a reminder to send birthday wishes to John",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a feedback session with the developers",
+      "intent": "ADD"
+    },
+    {
+      "text": "Put the art exhibition on my calendar",
+      "intent": "ADD"
+    },
+    {
+      "text": "I need to add the family reunion to my schedule",
+      "intent": "ADD"
+    },
+    {
+      "text": "Create a calendar event for my friend's housewarming",
+      "intent": "ADD"
+    },
+    {
+      "text": "Schedule a time slot for the career fair",
+      "intent": "ADD"
+    },
+    {
+      "text": "Add my graduation ceremony to the calendar",
+      "intent": "ADD"
+    },
+    {
+      "text": "I want to book a cooking class for Sunday",
+      "intent": "ADD"
+    },
+    {
+      "text": "Create a calendar event for the film festival",
+      "intent": "ADD"
+    },
+    {
+      "text": "Need to add a reminder to submit my tax documents",
+      "intent": "ADD"
+    },
+    {
+      "text": "Arrange a meeting with the financial consultant",
+      "intent": "ADD"
+    },
+    {
+      "text": "Need to change my doctor's appointment to Friday",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "I want to reschedule my haircut from Tuesday to Thursday",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Could you move my team meeting to 3pm instead of 2pm?",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update the location of tomorrow's lunch to Cafe Bella",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "I need to postpone my dentist appointment by one week",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change my 10am call to a Zoom meeting instead of in-person",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Can you update the duration of the workshop to 3 hours?",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "I'd like to reschedule my massage to next Tuesday",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Move my meeting with John to sometime next week",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Please change the flight reservation from morning to evening",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update the attendees list for Friday's meeting",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Can you shift my 3pm appointment to 4:30pm?",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "I want to move my doctor's visit to a different clinic",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Reschedule the product demo from Monday to Wednesday",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change the project deadline to the end of next month",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Please update my dinner reservation to include two more people",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "I need to push back my conference call by 30 minutes",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Can you move my yoga class to the evening slot?",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update the title of my 3pm meeting to 'Budget Review'",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "I want to change the recurring team sync from weekly to biweekly",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Reschedule my car service appointment to next month",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Could you move tomorrow's lunch meeting to a conference room?",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "I need to update the subject of my client meeting",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change the format of the team meeting to a working session",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Push my dental appointment forward by one day",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "I'd like to change my hair appointment from 3pm to 4pm",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update the venue for the company party to Grand Hotel",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Reschedule my flight to Beijing to the following weekend",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Can you move my presentation from Building A to Building B?",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change my reminder time for medication to 9 PM",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "I need to update my therapy session to virtual instead of in-person",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Modify the conference call dial-in number for tomorrow",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Reschedule the board meeting from the 15th to the 20th",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Move my piano recital to next weekend",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update the vendor meeting to include the finance team",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change my tennis lesson from Wednesday to Friday",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "I want to reschedule the delivery from morning to afternoon",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Move the parent-teacher conference to 6 PM",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update the location of my doctor's appointment to the new clinic",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change the start time of the workshop from 9 AM to 10 AM",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "I need to reschedule my car service from Monday to Tuesday",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Move my weekly one-on-one with my manager to Thursdays",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update my study group location from library to coffee shop",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Reschedule the investor meeting to early June",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Move my dental cleaning appointment time from 2 PM to 4 PM",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change the homework deadline to next Monday",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "I want to update our family dinner from Sunday to Saturday",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Reschedule my driving lesson to next week",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Move the product launch timeline from Q2 to Q3",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update the party theme to Hawaiian",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change our client meeting from in-person to virtual",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "I'd like to reschedule my eye exam to early June",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Move the team celebration from the office to the restaurant",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update the guest list for the dinner party",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change my weekly report submission from Friday to Thursday",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "I need to reschedule the conference call with international partners",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Move the project deadline from June to July",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update the priority of tomorrow's tasks",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change the focus of the quarterly planning meeting",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Reschedule my massage time from 4 PM to 5:30 PM",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Move my apartment viewing from Saturday to Sunday",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update the recurring reminder to once a week",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change the webinar registration deadline to Friday",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Move my business trip to next month",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "I need to push the meeting back by 15 minutes",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update the status of the project to completed",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Adjust the time of my doctor's appointment to later in the day",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change tomorrow's meeting agenda to focus on budget",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Reschedule my interview from 2pm to 3pm",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Move the team lunch from Mexican to Italian restaurant",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update my flight details to include seat assignment",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change the weekly meeting from Zoom to Microsoft Teams",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Shift my dental appointment to next Wednesday",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "I want to modify my gym schedule to include weekends",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update the parent-teacher meeting to include both parents",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Reschedule my client presentation to next week",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change the sprint planning from Monday to Tuesday mornings",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Move my quarterly review meeting to a private room",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update my cooking class reservation from 6 to 7 people",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Adjust the duration of tomorrow's workshop to half-day",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change my vacation dates from July to August",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Reschedule my passport appointment to a different office",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Move my house viewing appointment to Wednesday evening",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update my son's soccer practice to the indoor facility",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change the start time of my language class to 6pm",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Modify the location of tomorrow's client lunch",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Reschedule my hair color appointment to next month",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Update the meeting room for tomorrow's presentation",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "I need to move my therapy session from 3pm to 5pm",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Change the venue for Friday's team dinner",
+      "intent": "UPDATE"
+    },
+    {
+      "text": "Cancel my dentist appointment for tomorrow",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I need to remove the meeting with marketing from my calendar",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Please delete my lunch reservation for Friday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I want to cancel the team building event next week",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove my doctor's appointment on Thursday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Could you delete the project review scheduled for Monday?",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I need to cancel my flight to Shanghai",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the reminder for the report deadline",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Please delete the conference call with clients tomorrow",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Cancel my gym session on Wednesday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I want to remove the dinner party from my calendar",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete my haircut appointment next Tuesday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I need to cancel the team lunch scheduled for Friday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the weekly status meeting from my calendar",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Please delete my therapy session for next Monday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I want to cancel the workshop scheduled for next month",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the reminder to pay bills on the 1st",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Could you delete the coffee chat with the new hire?",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I need to cancel my dental cleaning next week",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the product demo from my calendar",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Please delete the interview scheduled for Thursday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I want to cancel the parent-teacher meeting next Monday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the movie night from this Saturday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete my yoga class for tomorrow morning",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I need to cancel the presentation to the board",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the annual physical from my calendar",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Please delete the meeting with HR tomorrow",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I want to cancel my dinner reservation at Chez Louis",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the car service appointment next week",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete the reminder to submit expense reports",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I need to cancel my guitar lesson on Wednesday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the webinar from my calendar",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Please delete the birthday party for this weekend",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I want to cancel my doctor's appointment with Dr. Smith",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the quarterly business review from next month",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete the team call scheduled for tomorrow",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I need to cancel my massage appointment on Friday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the concert from my calendar",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Please delete the reminder for the project deadline",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I want to cancel my house viewing on Saturday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the staff meeting from tomorrow",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete the cooking class scheduled for Thursday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I need to cancel my eye exam next week",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the client dinner from Tuesday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Please delete the reminder to call my parents",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I want to cancel the team building workshop",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the department meeting from my calendar",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete my soccer game on Saturday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I need to cancel the driver's test next Monday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Get rid of the interview with the job candidate",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Can you remove the piano recital from my calendar?",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I want to cancel my appointment with the financial advisor",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the conference from next month",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete the weekly planning meeting on Monday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I need to cancel my hair appointment on Thursday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Please get rid of the charity gala from my calendar",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I want to remove the reminder to renew my gym membership",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Cancel the book club meeting next week",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete my dental check-up for next month",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I need to cancel the project kickoff meeting",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Get rid of the art exhibition visit from Sunday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I want to cancel the wedding anniversary dinner",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Please remove my swimming class on Saturday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete the parent-teacher conference from next Thursday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I need to cancel the wine tasting event",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove my vet appointment for my dog",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete the board meeting scheduled for the 20th",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I want to cancel the reminder to water the plants",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Please remove the delivery scheduled for tomorrow",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I need to delete the basketball game watch party",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Cancel my driving lesson for next week",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Remove the family gathering on Sunday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I need to take the business meeting off my calendar",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Can you clear my schedule for Friday afternoon?",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I want to remove all my appointments for next week",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete my lunch meeting with the sales team",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I need to cancel my subscription renewal reminder",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Please remove my dentist visit from the calendar",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I want to cancel the movie tickets for Saturday",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Take the team outing off my calendar please",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I'm not going to attend the conference, please remove it",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Delete my Monday morning standup meeting",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I need to cancel the hotel reservation for next month",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Can you erase the reminder about my car payment?",
+      "intent": "DELETE"
+    },
+    {
+      "text": "Please delete the workshop I scheduled for next week",
+      "intent": "DELETE"
+    },
+    {
+      "text": "I want to get rid of the meeting with contractors",
+      "intent": "DELETE"
+    },
+    {
+      "text": "What meetings do I have tomorrow?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Can you show me my schedule for next week?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is my dentist appointment?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What time is the team meeting on Monday?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Do I have any appointments this Friday?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Could you show me all my events for June?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is my next doctor's appointment?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What's on my calendar for tomorrow afternoon?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Can you show me all the meetings with the marketing team?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When am I meeting with John?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What's my schedule like on Wednesday?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Show me all upcoming appointments with Dr. Smith",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is the product launch meeting?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Do I have any events scheduled for this weekend?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What time is my flight to Beijing?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Show me my meetings for next Monday",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is the team building event?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What's on my calendar for May 15th?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Can you list all lunch meetings for this week?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is my next haircut appointment?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What time is the client presentation on Wednesday?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Could you show me my schedule for next month?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is my dinner reservation this weekend?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What meetings do I have with the development team?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is my next yoga class?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What's on my calendar for tomorrow morning?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Show me all my appointments for next week",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is the quarterly review meeting?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What time is my coffee chat with the new hire?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Can you show me all events at Conference Room A?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is my next dental cleaning?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What appointments do I have on Friday?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Show me all meetings with clients this month",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is my son's soccer game?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What's my schedule for the first week of June?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Can you show me all upcoming deadlines?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is the parent-teacher conference?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What meetings do I have after 3 PM tomorrow?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Show me all my doctor appointments",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is the company holiday party?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What time is my interview on Monday?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Can you show me my free time next week?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is my next meeting with the boss?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What events do I have scheduled with Lisa?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Show me all upcoming birthdays in my calendar",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is my massage appointment?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What's on my calendar for Tuesday afternoon?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Can you show me all virtual meetings next week?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is the deadline for the quarterly report?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What time is my guitar lesson on Wednesday?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Show me all evening events this week",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is my car service appointment?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What meetings are scheduled in the main conference room?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Can you tell me my calendar for the last week of May?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is the workshop scheduled for?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What time is my therapy session next Monday?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Show me all recurring meetings in my calendar",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is my eye exam scheduled?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What appointments do I have with Dr. Wang?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Can you tell me which days are busy next week?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is the next team lunch?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What time is the board meeting on the 20th?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Show me all events tagged as important",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is my driving test scheduled?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What meetings do I have with the finance team?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Can you tell me my schedule for Thursday?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is my house viewing appointment?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What time is the project kickoff on Monday?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Do I have any conflicting appointments next week?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When am I supposed to submit the quarterly report?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What's my schedule like for tomorrow?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Can you check if I have time for lunch on Friday?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is my next meeting with the client?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What days am I traveling next month?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Show me all appointments after 5pm this week",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Do I have anything scheduled for this evening?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "When is my anniversary date in the calendar?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "What meetings have I scheduled with potential clients?",
+      "intent": "QUERY"
+    },
+    {
+      "text": "Hello, how are you today?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What can you do?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Tell me about yourself",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "How does this assistant work?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Do you have any hobbies?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's the weather like today?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Who created you?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Can you tell me a joke?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "How's your day going?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's your name?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Do you like music?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Can you help me with something?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What time is it?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "How old are you?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Tell me something interesting",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Who is the president?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's the meaning of life?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Can you sing a song?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's new?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "How smart are you?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Do you have feelings?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Tell me about the news today",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Who's your favorite actor?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What languages do you speak?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "How are you doing?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's the best restaurant in town?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Can you recommend a good movie?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "I'm feeling sad today",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Do you believe in aliens?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's your favorite color?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Will it rain tomorrow?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Do you sleep?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's the stock market doing today?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "I'm bored",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Tell me a fun fact",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What should I do today?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Do you have any siblings?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Who's going to win the championship?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's the best vacation spot?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Good morning!",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Tell me about the latest technology",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's your favorite book?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Can you recommend a good podcast?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What do you think about AI?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Who's the best soccer player?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Tell me a story",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "How can I be more productive?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "I'm really tired today",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Just wanted to say hello",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's the capital of Portugal?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Can you help me decide what to eat?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's your dream vacation?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Do you know any good jokes?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "I don't feel like working today",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "You're very helpful, thank you",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Tell me something about yourself",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "How many languages can you speak?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "I'm having a great day today",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What would you name a pet dog?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Do you enjoy talking to people?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's your opinion on climate change?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "How tall is Mount Everest?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Who invented the telephone?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "I'm thinking about going for a walk",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's the best way to learn a new language?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Do you have any pets?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "What's the meaning behind your name?",
+      "intent": "CHITCHAT"
+    },
+    {
+      "text": "Can you recommend a good book to read?",
+      "intent": "CHITCHAT"
+    }
+  ]
