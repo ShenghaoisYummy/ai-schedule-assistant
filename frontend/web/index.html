@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <!--
+  <head>
+    <!--
     If you are serving your web app in a path other than the root, change the
     href value below to reflect the base path you are serving from.
 
@@ -14,25 +14,129 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-  <base href="$FLUTTER_BASE_HREF">
+    <base href="$FLUTTER_BASE_HREF" />
 
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+    <meta charset="UTF-8" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta
+      name="description"
+      content="AI-powered calendar assistant with natural language processing for managing your schedule."
+    />
+    <meta
+      name="keywords"
+      content="calendar, chatbot, AI, schedule, assistant, productivity"
+    />
+    <meta name="author" content="Your Name" />
 
-  <!-- iOS meta tags & icons -->
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="calendar_plus_chatbot">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+    <!-- Viewport for responsive design -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+    <!-- PWA Configuration -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="apple-mobile-web-app-title" content="Schedule Assistant" />
+    <meta name="theme-color" content="#2196F3" />
 
-  <title>calendar_plus_chatbot</title>
-  <link rel="manifest" href="manifest.json">
-</head>
-<body>
-  <script src="flutter_bootstrap.js" async></script>
-</body>
+    <!-- iOS Icons -->
+    <link rel="apple-touch-icon" href="icons/Icon-192.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <!-- Manifest -->
+    <link rel="manifest" href="manifest.json" />
+
+    <title>Schedule Assistant - AI Calendar Chatbot</title>
+
+    <!-- Loading styles -->
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+        font-family: "Roboto", -apple-system, BlinkMacSystemFont, sans-serif;
+      }
+
+      #loading {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+        color: white;
+      }
+
+      .loader {
+        border: 3px solid rgba(255, 255, 255, 0.3);
+        border-top: 3px solid white;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        animation: spin 1s linear infinite;
+        margin: 20px;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div id="loading">
+      <div style="font-size: 40px; margin-bottom: 20px">📅</div>
+      <h2>Schedule Assistant</h2>
+      <div class="loader"></div>
+      <p>Loading your AI assistant...</p>
+    </div>
+
+    <!-- Flutter App -->
+    <script>
+      window.addEventListener("load", function (ev) {
+        // Service worker registration for PWA
+        if ("serviceWorker" in navigator) {
+          navigator.serviceWorker.register("/flutter_service_worker.js");
+        }
+
+        // PWA install prompt handling
+        let deferredPrompt;
+        window.addEventListener("beforeinstallprompt", (e) => {
+          deferredPrompt = e;
+          console.log("PWA install prompt available");
+        });
+
+        // Hide loading screen when Flutter loads
+        _flutter.loader.load({
+          onEntrypointLoaded: function (engineInitializer) {
+            engineInitializer.initializeEngine().then(function (appRunner) {
+              // Hide loading screen
+              const loading = document.getElementById("loading");
+              loading.style.display = "none";
+              return appRunner.runApp();
+            });
+          },
+        });
+      });
+    </script>
+
+    <script src="flutter_bootstrap.js" async></script>
+  </body>
 </html>
