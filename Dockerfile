@@ -20,8 +20,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     rm -rf /var/lib/apt/lists/*
 
 COPY backend/requirements.txt .
-# '--prefix=/install' installs wheels outside site-packages
+# Install CPU-only version of PyTorch to reduce size dramatically
 RUN pip install --no-cache-dir --prefix=/install -r requirements.txt \
+    && pip uninstall -y torch \
+    && pip install --no-cache-dir --prefix=/install torch==2.0.1+cpu torchvision==0.15.2+cpu -f https://download.pytorch.org/whl/torch_stable.html \
     && pip install --no-cache-dir --prefix=/install gunicorn \
     && python -m pip cache purge
 
