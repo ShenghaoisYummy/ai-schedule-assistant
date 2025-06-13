@@ -1,35 +1,17 @@
-# Stage 1: Build the Flutter Web App
-# Switch to a Debian-based image for better compatibility with the Flutter SDK.
-FROM --platform=linux/amd64 node:18-bullseye-slim AS flutter-builder
+# ─── Stage 1 : Build the Flutter Web app ────────────────────────────────────────
+FROM --platform=linux/amd64 ghcr.io/cirruslabs/flutter:stable AS flutter-builder
 
-# Install necessary tools using apt-get for Debian
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    git \
-    curl \
-    unzip \
-    bash \
-    && rm -rf /var/lib/apt/lists/*
+# Pre-download artifacts so later steps don't hit the network
+RUN flutter doctor -v
 
-# Clone and install the Flutter SDK
-RUN git clone https://github.com/flutter/flutter.git -b stable /flutter
-ENV PATH="/flutter/bin:${PATH}"
-
-# Pre-download Flutter SDK dependencies and verify the installation
-RUN flutter precache
-RUN flutter doctor
-
-# Prepare the Flutter build environment
 WORKDIR /app/frontend
 
-# Copy only the necessary files first to leverage Docker cache
-COPY frontend/pubspec.yaml frontend/pubspec.lock ./
+# Leverage Docker cache
+COPY frontend/pubspec.* ./
 RUN flutter pub get
 
-# Copy the rest of the frontend source code
+# Copy the rest of the source and build
 COPY frontend/ .
-
-# Build the Flutter web app for release
-# This creates a highly optimized build in /app/frontend/build/web
 RUN flutter build web --release --web-renderer html
 
 # ---
