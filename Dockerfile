@@ -1,14 +1,22 @@
 # Stage 1: Build the Flutter Web App
-# We use a Node image because it's a common base that includes git and other tools needed for the Flutter install script.
-# Add --platform=linux/amd64 to ensure the correct architecture is used for the build.
-FROM --platform=linux/amd64 node:18-alpine AS flutter-builder
+# Switch to a Debian-based image for better compatibility with the Flutter SDK.
+FROM --platform=linux/amd64 node:18-bullseye-slim AS flutter-builder
 
-# Install necessary tools for Flutter SDK
-RUN apk add --no-cache git curl unzip bash
+# Install necessary tools using apt-get for Debian
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    git \
+    curl \
+    unzip \
+    bash \
+    && rm -rf /var/lib/apt/lists/*
 
 # Clone and install the Flutter SDK
 RUN git clone https://github.com/flutter/flutter.git -b stable /flutter
 ENV PATH="/flutter/bin:${PATH}"
+
+# Pre-download Flutter SDK dependencies and verify the installation
+RUN flutter precache
+RUN flutter doctor
 
 # Prepare the Flutter build environment
 WORKDIR /app/frontend
