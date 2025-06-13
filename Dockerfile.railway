@@ -2,9 +2,6 @@ FROM python:3.10-slim
 
 WORKDIR /app
 
-# Copy pre-built Flutter web bundle
-COPY frontend/build/web ./static
-
 # Copy backend code
 COPY backend/ .
 COPY combined_app.py .
@@ -21,6 +18,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     find /usr/local -name '__pycache__' -prune -exec rm -rf {} + && \
     find /usr/local -name 'tests' -prune -exec rm -rf {} + && \
     find /usr/local -name '*.pyc' -delete
+
+# Create an empty static directory for the API server
+RUN mkdir -p ./static
 
 ENV PYTHONPATH=/app:$PYTHONPATH
 EXPOSE 8080
