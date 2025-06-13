@@ -1,18 +1,23 @@
 # ─── Stage 1 : Build the Flutter Web app ────────────────────────────────────────
 FROM --platform=linux/amd64 ghcr.io/cirruslabs/flutter:stable AS flutter-builder
 
-# Pre-download artifacts so later steps don't hit the network
+# Minimal native tool-chain needed by 'flutter build web'
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends clang cmake ninja-build && \
+    rm -rf /var/lib/apt/lists/*
+
+# Pre-download artifacts
 RUN flutter doctor -v
 
 WORKDIR /app/frontend
 
-# Leverage Docker cache
+# Cache pub packages
 COPY frontend/pubspec.* ./
 RUN flutter pub get
 
-# Copy the rest of the source and build
+# Copy the rest and build (let Flutter pick the best renderer)
 COPY frontend/ .
-RUN flutter build web --release --web-renderer html
+RUN flutter build web --release
 
 # ---
 
