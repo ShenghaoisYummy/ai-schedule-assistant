@@ -53,6 +53,14 @@
     <!-- Manifest -->
     <link rel="manifest" href="manifest.json" />
 
+    <!-- Preload fonts to avoid CanvasKit errors -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Schedule Assistant - AI Calendar Chatbot</title>
 
     <!-- Loading styles -->
@@ -108,14 +116,29 @@
       <p>Loading your AI assistant...</p>
     </div>
 
+    <!-- Service Worker Registration -->
+    <script>
+      // Create a simple service worker for PWA functionality
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker
+            .register("/sw.js")
+            .then(function (registration) {
+              console.log(
+                "Service Worker registered with scope:",
+                registration.scope
+              );
+            })
+            .catch(function (error) {
+              console.log("Service Worker registration failed:", error);
+            });
+        });
+      }
+    </script>
+
     <!-- Flutter App -->
     <script>
       window.addEventListener("load", function (ev) {
-        // Service worker registration for PWA
-        if ("serviceWorker" in navigator) {
-          navigator.serviceWorker.register("/flutter_service_worker.js");
-        }
-
         // PWA install prompt handling
         let deferredPrompt;
         window.addEventListener("beforeinstallprompt", (e) => {
@@ -125,13 +148,18 @@
 
         // Hide loading screen when Flutter loads
         _flutter.loader.load({
+          serviceWorker: { serviceWorkerVersion: null },
           onEntrypointLoaded: function (engineInitializer) {
-            engineInitializer.initializeEngine().then(function (appRunner) {
-              // Hide loading screen
-              const loading = document.getElementById("loading");
-              loading.style.display = "none";
-              return appRunner.runApp();
-            });
+            engineInitializer
+              .initializeEngine({
+                renderer: "html", // Use HTML renderer instead of CanvasKit
+              })
+              .then(function (appRunner) {
+                // Hide loading screen
+                const loading = document.getElementById("loading");
+                loading.style.display = "none";
+                return appRunner.runApp();
+              });
           },
         });
       });

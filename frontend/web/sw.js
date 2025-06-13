@@ -1,16 +1,20 @@
-const CACHE_NAME = "schedule-assistant-v1.0.0";
+// Service Worker for Schedule Assistant PWA
+const CACHE_NAME = "schedule-assistant-v1";
 const ASSETS_TO_CACHE = [
   "/",
   "/index.html",
   "/main.dart.js",
+  "/flutter_bootstrap.js",
   "/manifest.json",
-  "/flutter_service_worker.js",
+  "/favicon.png",
   "/icons/Icon-192.png",
   "/icons/Icon-512.png",
-  "/favicon.png",
+  "/icons/Icon-maskable-192.png",
+  "/icons/Icon-maskable-512.png",
+  "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap",
 ];
 
-// Install event - cache essential resources
+// Install event - cache assets
 self.addEventListener("install", (event) => {
   console.log("Service Worker: Installing...");
   event.waitUntil(
@@ -20,9 +24,7 @@ self.addEventListener("install", (event) => {
         console.log("Service Worker: Caching App Shell");
         return cache.addAll(ASSETS_TO_CACHE);
       })
-      .then(() => {
-        return self.skipWaiting();
-      })
+      .then(() => self.skipWaiting())
   );
 });
 
@@ -42,47 +44,59 @@ self.addEventListener("activate", (event) => {
           })
         );
       })
-      .then(() => {
-        return self.clients.claim();
-      })
+      .then(() => self.clients.claim())
   );
 });
 
-// Fetch event - serve from cache, fallback to network
+// Fetch event - serve from cache or network
 self.addEventListener("fetch", (event) => {
+  // Skip cross-origin requests
+  if (
+    !event.request.url.startsWith(self.location.origin) &&
+    !event.request.url.startsWith("https://fonts.googleapis.com") &&
+    !event.request.url.startsWith("https://fonts.gstatic.com")
+  ) {
+    return;
+  }
+
+  // For API calls, always go to network first
+  if (event.request.url.includes("/api/")) {
+    event.respondWith(
+      fetch(event.request).catch(() => {
+        return caches.match("/index.html");
+      })
+    );
+    return;
+  }
+
+  // For everything else, try cache first, then network
   event.respondWith(
     caches
       .match(event.request)
-      .then((cachedResponse) => {
-        // Return cached version or fetch from network
+      .then((response) => {
         return (
-          cachedResponse ||
-          fetch(event.request).then((response) => {
-            // Don't cache non-successful responses
-            if (
-              !response ||
-              response.status !== 200 ||
-              response.type !== "basic"
-            ) {
-              return response;
+          response ||
+          fetch(event.request).then((fetchResponse) => {
+            // Don't cache API responses
+            if (!event.request.url.includes("/api/")) {
+              return caches.open(CACHE_NAME).then((cache) => {
+                cache.put(event.request, fetchResponse.clone());
+                return fetchResponse;
+              });
             }
-
-            // Clone the response
-            const responseToCache = response.clone();
-
-            caches.open(CACHE_NAME).then((cache) => {
-              cache.put(event.request, responseToCache);
-            });
-
-            return response;
+            return fetchResponse;
           })
         );
       })
       .catch(() => {
-        // Fallback for offline pages
-        if (event.request.destination === "document") {
+        // If both cache and network fail, return the offline page
+        if (event.request.mode === "navigate") {
           return caches.match("/index.html");
         }
+        return new Response("Network error happened", {
+          status: 408,
+          headers: { "Content-Type": "text/plain" },
+        });
       })
   );
 });

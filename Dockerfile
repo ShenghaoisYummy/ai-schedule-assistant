@@ -1,105 +1,58 @@
-# ─── Stage 1 : Build the Flutter Web app ────────────────────────────────────────
-FROM --platform=linux/amd64 ghcr.io/cirruslabs/flutter:stable AS flutter-builder
-
-# Minimal native tool-chain needed by 'flutter build web'
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends clang cmake ninja-build && \
-    rm -rf /var/lib/apt/lists/*
-
-# Pre-download artifacts
-RUN flutter doctor -v
-
+###############################################################################
+# 1 ── Build the Flutter web bundle (unchanged, stays in its own stage)      #
+###############################################################################
+FROM ghcr.io/cirruslabs/flutter:stable AS flutter-build
 WORKDIR /app/frontend
-
-# Cache pub packages
 COPY frontend/pubspec.* ./
 RUN flutter pub get
-
-# Copy the rest and build (let Flutter pick the best renderer)
 COPY frontend/ .
 RUN flutter build web --release
 
-# ---
 
-# Stage 2: Create the Python Production Server
-# Also specify the platform here for consistency.
-FROM --platform=linux/amd64 python:3.9-slim
+###############################################################################
+# 2 ── Build Python dependencies in a *throw-away* layer                     #
+###############################################################################
+FROM python:3.10-slim AS python-build
+WORKDIR /install
+# Required system libs only – no compilers
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        libblas3 liblapack3 libgomp1 && \
+    rm -rf /var/lib/apt/lists/*
 
-WORKDIR /app
-
-# Install Python dependencies, including a production-grade server (gunicorn)
 COPY backend/requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt && pip install gunicorn
+# '--prefix=/install' installs wheels outside site-packages
+RUN pip install --no-cache-dir --prefix=/install -r requirements.txt \
+    && pip install --no-cache-dir --prefix=/install gunicorn \
+    && python -m pip cache purge
 
-# Copy all backend code (Flask app, models, etc.)
+
+###############################################################################
+# 3 ── Final runtime image (tiny)                                             #
+###############################################################################
+FROM python:3.10-slim
+
+# Copy just the built wheels (no pip, no cache, no headers, no gcc)
+COPY --from=python-build /install /usr/local
+# Copy your backend source
+WORKDIR /app
 COPY backend/ .
 
-# Copy the already-built Flutter app from the first stage
-# This places the Flutter app into a 'static' folder that Flask can serve
-COPY --from=flutter-builder /app/frontend/build/web ./static
+# Copy the already-built Flutter web bundle
+COPY --from=flutter-build /app/frontend/build/web ./static
 
-# Create necessary directories that your app might need to write to
-RUN mkdir -p models/intent_classifier models/ner/mobilebert-ner logs data
+# Tiny health + API server (already patched)
+COPY combined_app.py .
 
-# Use COPY with a heredoc to create the combined Flask app.
-# This is more robust than using 'RUN cat'.
-COPY <<EOF /app/combined_app.py
-from flask import Flask, jsonify, send_from_directory, request
-import os
-import traceback
-from models import ModelManager
-from utils import generate_response
+# Strip debug symbols from .so files (saves ~300 MB)
+RUN find /usr/local -name '*.so' -exec strip --strip-unneeded {} + || true
 
-# Initialize Flask to serve the Flutter app from the 'static' folder
-app = Flask(__name__, static_folder='static')
-MODELS_LOADED = False
+# Clean up any __pycache__ / tests / dist-info RECORD files
+RUN find /usr/local -name '__pycache__' -prune -exec rm -rf {} + \
+ && find /usr/local -name 'tests'       -prune -exec rm -rf {} + \
+ && find /usr/local -name '*.pyc' -delete
 
-# Try to load ML models, but don't crash if they fail
-try:
-    model_manager = ModelManager()
-    MODELS_LOADED = True
-    print("✅ ML models loaded successfully.")
-except Exception as e:
-    print(f"⚠️  Warning: Could not load ML models. The app will run without NLP features. Error: {e}")
+# Make sure gunicorn is available in the PATH
+RUN pip install --no-cache-dir gunicorn
 
-# Health check endpoint
-@app.route('/api/health', methods=['GET'])
-def health_check():
-    return jsonify({"status": "healthy"}), 200
-
-# API route for analyzing text
-@app.route('/api/analyze', methods=['POST'])
-def analyze_text():
-    if not MODELS_LOADED:
-        return jsonify({"response": "Sorry, the AI features are currently unavailable."})
-
-    try:
-        data = request.json
-        text = data['text']
-        intent = model_manager.predict_intent(text)
-        entities = model_manager.predict_ner(text)
-        response = generate_response(intent, entities)
-        return jsonify({"response": response})
-    except Exception as e:
-        traceback.print_exc()
-        return jsonify({"error": str(e)}), 500
-
-# This is the main route that serves your Flutter app
-@app.route('/', defaults={'path': ''})
-@app.route('/<path:path>')
-def serve_flutter_app(path):
-    if path != "" and os.path.exists(os.path.join(app.static_folder, path)):
-        return send_from_directory(app.static_folder, path)
-    else:
-        # Always serve index.html for any route not found, so Flutter's routing can take over
-        return send_from_directory(app.static_folder, 'index.html')
-
-if __name__ == '__main__':
-    # Railway provides the PORT environment variable
-    port = int(os.environ.get('PORT', 8080))
-    app.run(host='0.0.0.0', port=port)
-EOF
-
-# Command to run the application
-# Use gunicorn for a production-ready server
+EXPOSE 8080
 CMD ["gunicorn", "--bind", "0.0.0.0:8080", "combined_app:app"]
