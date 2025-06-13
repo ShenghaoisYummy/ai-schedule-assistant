@@ -6,7 +6,7 @@ import 'package:calendar_chatbot/models/event_model.dart';
 import 'package:calendar_chatbot/pages/calendar_page.dart';
 import 'package:intl/intl.dart';
 import 'package:http/http.dart' as http;
-import 'package:path/path.dart';
+import 'package:path/path.dart' as path; // Alias the import
 import 'dart:convert';
 import '../api_config.dart'; // Import the new config file
 
@@ -138,12 +138,12 @@ class _ChatbotPageState extends State<ChatbotPage> {
         }
       } else {
         setState(() {
-          _messages.insert(0, {'text': 'Error: Server connection failed.', 'isUser': false});
+          _messages.insert(0, MessageModel(text: 'Error: Server connection failed.', isUser: false, timestamp: DateTime.now()));
         });
       }
     } catch (e) {
       setState(() {
-        _messages.insert(0, {'text': 'Error: ${e.toString()}', 'isUser': false});
+        _messages.insert(0, MessageModel(text: 'Error: ${e.toString()}', isUser: false, timestamp: DateTime.now()));
       });
     } finally {
       setState(() {
