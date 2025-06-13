@@ -1,6 +1,7 @@
 # Stage 1: Build the Flutter Web App
 # We use a Node image because it's a common base that includes git and other tools needed for the Flutter install script.
-FROM node:18-alpine AS flutter-builder
+# Add --platform=linux/amd64 to ensure the correct architecture is used for the build.
+FROM --platform=linux/amd64 node:18-alpine AS flutter-builder
 
 # Install necessary tools for Flutter SDK
 RUN apk add --no-cache git curl unzip bash
@@ -26,7 +27,8 @@ RUN flutter build web --release --web-renderer html
 # ---
 
 # Stage 2: Create the Python Production Server
-FROM python:3.9-slim
+# Also specify the platform here for consistency.
+FROM --platform=linux/amd64 python:3.9-slim
 
 WORKDIR /app
 
