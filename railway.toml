@@ -1,4 +1,4 @@
 [build]
 builder = "DOCKERFILE"
 dockerfilePath = "Dockerfile"
-buildCommand = "docker build -t schedule-assistant:lean ."
+buildCommand = "docker build --platform=linux/amd64 -t schedule-assistant:lean ."

@@ -12,7 +12,7 @@ RUN flutter build web --release
 ###############################################################################
 # 2 ── Build Python dependencies in a *throw-away* layer                     #
 ###############################################################################
-FROM python:3.10-slim AS python-build
+FROM python:3.10-alpine AS python-build
 WORKDIR /install
 # Required system libs only – no compilers
 RUN apt-get update && apt-get install -y --no-install-recommends \
@@ -22,6 +22,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 COPY backend/requirements.txt .
 # '--prefix=/install' installs wheels outside site-packages
 RUN pip install --no-cache-dir --prefix=/install -r requirements.txt \
+    && pip uninstall -y torch \
+    && pip install --no-cache-dir --prefix=/install torch==2.0.1+cpu -f https://download.pytorch.org/whl/torch_stable.html \
     && pip install --no-cache-dir --prefix=/install gunicorn \
     && python -m pip cache purge
 
@@ -29,7 +31,7 @@ RUN pip install --no-cache-dir --prefix=/install -r requirements.txt \
 ###############################################################################
 # 3 ── Final runtime image (tiny)                                             #
 ###############################################################################
-FROM python:3.10-slim
+FROM python:3.10-alpine
 
 # Copy just the built wheels (no pip, no cache, no headers, no gcc)
 COPY --from=python-build /install /usr/local

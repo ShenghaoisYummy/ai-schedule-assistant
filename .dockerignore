@@ -1,0 +1,11 @@
+.git
+.vscode
+.DS_Store
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/*.pyd
+frontend/build
+frontend/.dart_tool
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
