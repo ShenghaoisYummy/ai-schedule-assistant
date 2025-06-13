@@ -62,6 +62,11 @@ try:
 except Exception as e:
     print(f"⚠️  Warning: Could not load ML models. The app will run without NLP features. Error: {e}")
 
+# Health check endpoint
+@app.route('/api/health', methods=['GET'])
+def health_check():
+    return jsonify({"status": "healthy"}), 200
+
 # API route for analyzing text
 @app.route('/api/analyze', methods=['POST'])
 def analyze_text():
@@ -97,4 +102,4 @@ EOF
 
 # Command to run the application
 # Use gunicorn for a production-ready server
-CMD ["gunicorn", "--bind", "0.0.0.0:$PORT", "combined_app:app"]
+CMD ["gunicorn", "--bind", "0.0.0.0:8080", "combined_app:app"]

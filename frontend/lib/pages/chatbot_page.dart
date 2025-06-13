@@ -138,12 +138,22 @@ class _ChatbotPageState extends State<ChatbotPage> {
         }
       } else {
         setState(() {
-          _messages.insert(0, MessageModel(text: 'Error: Server connection failed.', isUser: false, timestamp: DateTime.now()));
+          _messages.insert(0, MessageModel(
+            id: -1, // Add temporary ID for error messages
+            text: 'Error: Server connection failed.', 
+            isUser: false, 
+            timestamp: DateTime.now()
+          ));
         });
       }
     } catch (e) {
       setState(() {
-        _messages.insert(0, MessageModel(text: 'Error: ${e.toString()}', isUser: false, timestamp: DateTime.now()));
+        _messages.insert(0, MessageModel(
+          id: -1, // Add temporary ID for error messages
+          text: 'Error: ${e.toString()}', 
+          isUser: false, 
+          timestamp: DateTime.now()
+        ));
       });
     } finally {
       setState(() {

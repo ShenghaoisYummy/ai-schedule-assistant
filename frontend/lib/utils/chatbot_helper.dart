@@ -7,15 +7,14 @@ import 'package:calendar_chatbot/models/event_model.dart';
 import 'package:calendar_chatbot/models/message_model.dart';
 import 'package:intl/intl.dart';
 import 'package:flutter/material.dart' show TimeOfDay;
+import 'package:calendar_chatbot/api_config.dart';
 
 
 class ChatbotHelper {
-  // API server address - Replace with your server IP and port
-  static String apiBaseUrl = kIsWeb 
-      ? 'http://localhost:8888'  // Web platform
-      : 'http://10.0.2.2:8888';  // Android emulator
-  // If using iOS simulator, use localhost: 'http://localhost:8888'
-  // If using a physical device, use LAN IP: 'http://192.168.1.100:8888'
+  // API server address - Use relative URL in production
+  static String apiBaseUrl = kIsWeb && kDebugMode
+      ? 'http://localhost:8080/api'  // Web platform development
+      : ApiConfig.baseUrl;  // Production or mobile
   
   // Database helper
   static final DatabaseHelper _dbHelper = DatabaseHelper.instance;
@@ -24,7 +23,7 @@ class ChatbotHelper {
   static Future<Map<String, dynamic>> analyzeText(String text) async {
     try {
       final response = await http.post(
-        Uri.parse('$apiBaseUrl/analyze'),
+        Uri.parse('${apiBaseUrl}/analyze'),
         headers: {'Content-Type': 'application/json'},
         body: jsonEncode({'text': text}),
       ).timeout(Duration(seconds: 10)); // Set timeout
@@ -45,7 +44,7 @@ class ChatbotHelper {
   static Future<bool> checkHealth() async {
     try {
       final response = await http.get(
-        Uri.parse('$apiBaseUrl/health'),
+        Uri.parse('${apiBaseUrl}/health'),
       ).timeout(Duration(seconds: 5));
       
       return response.statusCode == 200;
