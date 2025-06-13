@@ -8,8 +8,8 @@ MODELS_LOADED = False
 
 # Try to load ML models, but don't crash if they fail
 try:
-    from backend.models import ModelManager
-    from backend.utils import generate_response
+    from models import ModelManager
+    from utils import generate_response
     model_manager = ModelManager()
     MODELS_LOADED = True
     print("✅ ML models loaded successfully.")

@@ -23,7 +23,7 @@ COPY backend/requirements.txt .
 # Install CPU-only version of PyTorch to reduce size dramatically
 RUN pip install --no-cache-dir --prefix=/install -r requirements.txt \
     && pip uninstall -y torch \
-    && pip install --no-cache-dir --prefix=/install torch==2.0.1+cpu torchvision==0.15.2+cpu -f https://download.pytorch.org/whl/torch_stable.html \
+    && pip install --no-cache-dir --prefix=/install torch==2.0.1 --extra-index-url https://download.pytorch.org/whl/cpu \
     && pip install --no-cache-dir --prefix=/install gunicorn \
     && python -m pip cache purge
 
@@ -44,6 +44,9 @@ COPY --from=flutter-build /app/frontend/build/web ./static
 
 # Tiny health + API server (already patched)
 COPY combined_app.py .
+
+# Add the current directory to Python path
+ENV PYTHONPATH=/app:$PYTHONPATH
 
 # Strip debug symbols from .so files (saves ~300 MB)
 RUN find /usr/local -name '*.so' -exec strip --strip-unneeded {} + || true
