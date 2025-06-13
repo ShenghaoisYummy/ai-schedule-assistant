@@ -1,0 +1,27 @@
+FROM python:3.10-slim
+
+WORKDIR /app
+
+# Copy pre-built Flutter web bundle
+COPY frontend/build/web ./static
+
+# Copy backend code
+COPY backend/ .
+COPY combined_app.py .
+
+# Install only runtime dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        libblas3 liblapack3 libgomp1 && \
+    rm -rf /var/lib/apt/lists/* && \
+    pip install --no-cache-dir -r requirements.txt && \
+    pip uninstall -y torch && \
+    pip install --no-cache-dir torch==2.0.1 --extra-index-url https://download.pytorch.org/whl/cpu && \
+    pip install --no-cache-dir gunicorn && \
+    find /usr/local -name '*.so' -exec strip --strip-unneeded {} + || true && \
+    find /usr/local -name '__pycache__' -prune -exec rm -rf {} + && \
+    find /usr/local -name 'tests' -prune -exec rm -rf {} + && \
+    find /usr/local -name '*.pyc' -delete
+
+ENV PYTHONPATH=/app:$PYTHONPATH
+EXPOSE 8080
+CMD ["gunicorn", "--bind", "0.0.0.0:8080", "combined_app:app"]
