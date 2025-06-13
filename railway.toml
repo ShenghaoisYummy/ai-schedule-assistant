@@ -1,4 +1,10 @@
 [build]
-builder = "DOCKERFILE"
-dockerfilePath = "Dockerfile"
-buildCommand = "docker build --platform=linux/amd64 -t schedule-assistant:lean ."
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "gunicorn --bind 0.0.0.0:$PORT combined_app:app"
+restartPolicyType = "ON_FAILURE"
+
+[deploy.image]
+repository = "shenghaoisyummy/schedule-assistant"
+tag = "latest"

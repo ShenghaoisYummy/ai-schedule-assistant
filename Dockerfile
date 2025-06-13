@@ -1,5 +1,5 @@
 ###############################################################################
-# 1 ── Build the Flutter web bundle (unchanged, stays in its own stage)      #
+# 1 ── Build the Flutter web bundle                                          #
 ###############################################################################
 FROM ghcr.io/cirruslabs/flutter:stable AS flutter-build
 WORKDIR /app/frontend
@@ -10,7 +10,7 @@ RUN flutter build web --release
 
 
 ###############################################################################
-# 2 ── Build Python dependencies in a *throw-away* layer                     #
+# 2 ── Build Python dependencies                                             #
 ###############################################################################
 FROM python:3.10-slim AS python-build
 WORKDIR /install
@@ -33,7 +33,7 @@ RUN pip install --no-cache-dir --prefix=/install -r requirements.txt \
 ###############################################################################
 FROM python:3.10-slim
 
-# Copy just the built wheels (no pip, no cache, no headers, no gcc)
+# Copy just the built wheels from python-build stage
 COPY --from=python-build /install /usr/local
 # Copy your backend source
 WORKDIR /app
@@ -42,7 +42,7 @@ COPY backend/ .
 # Copy the already-built Flutter web bundle
 COPY --from=flutter-build /app/frontend/build/web ./static
 
-# Tiny health + API server (already patched)
+# Tiny health + API server
 COPY combined_app.py .
 
 # Add the current directory to Python path
@@ -55,9 +55,6 @@ RUN find /usr/local -name '*.so' -exec strip --strip-unneeded {} + || true
 RUN find /usr/local -name '__pycache__' -prune -exec rm -rf {} + \
  && find /usr/local -name 'tests'       -prune -exec rm -rf {} + \
  && find /usr/local -name '*.pyc' -delete
-
-# Make sure gunicorn is available in the PATH
-RUN pip install --no-cache-dir gunicorn
 
 EXPOSE 8080
 CMD ["gunicorn", "--bind", "0.0.0.0:8080", "combined_app:app"]
