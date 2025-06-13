@@ -5,6 +5,10 @@ import 'package:calendar_chatbot/models/message_model.dart';
 import 'package:calendar_chatbot/models/event_model.dart';
 import 'package:calendar_chatbot/pages/calendar_page.dart';
 import 'package:intl/intl.dart';
+import 'package:http/http.dart' as http;
+import 'package:path/path.dart';
+import 'dart:convert';
+import '../api_config.dart'; // Import the new config file
 
 class ChatbotPage extends StatefulWidget {
   const ChatbotPage({Key? key}) : super(key: key); 
@@ -83,51 +87,37 @@ class _ChatbotPageState extends State<ChatbotPage> {
     });
     
     try {
-      // Call API to analyze text
-      final response = await ChatbotHelper.analyzeText(text);
+      // Use the new configuration to build the URL
+      final response = await http.post(
+        Uri.parse(ApiConfig.analyzeUrl),
+        headers: {'Content-Type': 'application/json'},
+        body: json.encode({'text': text}),
+      );
 
-      // Parse response
-      final parsedData = ChatbotHelper.parseResponse(response);
-      
-      // Handle different intents
-      if (parsedData['intent'] == 'query') {
-        // Handle query intent
-        final events = await ChatbotHelper.queryCalendarEvents(parsedData);
-        print('Query returned ${events.length} events - DISPLAYING RESULTS NOW'); 
-
-        // First show initial response
+      if (response.statusCode == 200) {
+        final data = json.decode(response.body);
+        final botResponse = data['response'] ?? 'Sorry, I could not understand.';
         _addBotMessage(
-          parsedData['response'],
-          intent: parsedData['intent'],
-          entities: parsedData['entities'],
-        );
-        
-        // Then display query results
-        _displayQueryResults(events, parsedData);
-      } else {
-        // Handle other intents
-        // Add bot response to UI
-        _addBotMessage(
-          parsedData['response'],
-          intent: parsedData['intent'],
-          entities: parsedData['entities'],
+          botResponse,
+          intent: data['intent'],
+          entities: data['entities'],
         );
         
         // Process intent (e.g., add to calendar)
-        final success = await ChatbotHelper.processIntent(parsedData['intent'], parsedData);
+        final success = await ChatbotHelper.processIntent(data['intent'], data);
         
         // If ADD intent and successful, add confirmation message
-        if (success && parsedData['intent'] == 'add') {
-          final title = _getEntityValue(parsedData['entities'], 'title') ?? 'meeting';
-          final date = _getEntityValue(parsedData['entities'], 'date') ?? 'specified date';
-          final time = _getEntityValue(parsedData['entities'], 'startTime') ?? '';
+        if (success && data['intent'] == 'add') {
+          final title = _getEntityValue(data['entities'], 'title') ?? 'meeting';
+          final date = _getEntityValue(data['entities'], 'date') ?? 'specified date';
+          final time = _getEntityValue(data['entities'], 'startTime') ?? '';
           
           final confirmMessage = "I've added '$title' ${time.isNotEmpty ? 'at $time' : ''} on $date to your calendar.";
           _addBotMessage(confirmMessage, intent: 'confirmation');
         }
         
         // If calendar operation successful, add confirmation and option to view calendar
-        if (success && parsedData['intent'] != 'chitchat') {
+        if (success && data['intent'] != 'chitchat') {
           WidgetsBinding.instance.addPostFrameCallback((_) {
             ScaffoldMessenger.of(context).showSnackBar(
               SnackBar(
@@ -146,14 +136,15 @@ class _ChatbotPageState extends State<ChatbotPage> {
             );
           });
         }
+      } else {
+        setState(() {
+          _messages.insert(0, {'text': 'Error: Server connection failed.', 'isUser': false});
+        });
       }
     } catch (e) {
-      // Handle errors
-      print('Error: $e');
-      _addBotMessage(
-        'Sorry, I encountered an error. Please try again.',
-        intent: 'error',
-      );
+      setState(() {
+        _messages.insert(0, {'text': 'Error: ${e.toString()}', 'isUser': false});
+      });
     } finally {
       setState(() {
         _isLoading = false;

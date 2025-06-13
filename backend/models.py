@@ -160,7 +160,6 @@ class ModelManager:
                     "confidence": confidence,
                     "all_intents": all_probs[:3]  # 只返回前3个最可能的意图
                 }
-                
             except Exception as e:
                 print(f"模型意图预测出错: {e}")
         
