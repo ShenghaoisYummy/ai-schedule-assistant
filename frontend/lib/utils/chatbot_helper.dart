@@ -11,7 +11,7 @@ import 'package:calendar_chatbot/api_config_prod.dart';
 
 
 class ChatbotHelper {
-  API server address - Use relative URL in production
+  // API server address - Use relative URL in production
   static String apiBaseUrl = kIsWeb && kDebugMode
       ? 'http://localhost:8080/api'  // Web platform development
       : ApiConfig.baseUrl;  // Production or mobile
