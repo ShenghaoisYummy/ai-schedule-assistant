@@ -1,6 +1,6 @@
 class ApiConfig {
-  // Production API URL pointing to Railway with CORS proxy
-  static const String baseUrl = "https://cors-anywhere.herokuapp.com/https://ai-schedule-assistant-production.up.railway.app/api";
+  // Using Vercel serverless functions as API proxy
+  static const String baseUrl = "/api";
 
   static const String analyzeEndpoint = "/analyze";
   static const String healthEndpoint = "/health";
