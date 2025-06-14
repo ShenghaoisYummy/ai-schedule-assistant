@@ -1,12 +1,13 @@
 {
   "version": 2,
   "builds": [
+    { "src": "api/*.js", "use": "@vercel/node" },
     {
       "src": "frontend",
       "use": "@vercel/static-build",
       "config": {
         "distDir": "frontend/build/web",
-        "installCommand": "if cd flutter; then git pull && cd .. ; else git clone https://github.com/flutter/flutter.git; fi && ls && flutter/bin/flutter doctor && flutter/bin/flutter clean && flutter/bin/flutter config --enable-web",
+        "installCommand": "if cd flutter; then git pull && cd .. ; else git clone https://github.com/flutter/flutter.git; fi && flutter/bin/flutter doctor && flutter/bin/flutter clean && flutter/bin/flutter config --enable-web",
         "buildCommand": "cd frontend && ../flutter/bin/flutter build web --release"
       }
     }
@@ -28,14 +29,7 @@
     }
   ],
   "routes": [
-    {
-      "src": "/flutter_service_worker.js",
-      "dest": "/frontend/build/web/flutter_service_worker.js",
-      "headers": { "cache-control": "public, max-age=0, must-revalidate" }
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/frontend/build/web/$1"
-    }
+    { "src": "/api/(.*)", "dest": "/api/$1.js" },
+    { "src": "/(.*)", "dest": "/$1" }
   ]
 }
