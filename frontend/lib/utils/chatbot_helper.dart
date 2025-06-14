@@ -23,9 +23,15 @@ class ChatbotHelper {
   // Analyze text and get intent and entities
   static Future<Map<String, dynamic>> analyzeText(String text) async {
     try {
+      // Add CORS headers for web
+      Map<String, String> headers = {'Content-Type': 'application/json'};
+      if (kIsWeb) {
+        headers['Access-Control-Allow-Origin'] = '*';
+      }
+      
       final response = await http.post(
         Uri.parse('${apiBaseUrl}/analyze'),
-        headers: {'Content-Type': 'application/json'},
+        headers: headers,
         body: jsonEncode({'text': text}),
       ).timeout(Duration(seconds: 10)); // Set timeout
       
@@ -44,8 +50,15 @@ class ChatbotHelper {
   // Health check - Test if API connection is working
   static Future<bool> checkHealth() async {
     try {
+      // Add CORS headers for web
+      Map<String, String> headers = {};
+      if (kIsWeb) {
+        headers['Access-Control-Allow-Origin'] = '*';
+      }
+      
       final response = await http.get(
         Uri.parse('${apiBaseUrl}/health'),
+        headers: headers,
       ).timeout(Duration(seconds: 5));
       
       return response.statusCode == 200;

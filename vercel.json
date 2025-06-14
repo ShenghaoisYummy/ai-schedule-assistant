@@ -2,10 +2,6 @@
   "version": 2,
   "builds": [
     {
-      "src": "frontend/api/*.js",
-      "use": "@vercel/node"
-    },
-    {
       "src": "frontend",
       "use": "@vercel/static-build",
       "config": {
@@ -15,18 +11,27 @@
       }
     }
   ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET,POST,PUT,DELETE,OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "X-Requested-With, Content-Type, Accept"
+        }
+      ]
+    }
+  ],
   "routes": [
     {
-      "src": "/api/(.*)",
-      "dest": "/frontend/api/$1.js"
-    },
-    {
       "src": "/flutter_service_worker.js",
-      "dest": "/frontend/build/web/flutter_service_worker.js"
-    },
-    {
-      "src": "/sw.js",
-      "dest": "/frontend/build/web/sw.js"
+      "dest": "/frontend/build/web/flutter_service_worker.js",
+      "headers": { "cache-control": "public, max-age=0, must-revalidate" }
     },
     {
       "src": "/(.*)",
