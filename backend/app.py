@@ -8,15 +8,16 @@ from flask_cors import CORS
 
 
 app = Flask(__name__)
-CORS(app) 
+# Configure CORS to allow requests from your Vercel domain
+CORS(app, resources={r"/*": {"origins": ["https://ai-schedule-assistant.vercel.app", "http://localhost:3000"]}})
 model_manager = ModelManager()
 
-@app.route('/health', methods=['GET'])
+@app.route('/api/health', methods=['GET'])
 def health_check():
     """健康检查端点"""
     return jsonify({"status": "healthy", "timestamp": time.time()})
 
-@app.route('/analyze', methods=['POST'])
+@app.route('/api/analyze', methods=['POST'])
 def analyze():
     """分析用户输入的文本"""
     try:
