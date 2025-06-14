@@ -15,7 +15,7 @@ class ChatbotHelper {
   // static String apiBaseUrl = kIsWeb && kDebugMode
   //     ? 'http://localhost:8080/api'  // Web platform development
   //     : ApiConfig.baseUrl;  // Production or mobile
-  static String apiBaseUrl = ApiConfig.baseUrl
+  static String apiBaseUrl = ApiConfig.baseUrl;
   // Database helper
   static final DatabaseHelper _dbHelper = DatabaseHelper.instance;
 
