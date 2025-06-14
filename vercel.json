@@ -2,6 +2,10 @@
   "version": 2,
   "builds": [
     {
+      "src": "frontend/api/*.js",
+      "use": "@vercel/node"
+    },
+    {
       "src": "frontend",
       "use": "@vercel/static-build",
       "config": {
@@ -12,6 +16,18 @@
     }
   ],
   "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/frontend/api/$1.js"
+    },
+    {
+      "src": "/flutter_service_worker.js",
+      "dest": "/frontend/build/web/flutter_service_worker.js"
+    },
+    {
+      "src": "/sw.js",
+      "dest": "/frontend/build/web/sw.js"
+    },
     {
       "src": "/(.*)",
       "dest": "/frontend/build/web/$1"
