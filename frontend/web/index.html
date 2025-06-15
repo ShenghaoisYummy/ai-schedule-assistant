@@ -163,6 +163,9 @@
           },
         });
       });
+      window.__nativeColorSpace = window.ColorSpace;
+      delete window.ColorSpace;
+      window.ColorSpace = null;
     </script>
 
     <script src="flutter_bootstrap.js" async></script>
