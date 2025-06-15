@@ -6,7 +6,7 @@ import traceback
 # Initialize Flask to serve the Flutter app from the 'static' folder
 app = Flask(__name__, static_folder='static')
 # Enable CORS for your Vercel domain
-CORS(app, resources={r"/api/*": {"origins": ["https://your-vercel-app-name.vercel.app"]}})
+CORS(app, resources={r"/api/*": {"origins": ["https://ai-schedule-assistant.vercel.app/"]}})
 MODELS_LOADED = False
 
 # Try to load ML models, but don't crash if they fail
