@@ -8,7 +8,7 @@
       "config": {
         "distDir": "frontend/build/web",
         "installCommand": "if cd flutter; then git pull && cd .. ; else git clone https://github.com/flutter/flutter.git; fi && flutter/bin/flutter doctor && flutter/bin/flutter clean && flutter/bin/flutter config --enable-web",
-        "buildCommand": "cd frontend && ../flutter/bin/flutter build web --release"
+        "buildCommand": "cd frontend && ../flutter/bin/flutter build web --release && ls -la ../frontend/build/web"
       }
     }
   ],
@@ -30,6 +30,7 @@
   ],
   "routes": [
     { "handle": "filesystem" },
-    { "src": "/api/(.*)", "dest": "/api/$1.js" }
+    { "src": "/api/(.*)", "dest": "/api/$1.js" },
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
